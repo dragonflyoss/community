@@ -23,11 +23,11 @@ on;
 
 Meeting Address(Online):
 
-* [zoom](https://zoom.us/): https://zoom.us/j/xxxxxx ;
+* [zoom](https://zoom.us/): https://zoom.us/j/3106836401 ;
 
 Meeting Time Monthly:
 
-* (the second Wednesday every month) or xxx at 10AM GMT+8 (Beijing Time). 
+* 8:00 PM GMT+8 (Beijing Time) every Thursday. 
 
 ### Meeting Time
 
