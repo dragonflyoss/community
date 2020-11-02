@@ -1,6 +1,6 @@
 # Dragonfly Community
 
-Dragonfly, a Cloud Native Computing Foundation(CNCF) project, is commiteed to
+Dragonfly, a Cloud Native Computing Foundation(CNCF) project, is committed to
 build an open, inclusive, productive and self-gonverning open source community.
 Dragonfly community has a mandate to facilitate driving neutral consensus for:
 
