@@ -17,9 +17,9 @@ Security issues are always treated seriously. As our usual principle, we discour
 
 To be honest, we regard every user of Dragonfly as a very kind contributor. After experiencing Dragonfly, you may have some feedback for the project. Then feel free to open an issue via [NEW ISSUE](https://github.com/dragonflyoss/Dragonfly/issues/new).
 
-Since we collaborate project Dragonfly in a distributed way, we appreciate **WELL-WRITTEN**, **DETAILED**, **EXPLICIT** issue reports. To make the communication more efficient, we wish everyone could search if your issue is an existing one in the searching list. If you find it existing, please add your details in comments under the existing issue instead of opening a brand new one.
+Since we collaborate project Dragonfly in a distributed way, we appreciate **WELL-WRITTEN**, **DETAILED**, **EXPLICIT** issue reports. To make the communication more efficient, we wish everyone could search if your issue is an existing one in the searching list. If you find it existing, please add your details in comments under the existing issue instead of opening a brand-new one.
 
-To make the issue details as standard as possible, we setup an [ISSUE TEMPLATE](./.github/ISSUE_TEMPLATE) for issue reporters. You can find three kinds of issue templates there: question, bug report and feature request. Please **BE SURE** to follow the instructions to fill fields in template.
+To make the issue details as standard as possible, we setup an [ISSUE TEMPLATE](./.github/ISSUE_TEMPLATE) for issue reporters. You can find three kinds of issue templates there: question, bug report and feature request. Please **BE SURE** to follow the instructions to fill fields in the template.
 
 There are lot of cases when you could open an issue:
 
@@ -117,7 +117,7 @@ Commit message could help reviewers better understand what is the purpose of sub
 * style: xxxx. For example, "style: format the code style of Constants.java".
 * refactor: xxxx. For example, "refactor: simplify to make codes more readable".
 * test: xxx. For example, "test: add unit test case for func InsertIntoArray".
-* chore: xxx. For example, "chore: integrate travis-ci". It's the type of mantainance change.
+* chore: xxx. For example, "chore: integrate travis-ci". It's the type of maintenance change.
 * other readable and explicit expression ways.
 
 On the other side, we discourage contributors from committing message like the following ways:
@@ -147,7 +147,7 @@ We choose GitHub as the primary place for Dragonfly to collaborate. So the lates
 * help solve other user's problems;
 * help review other's PR design;
 * help review other's codes in PR;
-* discuss about Dragonfly to make things clearer;
+* discuss Dragonfly to make things clearer;
 * advocate Dragonfly technology beyond GitHub;
 * write blogs on Dragonfly and so on.
 
