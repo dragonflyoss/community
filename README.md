@@ -27,9 +27,7 @@ Meeting Address(Online):
 
 Meeting Time Monthly:
 
-* 8:00 PM GMT+8 (Beijing Time) every Thursday. 
-
-### Meeting Time
+* 8:00 PM GMT+8 (Beijing Time) every Wednesday. 
 
 ## Project Governance Rules
 
