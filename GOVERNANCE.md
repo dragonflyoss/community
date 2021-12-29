@@ -14,7 +14,7 @@ As a CNCF member project, Dragonfly project abides by the [CNCF Code of Conduct]
 
 Maintainers of Dragonfly share the responsibility. And they have 3 things in general:
 
-* share resposibility in the project's success;
+* share responsibility in the project's success;
 * make a long-term investment to improve the project;
 * spend time doing whatever needs to, not only the most interesting part;
 
@@ -34,7 +34,7 @@ Maintainership is built on trust. Trust is totally beyond just contributing
 code. Thus it is definitely worthy to achieving current maintainers' trust via
 bringing best interest for the project.
 
-Currecnt maintainers will hold a maintainer meeting periodically. During the
+Current maintainers will hold a maintainer meeting periodically. During the
 meeting, filtering a list of active contributors that have proven to invest
 regular time on project over the prior months. From the list, if maintainers
 find that one or more are qualified candidates, then a proposal of adding
@@ -44,12 +44,12 @@ valid.
 
 ## Removal of Inactive Maintainers
 
-Silimar to adding maintainers, existing maintainer can been removed from the
+Similar to adding maintainers, existing maintainer can been removed from the
 active maintainer list. If the existing maintainer meet one of the conditions
 below, any other maintainers can proposed to remove him from active list via a
 pull request:
 
-* A maintainer has not participanted in community activities for more than last
+* A maintainer has not participated in community activities for more than last
 three months;
 * A maintainer did not obey to the governance rules more than twice;
 

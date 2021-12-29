@@ -1,23 +1,23 @@
 # Dragonfly Community
 
-Dragonfly, a Cloud Native Computing Foundation(CNCF) project, is commiteed to
-build an open, inclusive, productive and self-gonverning open source community.
+Dragonfly, a Cloud Native Computing Foundation(CNCF) project, is committed to
+build an open, inclusive, productive and self-governing open source community.
 Dragonfly community has a mandate to facilitate driving neutral consensus for:
 
-* defining Dragonfly's evloving direction to meet CNCF end-users' demand;
-* self-gonverning Dragonfly project among all kinds of participants;
-* facilitating community participants achieving success on techinical vision;
+* defining Dragonfly's evolving direction to meet CNCF end-users' demand;
+* self-governing Dragonfly project among all kinds of participants;
+* facilitating community participants achieving success on technical vision;
 
 ## Community Meetings
 
-Dragonfly team and any users can join the colloboration meeting. If you have
+Dragonfly team and any users can join the collaboration meeting. If you have
 proposal before the meeting, please contact with us on GitHub in issues.
 
 Meeting agenda:
 
 * a brief sync-up after last meeting, including feature, test, document and so
 on; 
-* group dicussion on design review, and code review if needed;
+* group discussion on design review, and code review if needed;
 * work planned before next meeting;
 * free talk.
 
