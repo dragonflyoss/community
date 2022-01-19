@@ -3,7 +3,6 @@
 
 ## Attendees
 
-- [allencloud](https://github.com/allencloud)
 - [garfield009](https://github.com/garfield009)
 - [244372610](https://github.com/244372610)
 - [qwtsc](https://github.com/qwtsc)
