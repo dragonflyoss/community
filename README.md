@@ -24,18 +24,15 @@ proposal before the meeting, please contact with us on GitHub in issues.
 ### Meeting Address(Online)
 
 - Dragonfly: <https://meet.google.com/tev-zgev-mmr>
-- Dragonfly Nydus: <https://zoom.us/j/91462272196>
 
 ### Meeting Time
 
 - Dragonfly: 20:00 GMT+8 (Beijing Time) last Thursday of each even month. You can also subscribe to
   the [Google Calendar](https://calendar.google.com/calendar/embed?src=dragonflyoss%40gmail.com&ctz=Asia%2FShanghai) to get the meeting information.
-- Dragonfly Nydus: 14:00 GMT+8 (Beijing Time) Every 2 weeks starting from Aug 10, 2022 on Wednesday.
 
 ### Meeting Recordings
 
 - Dragonfly: Provide meeting recordings in [meetings/maintainer](https://github.com/dragonflyoss/community/tree/master/meetings/maintainer).
-- Dragonfly Nydus: Provide meeting recordings in [meetings/nydus/maintainer](https://github.com/dragonflyoss/community/tree/master/meetings/nydus/maintainer).
 
 ## Project Governance Rules
 
