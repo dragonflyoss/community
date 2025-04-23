@@ -218,7 +218,7 @@ and release the new version. Minor release should not use the `git-chglog` to ge
    npm install
    ```
 
-   Archive the documentation of the old version, parmeter `v2.2.0` is the new release version.
+   Archive the documentation of the old version, parameter `v2.2.0` is the new release version.
 
    ```bash
    npm run version v2.2.0
