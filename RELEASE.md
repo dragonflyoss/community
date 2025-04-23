@@ -42,8 +42,9 @@ The release lifecycle is a structured process that ensures the quality and stabi
 
 1. **Stabilization Phase**: This phase concentrates on fixing bugs and ensuring the stability of the upcoming release. It spans the 4 weeks
    leading up to the Release Date, starting with the Code Freeze. The Code Freeze takes place 4 weeks before the scheduled Release Date,
-   at which point a dedicated release branch is created from the main branch. During this stabilization period, only bug fixes are merged into
-   the release branch, while new features continue to be integrated into the main branch.
+   at which point a dedicated release branch is created from the main branch. The code for planned features in current release should be merged
+   before Code Freeze, during this stabilization period, only bug fixes are merged into the release branch, while new features for next release
+   continue to be integrated into the main branch.
 
 2. **Maintenance Phase**: During this phase, the release is maintained, and critical bugs are addressed. This phase lasts for 6 months,
    starting from the current version Release date and continuing until the next version is released. However, maintenance support is provided
@@ -52,17 +53,17 @@ The release lifecycle is a structured process that ensures the quality and stabi
 
 ### Stabilization Phase
 
-Stabilization is a critical phase in the release lifecycle, focusing on ensuring the quality and stability of the upcoming release. It spans the 4 weeks leading up to the Release Date, starting with the Code Freeze.
-
 #### Bug Fixes
 
 During the stabilization phase, only bug fixes are merged into the release branch. This approach allows for a clear separation between
 ongoing development and the stabilization of the release. The bug fixes need to be merged into the main branch first, and then cherry-picked
 into the release branch.
 
-#### Release Procedure(WIP)
+#### Release Procedure
 
 If the release branch is stable and the final time is reached, the release manager will create a release tag from the release branch.
+
+The release manager should refer to the [Release Procedure document](RELEASE-PROCEDURE.md) to release the new version.
 
 #### Announcement
 
