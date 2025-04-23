@@ -467,6 +467,6 @@ Release pipeline will be triggered automatically when a new tag is pushed to the
 Release pipeline link is <https://github.com/dragonflyoss/dragonfly/actions/workflows/release.yml>, wait for the pipeline to complete and check the logs for any errors.
 If the pipeline finished, it will create a new release in the GitHub repository with the tag name and release notes.
 
-6. **Create a new release**: Create a new release in the GitHub repository flowing the steps below:
+6. **Create a new release**: Create a new release in the GitHub repository following the steps below:
 
 Enter the [release page](https://github.com/dragonflyoss/dragonfly/releases) in the GitHub repository, and click the "edit" button to release the new version.
