@@ -115,12 +115,6 @@ and release the new version. Major release should not use the `git-chglog` to ge
    scheduler:
      image:
        tag: v3.0.0
-   client:
-     image:
-       tag: v0.3.0
-   seedClient:
-     image:
-       tag: v0.3.0
    ```
 
    Update the image version in the `charts/dragonfly/Chart.yaml` file.
@@ -136,12 +130,6 @@ and release the new version. Major release should not use the `git-chglog` to ge
          image: dragonflyoss/manager:v3.0.0
        - name: scheduler
          image: dragonflyoss/scheduler:v3.0.0
-       - name: client
-         image: dragonflyoss/client:v0.3.0
-       - name: seed-client
-         image: dragonflyoss/client:v0.3.0
-       - name: dfinit
-         image: dragonflyoss/dfinit:v0.3.0
    ```
 
    Push the changes to the `helm-charts` repository.
@@ -251,12 +239,6 @@ and release the new version. Minor release should not use the `git-chglog` to ge
    scheduler:
      image:
        tag: v2.2.0
-   client:
-     image:
-       tag: v0.3.0
-   seedClient:
-     image:
-       tag: v0.3.0
    ```
 
    Update the image version in the `charts/dragonfly/Chart.yaml` file.
@@ -272,12 +254,6 @@ and release the new version. Minor release should not use the `git-chglog` to ge
          image: dragonflyoss/manager:v2.2.0
        - name: scheduler
          image: dragonflyoss/scheduler:v2.2.0
-       - name: client
-         image: dragonflyoss/client:v0.3.0
-       - name: seed-client
-         image: dragonflyoss/client:v0.3.0
-       - name: dfinit
-         image: dragonflyoss/dfinit:v0.3.0
    ```
 
    Push the changes to the `helm-charts` repository.
@@ -354,12 +330,6 @@ Enter the [release page](https://github.com/dragonflyoss/dragonfly/releases) in 
    scheduler:
      image:
        tag: v2.2.1
-   client:
-     image:
-       tag: v0.3.0
-   seedClient:
-     image:
-       tag: v0.3.0
    ```
 
    Update the image version in the `charts/dragonfly/Chart.yaml` file.
@@ -375,12 +345,6 @@ Enter the [release page](https://github.com/dragonflyoss/dragonfly/releases) in 
          image: dragonflyoss/manager:v2.2.1
        - name: scheduler
          image: dragonflyoss/scheduler:v2.2.1
-       - name: client
-         image: dragonflyoss/client:v0.3.0
-       - name: seed-client
-         image: dragonflyoss/client:v0.3.0
-       - name: dfinit
-         image: dragonflyoss/dfinit:v0.3.0
    ```
 
    Push the changes to the `helm-charts` repository.
