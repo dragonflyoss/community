@@ -11,6 +11,11 @@ To report a Dragonfly vulnerability:
 The reporter(s) can expect a response within 24 hours acknowledging the issue was received.
 If a response is not received within 24 hours, please reach out to any committer directly to confirm receipt of the issue.
 
+## Security Response Team
+
+The dragonfly maintainers form a security response team. Security issues will be diagnosed and discussed on a private
+mailing list (dragonfly-maintainers@googlegroups.com).
+
 ## Review Process
 
 Once a committer has confirmed the relevance of the report, a draft security advisory will be created on GitHub.
