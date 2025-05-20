@@ -43,7 +43,7 @@ Sponsorship should not be requested via public channels since membership of the 
 
 ### Mailing Lists
 
-- **dragonfly-developers@googlegroups.com**: Report security concerns.
+- **dragonfly-developers@googlegroups.com**: Receive security announcements.
 
 ### Confidentiality, Integrity, and Availability
 
