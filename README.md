@@ -10,25 +10,27 @@ Dragonfly community has a mandate to facilitate driving neutral consensus for:
 
 ## Community Meetings
 
-Dragonfly team and any users can join the collaboration meeting. If you have
-proposal before the meeting, please contact with us on GitHub in issues.
+Dragonfly community meetings are scheduled on an ad-hoc basis as needed.
+To propose agenda items for a potential meeting, please open an issue in the relevant
+Dragonfly GitHub repository (e.g., [dragonflyoss/community issues](https://github.com/dragonflyoss/community/issues) for
+general community topics, or a specific project repository for project-specific discussions).
+If there is sufficient interest or a clear need for broader discussion on proposed items, a meeting will be scheduled.
+Details and announcements for scheduled meetings will be made through appropriate
+channels (e.g., the relevant GitHub issue, mailing lists, or community communication platforms).
 
-### Meeting agenda
+### Typical Meeting Agenda (when a meeting is scheduled)
 
-- A brief sync-up after last meeting, including feature, test, document and so
-  on;
-- Group discussion on design review, and code review if needed;
-- Work planned before next meeting;
-- Free talk.
+When a meeting is held, the agenda will be based on the proposed items and typically includes:
+
+- Focused discussion on the specific agenda items that prompted the meeting.
+- Group discussion on design reviews, code reviews, or other technical topics as needed.
+- A brief sync-up on relevant project or community status, if applicable.
+- Planning for any next steps or actions arising from the discussion.
+- An opportunity for open discussion on other brief topics if time permits.
 
 ### Meeting Address(Online)
 
 - Dragonfly: <https://meet.google.com/tev-zgev-mmr>
-
-### Meeting Time
-
-- Dragonfly: 20:00 GMT+8 (Beijing Time) last Thursday of each even month. You can also subscribe to
-  the [Google Calendar](https://calendar.google.com/calendar/embed?src=dragonflyoss%40gmail.com&ctz=Asia%2FShanghai) to get the meeting information.
 
 ### Meeting Recordings
 
