@@ -19,7 +19,7 @@ As our usual principle, we discourage anyone to spread security issues.
 If you find a security issue of Dragonfly, please do not discuss it in
 public and even do not open a public issue.
 Instead, we encourage you to send us a private email to
-[dragonfly-developers@googlegroups.com](mailto:dragonfly-developers@googlegroups.com) to report this.
+[dragonfly-maintainers@googlegroups.com](mailto:dragonfly-maintainers@googlegroups.com) to report this.
 
 ## Reporting general issues
 
@@ -321,4 +321,4 @@ You can do it in either of two ways:
 
 - Submit a PR in the
   [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly) repo.
-- Contact with the community's [maintainers](MAINTAINERS.md) offline.
+- Contact with the community's [maintainers](https://github.com/dragonflyoss/dragonfly/blob/main/MAINTAINERS.md) offline.

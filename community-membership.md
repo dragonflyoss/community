@@ -28,7 +28,7 @@ A Contributor is someone who has contributed to the project by submitting code, 
 
 - Have a GitHub account.
 - Sign the Contributor License Agreement (if applicable).
-- Adhere to the project's coding standards and guidelines.Contributor
+- Adhere to the project's coding standards and guidelines.
 
 ## Member
 
@@ -45,7 +45,7 @@ Responsibilities:
 Requirements:
 
 - Demonstrated history of contributions (code, reviews, discussions) over at least 3 months.
-- Invitation by a Maintainer or Administrator based on consensus.
+- Invitation by a Maintainer based on consensus.
 - Continued adherence to the project's Code of Conduct.
 
 ## Approver
@@ -63,7 +63,7 @@ Requirements:
 
 - Demonstrated expertise in the project’s codebase.
 - Consistent and high-quality contributions.
-- Trusted by Maintainers and Administrators to provide accurate reviews and approvals.
+- Trusted by Maintainers to provide accurate reviews and approvals.
 
 ## Maintainer
 
@@ -84,7 +84,7 @@ Requirements:
 - Demonstrated long-term, high-quality contributions and leadership in the project.
 - Deep understanding of the project’s architecture and design.
 - Commitment to the project's goals and values.
-- Nominated and approved by existing Maintainers and Administrators.
+- Nominated and approved by existing Maintainers.
 
 ### Maintainership
 
