@@ -2,7 +2,7 @@
 
 ## Topics
 
-- Discussion on community governance issues.
+- Discussion on community governance issues and election of new community management.
 - Fluid will support Model Artifact by OCI Spec, and Dragonfly needs to support P2P distribution of Model layers.
 - VLLM will support Model Artifact by OCI Spec, and Dragonfly needs to support P2P distribution of Model layers.
 

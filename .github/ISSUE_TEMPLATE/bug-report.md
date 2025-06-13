@@ -2,7 +2,6 @@
 name: Bug Report
 about: Report a bug for dragonfly
 labels: bug
-
 ---
 
 ### Bug report:
