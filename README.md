@@ -30,7 +30,12 @@ When a meeting is held, the agenda will be based on the proposed items and typic
 
 ### Meeting Address(Online)
 
-- Dragonfly: <https://meet.google.com/tev-zgev-mmr>
+- Dragonfly: <https://meet.google.com/pwu-cprb-vxn>
+
+### Meeting Time
+
+You can also subscribe to
+the [Google Calendar](https://calendar.google.com/calendar/embed?src=46bc5a3d67a81a55e0266b6c349a9d833de979922b1232a81bd6dd5ba571b00d%40group.calendar.google.com&ctz=Asia%2FShanghai) to get the meeting information.
 
 ### Meeting Recordings
 
