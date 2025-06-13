@@ -122,12 +122,8 @@ In essence, every decision is an update to the project. Any changes, big or smal
 For PRs (except those adding Maintainers):
 
 - If there are fewer than seven active Maintainers, a PR can be merged if:
-
   - At least one active Maintainer comments "LGTM";
   - No other Maintainers object.
-
-- If there are seven or more active Maintainers, a PR can be merged if:
-  - At least two active Maintainers comment "LGTM".
 
 Additionally, when there are fewer than seven active Maintainers, a "lazy consensus period" can be used for significant PRs: after initial approval, hold the PR for a predefined time (e.g., 7 days) to allow final reviews. If no objections arise, it can be merged; otherwise, resolve issues before proceeding.
 
