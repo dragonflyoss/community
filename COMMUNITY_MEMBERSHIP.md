@@ -2,7 +2,7 @@
 
 As a CNCF member project, the Dragonfly project follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md).
 
-This document outlines the responsibilities of contributor roles in Dragonfly. The project is divided into sub-projects (primarily, but not limited to) nydus, nydus-snapshotter, api, docs, console, and client. Responsibilities for roles are tied to these sub-projects (repos).
+This document outlines the responsibilities of contributor roles in Dragonfly. The project is divided into sub-projects (primarily, but not limited to) nydus, nydus-snapshotter, api, docs, console, and client. Responsibilities for roles are tied to these sub-projects (repos)..
 
 ## The Table of Contents
 
@@ -20,6 +20,9 @@ This document outlines the responsibilities of contributor roles in Dragonfly. T
   - [Maintainer](#maintainer)
     - [Responsibilities](#responsibilities-3)
     - [Requirements](#requirements-3)
+  - [Community Manager](#community-manager)
+    - [Responsibilities](#responsibilities-4)
+    - [Requirements](#requirements-4)
 - [How to Make Decisions](#how-to-make-decisions)
 - [The Maintainership Mangement](#the-maintainership-mangement)
   - [Adding Maintainers](#adding-maintainers)
@@ -108,6 +111,26 @@ A Maintainer is an experienced, trusted Member with deep knowledge of the projec
 - In-depth understanding of the project’s architecture and design.
 - Strong commitment to the project's goals and values.
 - Nominated and approved by existing Maintainers.
+
+### Community Manager
+
+A Community Manager is a role focused on fostering a positive and inclusive community environment. They are responsible for managing community interactions, ensuring adherence to the Code of Conduct, and facilitating discussions.
+
+#### Responsibilities
+
+- Organize community meetings, collect topics, and record meeting content.
+- Improve governance community documentation and processes.
+- Collect information of the conference promotion and organiz members to participate.
+- Collect technical articles and promote them to different channels such as CNCF blog, WeChat public account, and other social media.
+- Manage community channels (e.g., Slack, Twitter, Google Groups) and ensure they are welcoming and informative.
+- Document community decisions and maintain transparency.
+- Facilitate discussions and resolve conflicts within the community.
+
+#### Requirements
+
+- Strong communication skills and a passion for community building.
+- Familiarity with the project and its community dynamics.
+- Ability to mediate discussions and promote a positive atmosphere.
 
 ## How to Make Decisions
 
