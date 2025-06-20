@@ -10,7 +10,8 @@
 - [Liu Zhao](https://github.com/BraveY) (Ant Group/Nydus)
 - [Chenyu Zhang](https://github.com/chlins) (Ant Group/Dragonfly/Harbor)
 - [Peng Tao](https://github.com/bergwolf) (Ant Group/Nydus)
-- [Cheng Ming](https://github.com/mingcheng) (Ant Group/Dragonfly)
+- [mingcheng](https://github.com/mingcheng) (The Apache Software Foundation
+/Dragonfly)
 - [Muyu Yang](https://github.com/LunaWhispers) (Ant Group/Dragonfly)
 - [Xinxin Zhao](https://github.com/Liam-Zhao) (Dragonfly)
 
@@ -68,6 +69,8 @@
 - Location: Suzhou, China
 - Topic: Model Pack-based AI Model Management and Distribution Practices
 - Participants: @LunaWhispers
+
+The following meetups or events will be arranged and coordinated by @mingcheng.
 
 ## Actions
 
