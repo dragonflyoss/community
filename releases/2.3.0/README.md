@@ -140,6 +140,11 @@ For detailed information on the specific security issues addressed and the corre
 
 ## Nydus
 
+### New features and enhancements
+- nydusify copy: support chunked upload and retry mechanisms to handle large image blobs.
+- nydusify check: refactor to support OCI v1 and nydus format images as both source and target.
+- nydusd: support chunk-level CRC data validation for image data consistency.
+
 ## Significant bug fixes
 
 - Fixed memory leaks and file descriptor leaks caused by `sysinfo` library.
