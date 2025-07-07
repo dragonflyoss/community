@@ -10,10 +10,10 @@ For each Dragonfly release, a corresponding [GitHub milestone](https://github.co
 
 ### Current Release
 
-The current Dragonfly release is v2.2 Details can be found in the [release notes](https://github.com/dragonflyoss/dragonfly/releases/tag/v2.2.0).
+The current Dragonfly release is v2.3 Details can be found in the [release notes](https://github.com/dragonflyoss/dragonfly/releases/tag/v2.3.0).
 
 ### Next Release
 
-The next release is v2.3 This release is currently in development. For details on upcoming features and important changes, please see our [v2.3 roadmap](https://d7y.io/docs/next/roadmap-v2.3/).
+The next release is v2.4 This release is currently in development. For details on upcoming features and important changes, please see our [v2.4 roadmap](https://d7y.io/docs/next/roadmap-v2.4/).
 
 Dragonfly encourages innovation and continuous improvement. Before proposing a new idea, please check existing issues in the relevant Dragonfly repositories to avoid duplication and ensure your contribution is unique. For suggestions involving new APIs or significant changes to the Dragonfly runtime, please submit these in the Dragonfly [issues tracker](https://github.com/dragonflyoss/dragonfly/issues).
