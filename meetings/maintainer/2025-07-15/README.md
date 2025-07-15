@@ -44,6 +44,7 @@
 - https://github.com/dragonflyoss/dragonfly/issues/4094 @LunaWhispers
 - https://github.com/dragonflyoss/helm-charts/issues/244 @LunaWhispers
 - https://github.com/dragonflyoss/dragonfly/issues/4160 @gaius-qi
+- https://github.com/dragonflyoss/nydus/issues/1713 @BraveY
 
 #### Done
 
