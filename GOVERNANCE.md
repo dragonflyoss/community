@@ -1,44 +1,43 @@
 # Dragonfly Project Governance
 
-The Dragonfly project is committed to open and transparent governance to foster a healthy, inclusive, and effective community. This governance document outlines the project's roles, responsibilities, and decision-making processes. Our goal is to keep it concise and practical, ensuring all contributors and users can clearly understand how the project operates.
+Welcome to the Dragonfly project's governance guide! We believe in open and transparent collaboration to build a healthy, inclusive, and effective community. This document explains how our project is run, including our roles, responsibilities, and how we make decisions. We've aimed to keep things simple and practical so everyone can easily understand how to get involved and how the project operates.
 
 ## Core Principles
 
-- **Openness**: We welcome contributions of all kinds. Communication and decision-making should be open and transparent.
-- **Inclusivity**: We strive to create a friendly environment where contributors from diverse backgrounds can participate.
-- **Neutrality**: The project is community-driven. Decisions should be based on technical merit and community consensus, not on the interests of specific companies or individuals.
-- **Simplicity**: Governance processes aim to be straightforward and avoid unnecessary complexity.
+- **Openness**: We welcome all kinds of contributions! All our communication and decision-making are done openly and transparently.
+- **Inclusivity**: We're committed to creating a friendly and welcoming environment where people from all backgrounds can participate and feel included.
+- **Neutrality**: As a community-driven project, our decisions are based on technical merit and community consensus, free from the influence of any single company or individual.
+- **Simplicity**: We keep our governance processes as straightforward as possible, avoiding unnecessary red tape.
 
 ## Roles and Responsibilities
 
-Please refer to [Dragonfly Community Membership](https://github.com/dragonflyoss/community/blob/master/community-membership.md).
+For a detailed look at the different roles in our community and what they involve, please see our [Dragonfly Contributor Ladder](COMMUNITY_LADDER.md).
 
 ## Contributing
 
-We welcome contributions from everyone. Please refer to the [Dragonfly Contribution Guide](https://github.com/dragonflyoss/dragonfly/blob/main/CONTRIBUTING.md) for details on how to contribute to the project. All contributions should adhere to the project's [Code of Conduct](#code-of-conduct).
-
+We welcome contributions from everyone! If you're interested in contributing, our [Dragonfly Contribution Guide](CONTRIBUTING.md) has all the information you need to get started. Just remember that all contributions should follow our [Code of Conduct](#code-of-conduct).
 
 ## Code of Conduct
 
-The Dragonfly project adopts the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md) and is committed to providing a harassment-free collaboration environment for all participants. All community members are expected to adhere to this Code of Conduct. If you encounter a violation of the Code of Conduct, please contact the project maintainers or relevant CNCF staff.
+We follow the [CNCF Code of Conduct](CODE_OF_CONDUCT.md) to ensure a safe and respectful environment for everyone. We expect all community members to adhere to these standards. If you witness any violations, please don't hesitate to reach out to the project maintainers or the CNCF staff.
 
 ## Amending this Document
 
-Any significant changes to this governance document require discussion among the Maintainer team and approval by at least a two-thirds majority of maintainers. Minor editorial changes or clarifications can be made directly by maintainers after reaching basic consensus.
+Any major changes to this governance document will be discussed among the Maintainer team and need a two-thirds majority vote to be approved. For minor tweaks and clarifications, maintainers can make changes after reaching a general agreement.
 
 ## Security Reporting
 
-Please refer to the [Dragonfly Security Reporting](https://github.com/dragonflyoss/dragonfly/blob/main/SECURITY.md) for information on how to report security vulnerabilities. The Dragonfly project takes security seriously and encourages responsible disclosure of vulnerabilities.
+Security is a top priority for us. If you find a security vulnerability, please check our [Dragonfly Security Reporting guide](SECURITY.md) for instructions on how to report it responsibly.
 
 ## Contact
 
-Join the conversation and help the community.
+Join the conversation and become a part of our community!
 
-- **Slack Channel**: [#dragonfly](https://cloud-native.slack.com/messages/dragonfly/) on [CNCF Slack](https://slack.cncf.io/)
-- **Github Discussions**: [Dragonfly Discussion Forum][discussion]
+- **Slack**: Chat with us on the [#dragonfly](https://cloud-native.slack.com/messages/dragonfly/) channel in the [CNCF Slack](https://slack.cncf.io/).
+- **GitHub Discussions**: Have questions or ideas? Join the [Dragonfly Discussion Forum][discussion].
 - **Developer Group**: <dragonfly-developers@googlegroups.com>
 - **Maintainer Group**: <dragonfly-maintainers@googlegroups.com>
-- **Twitter**: [@dragonfly_oss](https://twitter.com/dragonfly_oss)
+- **Twitter**: Follow us at [@dragonfly_oss](https://twitter.com/dragonfly_oss).
 - **DingTalk**: [22880028764](https://qr.dingtalk.com/action/joingroup?code=v1,k1,pkV9IbsSyDusFQdByPSK3HfCG61ZCLeb8b/lpQ3uUqI=&_dt_no_comment=1&origin=11)
 
-This governance document aims to provide a clear framework for the healthy development of the Dragonfly project. As the project evolves, this document may also be updated.
+This document provides a clear framework for the healthy growth of the Dragonfly project. As our community and project evolve, we may update it from time to time.

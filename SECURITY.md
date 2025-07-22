@@ -1,57 +1,45 @@
-# Security Policy
+# Our Security Policy
+
+We take the security of Dragonfly very seriously. If you've discovered a security vulnerability, we appreciate your help in disclosing it to us responsibly.
 
 ## Reporting a Vulnerability
 
-To report a Dragonfly vulnerability:
+To report a vulnerability in Dragonfly, please follow these steps:
 
-1. Navigate to the security tab on the repository GitHub Security Tab.
-2. Click on Advisories GitHub Advisories tab.
-3. Click on Report a vulnerability.
+1.  Go to the **Security** tab in the repository on GitHub.
+2.  Click on the **Advisories** tab.
+3.  Click on **Report a vulnerability**.
 
-The reporter(s) can expect a response within 24 hours acknowledging the issue was received.
-If a response is not received within 24 hours, please reach out to any committer directly to confirm receipt of the issue.
+You can expect a response from us within 24 hours to acknowledge that we've received your report. If you don't hear back from us in that time, please reach out to any committer directly to make sure we got your message.
 
-## Security Response Team
+## Our Security Response Team
 
-The dragonfly maintainers form a security response team. Security issues will be diagnosed and discussed on a private
-mailing list (dragonfly-maintainers@googlegroups.com).
+The Dragonfly maintainers act as our security response team. All security issues are diagnosed and discussed on a private mailing list at [dragonfly-maintainers@googlegroups.com](mailto:dragonfly-maintainers@googlegroups.com) to ensure confidentiality.
 
-## Review Process
+## Our Review Process
 
-Once a committer has confirmed the relevance of the report, a draft security advisory will be created on GitHub.
-The draft advisory will be used to discuss the issue with committers, the reporter(s), and Dragonfly's security advisors.
-If the reporter(s) wishes to participate in this discussion, then provide reporter GitHub username(s) to be invited
-to the discussion. If the reporter(s) does not wish to participate directly in the discussion,
-then the reporter(s) can request to be updated regularly via email.
+Once a committer confirms that the report is relevant, they will create a draft security advisory on GitHub. This is where we'll discuss the issue with committers, the reporter(s), and Dragonfly's security advisors.
 
-If the vulnerability is accepted, a timeline for developing a patch, public disclosure, and patch release will be
-determined. If there is an embargo period on public disclosure before the patch release,
-an announcement will be sent to the security announce mailing list <dragonfly-developers@googlegroups.com> announcing
-the scope of the vulnerability, the date of availability of the patch release, and the date of public disclosure.
-The reporter(s) are expected to participate in the discussion of the timeline and abide by agreed-upon dates for public disclosure.
+If you'd like to be part of this discussion, please provide your GitHub username so we can invite you. If you'd rather not participate directly, you can ask to be kept updated via email.
+
+If we accept the vulnerability, we'll work together to determine a timeline for developing a patch, publicly disclosing the issue, and releasing the fix. If there's an embargo period before the public disclosure, we'll send an announcement to our security mailing list, [dragonfly-developers@googlegroups.com](mailto:dragonfly-developers@googlegroups.com). This announcement will outline the scope of the vulnerability, when the patch will be available, and the date of public disclosure. We expect reporters to be part of the timeline discussion and to respect the agreed-upon dates for public disclosure.
 
 ## Supported Versions
 
-See the Dragonfly releases page for information on supported versions of Dragonfly.
-Any Extended or Active release branch may receive security updates. For any security issues discovered
-on older versions, non-core packages, or dependencies, please inform committers using
-the same security mailing list as for reporting vulnerabilities.
+You can find information on which versions of Dragonfly are currently supported on our releases page. Security updates may be provided for any Extended or Active release branch. If you discover a security issue in an older version, a non-core package, or a dependency, please let our committers know using the same security mailing list you'd use to report any other vulnerability.
 
 ## Joining the Security Announce Mailing List
 
-Any organization or individual who directly uses Dragonfly and non-core packages in production or in a
-security-critical application is eligible to join the security announce mailing list. Indirect users
-who use Dragonfly through a vendor are not expected to join but should request their vendor join.
-To join the mailing list, the individual or organization must be sponsored by either a Dragonfly committer or
-security advisor as well as have a record of properly handling non-public security information.
-Sponsorship should not be requested via public channels since membership of the security announce list is not public.
+If your organization or you as an individual use Dragonfly directly in a production or security-critical environment, you are eligible to join our security announce mailing list. If you use Dragonfly through a vendor, we ask that you have your vendor join the list instead.
+
+To join, you'll need to be sponsored by a Dragonfly committer or security advisor and have a history of handling non-public security information responsibly. Please don't request sponsorship through public channels, as the membership of this list is not public.
 
 ### Mailing Lists
 
-- **dragonfly-developers@googlegroups.com**: Receive security announcements.
+- **[dragonfly-developers@googlegroups.com](mailto:dragonfly-developers@googlegroups.com)**: Subscribe to receive security announcements.
 
 ### Confidentiality, Integrity, and Availability
 
-We prioritize vulnerabilities that compromise data confidentiality, privilege elevation, or integrity.
-Availability issues, such as DoS and resource exhaustion, are also serious concerns.
-Operators must configure settings, role-based access control, and other features to provide a hardened environment.
+We prioritize vulnerabilities that could compromise data confidentiality, allow for privilege elevation, or affect data integrity. We also take availability issues, like Denial of Service (DoS) and resource exhaustion, very seriously.
+
+We expect operators to configure their settings, role-based access control, and other features to create a hardened and secure environment.

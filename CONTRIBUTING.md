@@ -1,209 +1,153 @@
 # Contributing to Dragonfly
 
-It is warmly welcomed if you have the interest to hack on Dragonfly.
-First, we encourage this kind of willingness very much.
-And here is a list of contributing guide for you.
+We're thrilled that you're interested in hacking on Dragonfly! We welcome and encourage all contributions. Here’s a guide to help you get started.
 
 ## Topics
 
-- [Reporting security issues](#reporting-security-issues)
-- [Reporting general issues](#reporting-general-issues)
-- [Code and doc contribution](#code-and-doc-contribution)
-- [Engage to help anything](#engage-to-help-anything)
-- [Join Dragonfly as a member](#join-dragonfly-as-a-member)
+- [Reporting Security Issues](#reporting-security-issues)
+- [Reporting General Issues](#reporting-general-issues)
+- [Contributing Code and Docs](#contributing-code-and-docs)
+- [Getting Involved](#getting-involved)
+- [Becoming a Dragonfly Member](#becoming-a-dragonfly-member)
 
-## Reporting security issues
+## Reporting Security Issues
 
-Security issues are always treated seriously.
-As our usual principle, we discourage anyone to spread security issues.
-If you find a security issue of Dragonfly, please do not discuss it in
-public and even do not open a public issue.
-Instead, we encourage you to send us a private email to
-[dragonfly-maintainers@googlegroups.com](mailto:dragonfly-maintainers@googlegroups.com) to report this.
+We take security very seriously. To protect our community, we ask that you don't disclose security vulnerabilities publicly. If you discover a security issue in Dragonfly, please don't open a public issue or discuss it in public forums. Instead, send us a private email at [dragonfly-maintainers@googlegroups.com](mailto:dragonfly-maintainers@googlegroups.com) to report it.
 
-## Reporting general issues
+## Reporting General Issues
 
-To be honest, we regard every user of Dragonfly as a very kind contributor.
-After experiencing Dragonfly, you may have some feedback for the project.
-Then feel free to open an issue via
-[NEW ISSUE](https://github.com/dragonflyoss/dragonfly/issues/new).
+We consider every Dragonfly user a valuable contributor. After trying out Dragonfly, you might have some feedback for us. Feel free to open an issue on GitHub by clicking [NEW ISSUE](https://github.com/dragonflyoss/dragonfly/issues/new).
 
-Since we collaborate project Dragonfly in a distributed way,
-we appreciate **WELL-WRITTEN**, **DETAILED**, **EXPLICIT** issue reports.
-To make the communication more efficient, we wish everyone could
-search if your issue is an existing one in the searching list.
-If you find it existing, please add your details in comments
-under the existing issue instead of opening a brand new one.
+Because we're a distributed team, we really appreciate **well-written**, **detailed**, and **clear** issue reports. To keep our communication efficient, please search existing issues to see if your problem has already been reported. If it has, please add your comments to the existing issue instead of creating a new one.
 
-To make the issue details as standard as possible,
-we setup an [ISSUE TEMPLATE](./.github/ISSUE_TEMPLATE) for issue reporters.
-You can find three kinds of issue templates there: question,
-bug report and feature request. Please **BE SURE** to follow
-the instructions to fill fields in template.
+To help standardize our issue reports, we've created an [ISSUE TEMPLATE](./.github/ISSUE_TEMPLATE) with options for questions, bug reports, and feature requests. Please be sure to follow the template and fill in all the required fields.
 
-There are a lot of cases when you could open an issue:
+You can open an issue for many reasons, including:
 
-- bug report
-- feature request
-- performance issues
-- feature proposal
-- feature design
-- help wanted
-- doc incomplete
-- test improvement
-- any questions on project
-- and so on
+- Bug reports
+- Feature requests
+- Performance issues
+- Feature proposals
+- Feature design discussions
+- Help wanted
+- Incomplete documentation
+- Test improvements
+- Any questions about the project
 
-Also, we must remind that when filing a new issue,
-please remember to remove the sensitive data from your post.
-Sensitive data could be password, secret key,
-network locations, private business data and so on.
+Also, a friendly reminder: when you file a new issue, please make sure to remove any sensitive data from your post. This includes things like passwords, secret keys, network locations, and private business information.
 
-## Code and doc contribution
+## Contributing Code and Docs
 
-Every action to make project Dragonfly better is encouraged.
-On GitHub, every improvement for Dragonfly could be
-via a PR (short for pull request).
+Any action that makes Dragonfly better is encouraged! On GitHub, all improvements are made through Pull Requests (PRs).
 
-- If you find a typo, try to fix it!
-- If you find a bug, try to fix it!
-- If you find some redundant codes, try to remove them!
-- If you find some test cases missing, try to add them!
-- If you could enhance a feature, please **DO NOT** hesitate!
-- If you find code implicit, try to add comments to make it clear!
-- If you find code ugly, try to refactor that!
-- If you can help to improve documents, it could not be better!
-- If you find document incorrect, just do it and fix that!
-- ...
+- Find a typo? Fix it!
+- Find a bug? Squash it!
+- See redundant code? Remove it!
+- Notice missing test cases? Add them!
+- Have an idea to enhance a feature? Don't hesitate!
+- Think the code is unclear? Add comments to clarify it!
+- Find some code that could be better? Refactor it!
+- Want to improve our documentation? We'd love that!
+- Spot an error in the docs? Correct it!
+- ...and so much more!
 
-Actually, it is impossible to list them completely.
-Just remember one principle:
+We can't list everything, but just remember this one principle:
 
-> WE ARE LOOKING FORWARD TO ANY PR FROM YOU.
+> WE ARE EXCITED TO SEE ANY PR FROM YOU.
 
-Since you are ready to improve Dragonfly with a PR,
-we suggest you could take a look at the PR rules here.
+Before you submit a PR, please take a moment to review our PR guidelines.
 
 - [Workspace Preparation](#workspace-preparation)
-- [Branch Definition](#branch-definition)
+- [Branching Strategy](#branching-strategy)
 - [Commit Rules](#commit-rules)
 - [PR Description](#pr-description)
-- [Developing Environment](#developing-environment)
-- [Golang Dependency Management](#golang-dependency-management)
+- [Development Environment](#development-environment)
+- [Go Dependency Management](#go-dependency-management)
 
 ### Workspace Preparation
 
-To put forward a PR, we assume you have registered
-a GitHub ID. Then you could finish
-the preparation in the following steps:
+To submit a PR, you'll need a GitHub account. Once you have one, follow these steps to get your workspace ready:
 
-1. **FORK** Dragonfly to your repository.
+1.  **FORK** Dragonfly to your own repository.
 
-To make this work, you just need to click the button Fork
-in right-left of [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly)
-main page. Then you will end up with your repository in
-`https://github.com/<your-username>/Dragonfly`,
-in which `your-username` is your GitHub username.
+    To do this, just click the "Fork" button in the top-right corner of the [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly) main page. This will create a copy of the repository under your own account at `https://github.com/<your-username>/dragonfly`.
 
-1. **CLONE** your own repository to develop locally.
+2.  **CLONE** your forked repository to your local machine.
 
-Use `git clone https://github.com/<your-username>/dragonfly.git`
-to clone repository to your local machine.
-Then you can create new branches to finish the change you wish to make.
+    Use `git clone https://github.com/<your-username>/dragonfly.git` to clone the repository locally. Now you can create new branches and make your changes.
 
-1. **Set Remote** upstream to be
-   `https://github.com/dragonflyoss/dragonfly.git`
+3.  **Set the remote upstream** to `https://github.com/dragonflyoss/dragonfly.git`.
 
-using the following two commands:
+    Run these two commands:
 
-```bash
-git remote add upstream https://github.com/dragonflyoss/dragonfly.git
-git remote set-url --push upstream no-pushing
-```
+    ```bash
+    git remote add upstream https://github.com/dragonflyoss/dragonfly.git
+    git remote set-url --push upstream no-pushing
+    ```
 
-With this remote setting, you can check your git remote configuration like this:
+    With this remote setup, your git remote configuration should look like this:
 
-```bash
-$ git remote -v
-origin     https://github.com/<your-username>/dragonfly.git (fetch)
-origin     https://github.com/<your-username>/dragonfly.git (push)
-upstream   https://github.com/dragonflyoss/dragonfly.git (fetch)
-upstream   no-pushing (push)
-```
+    ```bash
+    $ git remote -v
+    origin     https://github.com/<your-username>/dragonfly.git (fetch)
+    origin     https://github.com/<your-username>/dragonfly.git (push)
+    upstream   https://github.com/dragonflyoss/dragonfly.git (fetch)
+    upstream   no-pushing (push)
+    ```
 
-Adding this, we can easily synchronize local branches with upstream branches.
+    This setup makes it easy to keep your local branches in sync with the main project.
 
-1. **Create a branch** to add a new feature or fix issues
+4.  **Create a branch** to add a new feature or fix an issue.
 
-Update local working directory:
+    First, update your local working directory:
 
-```bash
-cd dragonfly
-git fetch upstream
-git checkout main
-git rebase upstream/main
-```
+    ```bash
+    cd dragonfly
+    git fetch upstream
+    git checkout main
+    git rebase upstream/main
+    ```
 
-Create a new branch:
+    Then, create a new branch for your work:
 
-```bash
-git checkout -b <new-branch>
-```
+    ```bash
+    git checkout -b <new-branch>
+    ```
 
-Make any change on the `new-branch` then build and test your codes.
+    Now you can make your changes on the `new-branch`, then build and test your code.
 
-### Branch Definition
+### Branching Strategy
 
-Right now we assume every contribution via pull
-request is for [branch main](https://github.com/dragonflyoss/dragonfly/tree/main)
-in Dragonfly. Before contributing,
-be aware of branch definition would help a lot.
+For now, we assume all contributions made via pull requests are intended for the `main` branch of Dragonfly. Understanding our branching strategy will help you contribute more effectively.
 
-As a contributor, keep in mind again that every
-contribution via pull request is for branch main.
-While in project Dragonfly, there are several other branches,
-we generally call them rc branches, release branches and backport branches.
+As a contributor, please remember that all pull requests should target the `main` branch. However, the Dragonfly project also uses other types of branches, such as release candidate (rc) branches, release branches, and backport branches.
 
-Before officially releasing a version,
-we will checkout a rc(release candidate) branch.
-In this branch, we will test more than branch main.
+Before a new version is officially released, we create a release candidate (rc) branch. This branch undergoes more rigorous testing than the `main` branch.
 
-When officially releasing a version,
-there will be a release branch before tagging.
-After tagging, we will delete the release branch.
+When we're ready to release a new version, we create a release branch just before tagging. After the version is tagged, we delete the release branch.
 
-When backporting some fixes to existing released version,
-we will checkout backport branches. After backporting,
-the backporting effects will be in PATCH number in
-MAJOR.MINOR.PATCH of [SemVer](http://semver.org/).
+When we need to backport fixes to an existing released version, we create backport branches. These backported changes will be reflected in the PATCH number of our [SemVer](http://semver.org/) versioning (MAJOR.MINOR.PATCH).
 
 ### Commit Rules
 
-Actually in Dragonfly, we take two rules seriously when committing:
+In Dragonfly, we take two rules very seriously when it comes to commits:
 
 - [Commit Message](#commit-message)
 - [Commit Content](#commit-content)
 
 #### Commit Message
 
-Commit message could help reviewers better understand
-what the purpose of submitted PR is.
-It could help accelerate the code review procedure as well.
-We encourage contributors to use **EXPLICIT** commit
-message rather than an ambiguous message. In general,
-we advocate the following commit message type:
+A clear commit message helps reviewers understand the purpose of your PR and speeds up the code review process. We encourage you to use **explicit** and descriptive commit messages. We follow a conventional commit format:
 
-- feat: xxxx.For example, "feat: make result show in sorted order".
-- fix: xxxx. For example, "fix: fix panic when input nil parameter".
-- docs: xxxx. For example, "docs: add docs about storage installation".
-- style: xxxx. For example, "style: format the code style of Constants.java".
-- refactor: xxxx. For example, "refactor: simplify to make codes more readable".
-- test: xxx. For example, "test: add unit test case for func InsertIntoArray".
-- chore: xxx. For example, "chore: integrate travis-ci".
-  It's the type of maintenance change.
+- `feat`: A new feature (e.g., "feat: add support for sorted results").
+- `fix`: A bug fix (e.g., "fix: prevent panic when input is nil").
+- `docs`: Changes to documentation (e.g., "docs: add guide for storage installation").
+- `style`: Code style changes (e.g., "style: format Constants.java").
+- `refactor`: Code refactoring (e.g., "refactor: simplify code for readability").
+- `test`: Adding or improving tests (e.g., "test: add unit test for InsertIntoArray").
+- `chore`: Maintenance changes (e.g., "chore: integrate travis-ci").
 
-On the other side, we discourage contributors
-from committing messages in the following ways:
+On the other hand, we discourage ambiguous commit messages like:
 
 - ~~fix bug~~
 - ~~update~~
@@ -211,114 +155,58 @@ from committing messages in the following ways:
 
 #### Commit Content
 
-Commit content represents all content changes
-included in one commit. We had better include things
-in one single commit which could support reviewer's complete
-review without any other commits' help. In another word,
-contents in one single commit can pass the CI to avoid code mess.
-In brief, there are two minor rules for us to keep in mind:
+The content of a commit should include all the changes necessary for a complete and reviewable unit of work. Ideally, a single commit should be self-contained and pass CI on its own. Here are two simple rules to keep in mind:
 
-- avoid very large change in a commit.
-- complete and reviewable for each commit.
+- Avoid making very large changes in a single commit.
+- Ensure each commit is complete and can be reviewed independently.
 
-No matter what the commit message, or commit content is,
-we do take more emphasis on code review.
+No matter the commit message or content, we place a strong emphasis on thorough code review.
 
 ### PR Description
 
-PR is the only way to make change to Dragonfly project files.
-To help reviewers better get your purpose,
-PR description could not be too detailed.
-We encourage contributors to follow the
-[PR template](./.github/PULL_REQUEST_TEMPLATE.md) to finish the pull request.
+A Pull Request (PR) is the only way to make changes to the Dragonfly project files. To help reviewers understand your contribution, please provide a detailed PR description. We encourage you to follow our [PR template](./.github/PULL_REQUEST_TEMPLATE.md) when creating your pull request.
 
-### Developing Environment
+### Development Environment
 
-As a contributor, if you want to make any contribution to
-Dragonfly project, we should reach an agreement on
-the version of tools used in the development environment.
-Here are some dependents with specific version:
+To ensure a smooth development process, all contributors should use the same versions of our development tools. Here are the dependencies and their required versions:
 
-- golang: check [go.mod](https://github.com/dragonflyoss/dragonfly/blob/main/go.mod) for the required version
-- misspell: latest
-- shellCheck: latest
-- docker: latest
+- **Go**: Check the `go.mod` file for the required version.
+- **misspell**: latest
+- **shellCheck**: latest
+- **Docker**: latest
 
-When you develop the Dragonfly project in the local environment,
-you should use subcommands of Makefile to help yourself
-to check and build the latest version of Dragonfly.
-For the convenience of developers,
-we use docker to build Dragonfly.
-It can reduce problems of the developing environment.
+When developing locally, you can use the subcommands in our `Makefile` to build and check your code. We use Docker to build Dragonfly, which helps minimize environment-related issues.
 
-### Golang Dependency Management
+### Go Dependency Management
 
-The Dragonfly project uses
-[Go modules](https://golang.org/cmd/go/#hdr-Modules__module_versions__and_more)
-to manage dependencies on external packages.
-Please check the [go.mod](https://github.com/dragonflyoss/dragonfly/blob/main/go.mod) for required dependencies versions.
+The Dragonfly project uses [Go modules](https://golang.org/cmd/go/#hdr-Modules__module_versions__and_more) to manage external packages. You can find the required dependency versions in the `go.mod` file.
 
-To add or update a new dependency, use the `go get` command:
+To add or update a dependency, use the `go get` command:
 
 ```bash
-# Pick the latest tagged release.
+# Get the latest tagged release
 go get example.com/some/module/pkg
 
-# Pick a specific version.
+# Get a specific version
 go get example.com/some/module/pkg@vX.Y.Z
 ```
 
-Tidy up the `go.mod` and `go.sum` files:
+After updating dependencies, tidy up the `go.mod` and `go.sum` files:
 
 ```bash
 go mod tidy
 ```
 
-You have to commit the changes to `go.mod`,
-`go.sum` before submitting the pull request.
+You'll need to commit the changes to `go.mod` and `go.sum` before submitting your pull request.
 
-```bash
-git add go.mod go.sum
-git commit
-```
+## Getting Involved
 
-## Engage to help anything
+There are many ways to get involved and help the Dragonfly community. Whether you're a developer, a user, or just an enthusiast, we'd love to have you!
 
-We choose GitHub as the primary place for Dragonfly to
-collaborate. So the latest updates of Dragonfly are always here.
-Although contributions via PR is an explicit way to help,
-we still call for any other ways.
+- **Join the discussion**: Participate in our community channels, ask questions, and share your ideas.
+- **Help others**: Answer questions from other users and help them get started with Dragonfly.
+- **Spread the word**: Tell your friends and colleagues about Dragonfly, write a blog post, or share your experience on social media.
 
-- Reply to others' issues if you could.
-- Help solve other users' problems.
-- Help review others' PR design.
-- Help review others' codes in PR.
-- Discuss Dragonfly to make things clearer.
-- Advocate Dragonfly technology beyond GitHub.
-- Write blogs on Dragonfly and so on.
+## Becoming a Dragonfly Member
 
-In a word, **ANY HELP IS CONTRIBUTION.**
-
-## Join Dragonfly as a member
-
-It is also welcomed to join Dragonfly team if you are
-willing to participate in Dragonfly community continuously and be active.
-
-### Requirements
-
-- Have read the [Contributing to Dragonfly](CONTRIBUTING.md) carefully.
-- Have read the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
-- Ability to maintain one or more modules of `scheduler`, `dfdaemon` and `manager`.
-- Have submitted multi PRs to the community.
-- Be active in the community, may including but not limited:
-  - Submitting or commenting on issues.
-  - Contributing PRs to the community.
-  - Reviewing PRs in the community.
-
-### How to do it
-
-You can do it in either of two ways:
-
-- Submit a PR in the
-  [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly) repo.
-- Contact with the community's [maintainers](https://github.com/dragonflyoss/dragonfly/blob/main/MAINTAINERS.md) offline.
+If you're a regular contributor and want to take on a more formal role in the community, you can become a Dragonfly Member. Members have additional privileges and responsibilities, and they play a key role in shaping the future of the project. To learn more about becoming a member, check out our [Contributor Ladder](COMMUNITY_LADDER.md).
