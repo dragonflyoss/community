@@ -12,18 +12,18 @@ Dragonfly is an open-source project that thrives on transparency. Our repository
 
 In short, every decision is made by updating the project. Any change, big or small, that impacts Dragonfly follows these simple steps:
 
-- **Step 1**: Open a pull request.
-- **Step 2**: Discuss the PR in the comments.
-- **Step 3**: Merge or close the PR based on community consensus.
+- **Step 1**: Open an issue in the relevant repository to propose a change or raise a concern.
+- **Step 2**: Discuss the issue in the comments.
+- **Step 3**: Merge or close the issue based on community consensus.
 
-For most PRs (excluding those to add new Maintainers):
+For most issues (excluding those to add new Maintainers):
 
-If we have fewer than seven active Maintainers, a PR can be merged if:
+If we have fewer than seven active Maintainers, an issue can be merged if:
 
   - At least one active Maintainer comments "LGTM" (Looks Good To Me).
   - No other Maintainers object to the change.
 
-Additionally, when we have fewer than seven active Maintainers, we might use a "lazy consensus period" for significant PRs. This means that after a PR gets initial approval, we'll hold it for a set amount of time (like 7 days) to give everyone a final chance to review it. If no one objects, it can be merged. If issues come up, we'll resolve them before moving forward.
+Additionally, when we have fewer than seven active Maintainers, we might use a "lazy consensus period" for significant issues. This means that after an issue gets initial approval, we'll hold it for a set amount of time (like 7 days) to give everyone a final chance to discuss it. If no one objects, it can be closed. If issues come up, we'll resolve the concerns and then proceed and move forward.
 
 ## Managing Maintainership
 
