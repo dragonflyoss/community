@@ -1,142 +1,200 @@
 # Dragonfly Contributor Ladder
 
-Here's the complete document outlining the contributor roles and responsibilities within the Dragonfly open source project. This document serves as a guide for contributors to understand their roles, expectations, and how they can progress within the community.
+This document outlines the different contributor roles and responsibilities within the Dragonfly project. Think of it as a guide to help you understand your role, what's expected, and how you can grow with us in the community.
 
+- [Goals](#goals)
+- [Scope](#scope)
+- [General Guidelines](#general-guidelines)
+  - [Everyone is Welcome](#everyone-is-welcome)
+  - [Continued Contributions](#continued-contributions)
+  - [Consensus for Merging](#consensus-for-merging)
+  - [Start a Discussion](#start-a-discussion)
 - [Contributor Ladder](#contributor-ladder)
   - [Contributor](#contributor)
   - [Member](#member)
   - [Approver](#approver)
-  - [Committer](#committer)
+  - [Maintainer](#maintainer)
 - [General Guidance on Contributions and Expectations](#general-guidance-on-contributions-and-expectations)
+
+## Goals
+
+We've put this document together with a few key goals in mind:
+
+- To ensure the long-term health and sustainability of the Dragonfly community.
+- To encourage new contributors to get more involved and take on formal roles.
+- To provide a clear path for those looking to grow into leadership positions.
+- To build a strong pipeline of future leaders for the project.
+
+## Scope
+
+This guide covers the roles and responsibilities for everyone who contributes to the Dragonfly open source project. Whether you're writing code, improving documentation, creating tests, or helping in other ways, this is for you.
+
+The roles of Organization Member, Approver, or Maintainer are officially defined in the [Dragonfly Governance](./GOVERNANCE.md) document.
+
+## General Guidelines
+
+### Everyone is Welcome
+
+We truly appreciate every contribution. You don't need a formal title to create or review pull requests, help with issues, or join in on discussions. Taking on a formal role is completely optional, so feel free to contribute in any way that works for you.
+
+### Continued Contributions
+
+If you're thinking about applying for one of the roles below, we hope it's because you plan to stay active at that level. If life gets in the way and you can't keep up with the responsibilities of your role, it's perfectly fine to step down. Members who are inactive for an extended period will be removed from the Dragonfly GitHub Organizations, but you can always go through the membership process again when you're ready.
+
+### Consensus for Merging
+
+If you think a change might be controversial, please hold off on merging and give others a chance to share their thoughts. Even if you have merge access, it doesn't mean you should always use it. We want to avoid blocking PRs indefinitely, but it's important to make sure everyone's perspective is heard first.
+
+### Start a Discussion
+
+If you're interested in moving up the ladder and taking on one of these roles, just reach out to a project maintainer on Slack. We're here to help you get started!
 
 ## Contributor Ladder
 
-This document defines the contributor roles within our open source project, outlining the responsibilities, qualifications, and privileges associated with each role.
+This document lays out the different contributor roles in our open source project, detailing the responsibilities, qualifications, and perks that come with each one.
 
-Contributors typically start at the base level and progress as their engagement and impact on the project grow. We encourage and support your journey up the contributor ladder!
+Contributors usually start at the first level and move up as they become more involved and make a bigger impact. We're here to support you every step of the way as you climb the contributor ladder!
 
-Each role is described with three key aspects:
+Our ladder has four main roles: **Contributor**, **Member**, **Approver**, and **Maintainer**. Each role comes with its own set of responsibilities, qualifications, and privileges that reflect a contributor's level of involvement and the trust they've earned in the community.
 
-- Responsibilities: Tasks and duties expected at this level.
-- Qualifications: Criteria or requirements to achieve this role.
-- Privileges: Rights and benefits granted to contributors at this level.
+Here's a quick look at the roles:
 
-Roles and responsibilities may evolve as the project grows. The final decision on role assignments rests with the project Committers.
+| Role            | Responsibilities                                                       | Qualifications                                                               | Privileges                                                               |
+| --------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Contributor** | Follow our Code of Conduct & Contribution Guide                        | Anyone who participates in the community                                     | Can be assigned issues and request reviews                               |
+| **Member**      | Contribute regularly and complete tasks you volunteer for              | A history of successful contributions over 3+ months                         | Trigger CI/CD, review PRs, and recommend others for Member status        |
+| **Approver**    | Review PRs in your area of expertise and maintain quality              | A Member with a solid track record of high-quality reviews                   | Approve PRs in specific areas and recommend others for Approver          |
+| **Maintainer**  | Merge PRs, coordinate releases, and help shape the project's direction | Long-term contributions, leadership, and a deep understanding of the project | Merge code, represent the project publicly, and nominate new Maintainers |
 
+Each role is defined by three key things:
+
+- **Responsibilities**: The tasks and duties we expect from you at this level.
+- **Qualifications**: The criteria you need to meet to earn this role.
+- **Privileges**: The rights and benefits you get as a contributor at this level.
+
+As the project grows, these roles and responsibilities might change. The final say on role assignments belongs to the project Maintainers.
 
 ### Contributor
 
-A Community Contributor is anyone who adds value to the project through direct contributions, which may or may not involve code. This role often includes new or occasional contributors.
+A **Contributor** is anyone who adds value to the project. This can be through code, but it doesn't have to be! This role is often where new or occasional contributors start.
 
-* Responsibilities:
-    * Adhere to the project's [Code of Conduct](CODE_OF_CONDUCT.md).
-    * Follow the contribution guidelines for the project (e.g., [Contribution Guide](CONTRIBUTING.md)).
+* **Responsibilities**:
+    * Follow the project's [Code of Conduct](CODE_OF_CONDUCT.md).
+    * Stick to the [Contribution Guide](CONTRIBUTING.md).
 
-* Qualifications:
-    * Open to anyone participating in the community.
-    * Contributions can include:
-        * Engaging in community discussions (e.g., forums, Slack).
-        * Reporting bugs or submitting feedback.
-        * Testing releases and providing reviews.
-        * Contributing to documentation.
+* **Qualifications**:
+    * Open to anyone who wants to be part of the community.
+    * Contributions can include things like:
+        * Joining in on community discussions.
+        * Reporting bugs or giving feedback.
+        * Testing new releases and sharing your thoughts.
+        * Helping out with documentation.
         * Attending or speaking at community events.
-        * Submitting occasional pull requests (PRs).
+        * Submitting pull requests (PRs).
         * Helping other users or answering questions.
-        * Promoting the project publicly.
+        * Spreading the word about the project.
 
-* Privileges:
-    * Can be assigned to issues and request reviews for contributions.
+* **Privileges**:
+    * You can be assigned to issues and ask for reviews on your contributions.
 
-This is the starting point for becoming an Organization Member.
+This is the first step to becoming a Member.
 
 ### Member
 
-An Organization Member is a consistent contributor who actively participates in the project. They have elevated privileges in project repositories and are expected to act in the best interest of the community.
+A **Member** is a consistent contributor who is actively involved in the project. They have more permissions in our repositories and are trusted to act in the community's best interest.
 
-* Responsibilities:
-    * Maintain regular contributions to the project.
-    * Complete tasks or initiatives they volunteer for.
+* **Responsibilities**:
+    * Make regular contributions to the project.
+    * Finish any tasks or initiatives you volunteer for.
 
-* Qualifications:
-    * Demonstrated successful contributions, including at least one of:
-        * Submitted or reviewed PRs.
-        * Resolved issues or bugs.
-        * Equivalent impactful contributions.
-    * Actively contributing to a project area where Organization Member privileges are beneficial.
+* **Qualifications**:
+    * A history of successful contributions, including at least one of these:
+        * Submitting or reviewing PRs.
+        * Fixing issues or bugs.
+        * Making other impactful contributions.
+    * You're actively contributing to an area of the project where Member privileges would be helpful.
+    * A track record of contributing (e.g., code, reviews, discussions) for at least 3 months.
+    * You consistently follow the project's Code of Conduct.
 
-* Privileges:
-    * Ability to trigger CI/CD pipelines.
-    * Leave reviews and comments on PRs.
-    * Recommend other Community Contributors for Organization Member status.
-    * Nominate themselves for higher roles as outlined in project governance.
+* **Privileges**:
+    * You can trigger CI/CD pipelines.
+    * You can leave reviews and comments on PRs.
+    * You can recommend other Contributors to become Members.
+    * You can nominate yourself for higher roles as described in our project governance.
 
-* Promotion Process:
-    1. Submit a PR to the member management file (e.g., [members.yaml](ladder/members.yaml)).
-    2. Obtain approval from at least two existing Organization Members with "LGTM" comments and final merge by a Committer.
-
+* **How to Become a Member**:
+    1. Submit a PR to the [members.yaml](ladder/members.yaml) file.
+    2. Get a "LGTM" (Looks Good To Me) from at least two existing Members, and a final merge from a Maintainer.
 
 ### Approver
 
-A Approver is responsible for specific areas of the project (e.g., code, docs, tests) and plays a critical role in ensuring the quality of contributions in those areas by reviewing and approving changes.
+An **Approver** is a Member who takes ownership of a specific part of the project (like code, docs, or tests). They play a key role in keeping our quality high by reviewing and approving changes in their area.
 
-* Responsibilities:
-    * Regularly review PRs related to their area of expertise.
-    * Follow the project’s [review guidelines](link-to-review-guide).
-    * Assist other contributors in becoming Reviewers.
-    * Provide feedback on project feature proposals or design documents.
+* **Responsibilities**:
+    * Handle all the responsibilities of a Member.
+    * Regularly review PRs in your area of expertise.
+    * Make sure changes meet our coding standards, don't introduce bugs, and are good for the project.
+    * Help other contributors become Approvers.
+    * Help triage issues.
 
-* Qualifications:
-    * Must be an Organization Member.
-    * Proven track record of high-quality reviews.
-    * Deep understanding of their specific area (e.g., through contributions or issue resolution).
-    * Commitment to maintaining responsibility for their designated area.
+* **Qualifications**:
+    * You must already be a Member.
+    * Proven track record of high-quality reviews and contributions.
+    * Deep understanding of your specific area.
+    * Commitment to maintaining responsibility for your designated area.
     * Supportive of new and occasional contributors, helping refine PRs for merging.
 
-* Privileges:
-    * GitHub permissions to approve PRs and modify labels in their specific areas.
-    * Ability to recommend and review other Organization Members for Approver status.
+* **Privileges**:
+    * You'll have GitHub permissions to approve PRs and manage labels in your specific areas.
+    * You can recommend and review other Members for the Approver role.
 
-* Promotion Process:
-    1. Submit a PR to the team or member management file for the specific review area (e.g., [teams.yaml](link-to-teams-file)).
-    2. Receive approval from at least two existing Committers.
+* **How to Become an Approver**:
+    1. Submit a PR to the team or member management file for your specific review area.
+    2. Get approval from at least two existing Maintainers.
 
-Automated tools may assign PRs to Approvers based on their defined areas of responsibility.
+We have automated tools that may assign PRs to Approvers based on their designated areas of responsibility.
 
-### Committer
+### Maintainer
 
-A Committer holds significant trust within the project, with privileges to merge code, vote on project matters, and guide the project’s direction. This role reflects a deep commitment to the community.
+A **Maintainer** is a highly trusted member of the project with the authority to merge code, vote on project matters, and help guide the project's direction. This role is for those who have shown a deep commitment to our community.
 
-* Responsibilities:
-    * Mentor new contributors and Committers.
+* **Responsibilities**:
+    * Fulfill all the responsibilities of an Approver.
+    * Merge PRs to the main branch.
+    * Maintain the codebase's overall quality, stability, and performance.
+    * Coordinate releases and update documentation.
+    * Shape the project's technical direction and roadmap.
+    * Mentor new contributors and Maintainers.
     * Engage in strategic and policy discussions for the project.
     * Participate in voting on key project decisions as per governance rules.
     * Approve promotions to various roles within the project.
 
-* Qualifications:
-    * Detailed in the project’s [governance document](./GOVERNANCE.md) under commit access criteria.
+* **Qualifications**:
+    * The specifics are detailed in our project's [governance document](./GOVERNANCE.md) under the commit access criteria.
+    * A history of long-term, high-quality contributions and leadership.
+    * In-depth understanding of the project’s architecture and design.
     * Supportive of new contributors, aiding in refining contributions.
     * Demonstrates independent judgment for the project’s benefit, beyond personal or employer interests.
     * Actively mentors others in the community.
 
-* Privileges:
-    * Merge code into project repositories.
-    * Represent the project publicly as a Committer.
-    * Engage with external bodies (e.g., CNCF) on behalf of the project.
-    * Nominate new Committers.
+* **Privileges**:
+    * You can merge code into the project repositories.
+    * You can vote on project-level decisions.
+    * You can represent the project in public.
+    * You can nominate new Maintainers.
 
-* Promotion Process:
-    1. Nomination by an existing Committer via a PR to the governance or member file.
-    2. Approval through a supermajority vote (e.g., 2/3 of active Committers) as defined in project governance.
+* **How to Become a Maintainer**:
+    1. Get nominated by an existing Maintainer through a PR to the governance or member file.
+    2. Be approved by a supermajority vote (e.g., 2/3 of active Maintainers), as defined in our project governance.
 
-Committers contributing to core code are automatically part of the project’s Code Team if defined.
-
+Maintainers who contribute to the core code are automatically part of the project's Code Team, if one is defined.
 
 ## General Guidance on Contributions and Expectations
 
-We welcome contributions in the form of PRs, issues, and feature proposals. For new contributors, starting with small, meaningful changes is recommended. These are easier to review and help you understand the project’s processes and expectations.
+We welcome all kinds of contributions, whether it's PRs, issues, or new feature ideas. If you're new here, we recommend starting with smaller, meaningful changes. They're easier to review and a great way to get familiar with our processes.
 
-As an open source project, response times for reviews may vary due to the availability of Committers and Approvers. Building trust through consistent, smaller contributions or constructive feedback on others’ work can accelerate recognition and progression.
+Since we're an open source project, review times can vary depending on when Maintainers and Approvers are available. You can build trust and speed up your progression by making consistent, smaller contributions or by giving constructive feedback on other people's work.
 
-Every merged contribution commits the project to long-term maintenance. As such, larger changes require not only effort but also a proven track record to assure the community of your ongoing support for maintaining those changes.
+Every time we merge a contribution, we're committing to maintaining it for the long haul. That's why larger changes require not just a lot of effort, but also a proven track record to show the community that you'll be around to support your changes.
 
 Remember, _["no is temporary, yes is forever."](https://www.oreilly.com/library/view/hands-on-design-patterns/9781789135565/3f396314-dac8-446c-ab02-768ae91296fa.xhtml)_ 🙇‍♂️
