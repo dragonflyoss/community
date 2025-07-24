@@ -10,7 +10,7 @@ Dragonfly community has a mandate to facilitate driving neutral consensus for:
 
 ## Community Meetings
 
-Dragonfly community meetings are scheduled on an ad-hoc basis as needed.
+Dragonfly community meetings are held every two weeks (bi-weekly).
 To propose agenda items for a potential meeting, please open an issue in the relevant
 Dragonfly GitHub repository (e.g., [dragonflyoss/community issues](https://github.com/dragonflyoss/community/issues) for
 general community topics, or a specific project repository for project-specific discussions).
@@ -40,7 +40,7 @@ the [Google Calendar](https://calendar.google.com/calendar/embed?src=46bc5a3d67a
 ### Meeting Recordings
 
 - Dragonfly: Provide meeting recordings in [meetings/maintainer](https://github.com/dragonflyoss/community/tree/master/meetings/maintainer).
-  
+
 
 ## Project Governance
 
