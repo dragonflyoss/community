@@ -28,6 +28,20 @@ When a meeting is held, the agenda will be based on the proposed items and typic
 - Planning for any next steps or actions arising from the discussion.
 - An opportunity for open discussion on other brief topics if time permits.
 
+### Meeting Address(Online)
+
+- Dragonfly: <https://meet.google.com/pwu-cprb-vxn>
+
+### Meeting Time
+
+You can also subscribe to
+the [Google Calendar](https://calendar.google.com/calendar/embed?src=46bc5a3d67a81a55e0266b6c349a9d833de979922b1232a81bd6dd5ba571b00d%40group.calendar.google.com&ctz=Asia%2FShanghai) to get the meeting information.
+
+### Meeting Recordings
+
+- Dragonfly: Provide meeting recordings in [meetings/maintainer](https://github.com/dragonflyoss/community/tree/master/meetings/maintainer).
+  
+
 ## Project Governance
 
 Our governance model is designed to be open, transparent, and lightweight, ensuring that the project is guided by the community for the community. For full details, please see [GOVERNANCE.md](./GOVERNANCE.md).
