@@ -79,7 +79,7 @@
 - [ ] Next meeting topic collection and organization @mingcheng
 - [ ] Establishment of rules for the distribution of issues: The bi-weekly meeting facilitator collects recent unprocessed issues two days before each bi-weekly meeting and notifies developers to claim them themselves. For unclaimed issues, assign someone to handle them. @all
 - [ ] Collect information of the conference promotion and organize members to participate. @mingcheng
-- [ ] Complete the final version of the graduation proposal and application document by this Friday. And complete PR review and merge next week. @mingcheng 
+- [ ] Complete the final version of the graduation proposal and application document by this Friday. And complete PR review and merge next week. @mingcheng @gaius-qi
 - [ ] Put the graduation application document for developers to review together. @mingcheng
 - [ ] Handle with issues in the nydus project that have not been responded to for a long time and tag the issues. @imeoer @BraveY
 - [ ] Support Model Artifact by OCI Spec in VLLM, and Dragonfly needs to support P2P distribution of Model layers. @CormickKneey
