@@ -6,6 +6,7 @@ This document outlines the different contributor roles and responsibilities with
 - [Scope](#scope)
 - [General Guidelines](#general-guidelines)
   - [Everyone is Welcome](#everyone-is-welcome)
+  - [Guidance](#guidance)
   - [Continued Contributions](#continued-contributions)
   - [Consensus for Merging](#consensus-for-merging)
   - [Start a Discussion](#start-a-discussion)
@@ -14,7 +15,6 @@ This document outlines the different contributor roles and responsibilities with
   - [Member](#member)
   - [Approver](#approver)
   - [Maintainer](#maintainer)
-- [General Guidance on Contributions and Expectations](#general-guidance-on-contributions-and-expectations)
 
 ## Goals
 
@@ -33,9 +33,22 @@ The roles of Organization Member, Approver, or Maintainer are officially defined
 
 ## General Guidelines
 
+
+
 ### Everyone is Welcome
 
 We truly appreciate every contribution. You don't need a formal title to create or review pull requests, help with issues, or join in on discussions. Taking on a formal role is completely optional, so feel free to contribute in any way that works for you.
+
+### Guidance
+
+As described in our [Contribution Guide](CONTRIBUTING.md), we welcome all kinds of contributions, whether it's PRs, issues, or new feature ideas. If you're new here, we recommend starting with smaller, meaningful changes. They're easier to review and a great way to get familiar with our processes.
+
+Since we're an open source project, review times can vary depending on when Maintainers and Approvers are available. You can build trust and speed up your progression by making consistent, smaller contributions or by giving constructive feedback on other people's work.
+
+Every time we merge a contribution, we're committing to maintaining it for the long haul. That's why larger changes require not just a lot of effort, but also a proven track record to show the community that you'll be around to support your changes.
+
+Remember, _["no is temporary, yes is forever."](https://www.oreilly.com/library/view/hands-on-design-patterns/9781789135565/3f396314-dac8-446c-ab02-768ae91296fa.xhtml)_ 🙇‍♂️
+
 
 ### Continued Contributions
 
@@ -189,12 +202,3 @@ A **Maintainer** is a highly trusted member of the project with the authority to
 
 Maintainers who contribute to the core code are automatically part of the project's Code Team, if one is defined.
 
-## General Guidance on Contributions and Expectations
-
-We welcome all kinds of contributions, whether it's PRs, issues, or new feature ideas. If you're new here, we recommend starting with smaller, meaningful changes. They're easier to review and a great way to get familiar with our processes.
-
-Since we're an open source project, review times can vary depending on when Maintainers and Approvers are available. You can build trust and speed up your progression by making consistent, smaller contributions or by giving constructive feedback on other people's work.
-
-Every time we merge a contribution, we're committing to maintaining it for the long haul. That's why larger changes require not just a lot of effort, but also a proven track record to show the community that you'll be around to support your changes.
-
-Remember, _["no is temporary, yes is forever."](https://www.oreilly.com/library/view/hands-on-design-patterns/9781789135565/3f396314-dac8-446c-ab02-768ae91296fa.xhtml)_ 🙇‍♂️
