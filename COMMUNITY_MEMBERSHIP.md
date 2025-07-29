@@ -4,6 +4,7 @@
 - [Managing Membership](#managing-membership)
   - [Adding New Members](#adding-new-members)
   - [Removing Inactive Members](#removing-inactive-members)
+  - [Voluntary Departure](#voluntary-departure)
 - [Election Process](#election-process)
   - [Maximum Representation](#maximum-representation)
   - [Vacancies](#vacancies)
@@ -49,7 +50,7 @@ Members start out as dedicated contributors who are committed to the long-term s
 
 Membership is built on trust, and that goes beyond just writing code. You earn the trust of the current Members by consistently acting in the best interest of the project.
 
-New Members are nominated by an existing Member (through an issue) and need a supermajority vote from the current Members to be approved. Similarly, Members can be removed by a supermajority vote, or they can choose to step down by letting any other Member know. For details on how members are selected and their terms, see the [Election Process](#election-process).
+New Members are nominated by an existing Member (through an issue) and need a supermajority vote from the current Members to be approved. Similarly, Members can be removed by a supermajority vote, or they can choose to step down by creating an issue to let any other Member know. For details on how members are selected and their terms, see the [Election Process](#election-process).
 
 ### Removing Inactive Members
 
@@ -59,6 +60,28 @@ An existing Member can be removed from the active list if they are no longer mee
 - They have violated the governance rules more than twice.
 
 Once the conditions are confirmed, the Member can be removed, unless they ask to stay and get at least 50% approval from the other Members. If someone is removed, we'll add them to an alumni section in this document to recognize their past contributions.
+
+### Voluntary Departure
+
+If a Member wishes to voluntarily step down from their position, they may do so at any time by creating an issue in the community repository notifying the community of their departure. In this case:
+
+1. Create a departure notice
+   - Post an issue in the community repository
+   - Notify at least 7 days before your last day
+   - Specify your exact departure date
+2. Provide transition details
+   - Share handover information
+   - Explain any ongoing responsibilities
+
+The departure will be publicly announced and remain visible for at least 7 days. During this period:
+
+- No formal voting required
+- The departing Member should include any relevant handover information in their notification
+- Other Members should acknowledge the departure with a thank you message
+- The departing Member will be added to the alumni section of this document to honor their contributions
+
+After the departure date, the Member and their GitHub ID will be moved to the emeritus section in the [MAINTAINERS.md](MAINTAINERS.md#emeritus-maintainers) file to honor their contributions. This process ensures proper handover and recognition while providing sufficient notice to the community.
+
 
 ## Election Process
 
@@ -71,7 +94,6 @@ Dragonfly holds regular elections for Maintainer positions to ensure fair select
 - **Voting Period**: Active Maintainers vote on candidates over a 7-day period, with one vote per open position.
 - **Counting and Announcement**: Votes are tallied, and top vote-getters become new Maintainers.
 - **Documentation**: After elections, the results are documented in meeting summaries or official website, and the election issues are closed with appropriate references.
-
 
 ### Maximum Representation
 

@@ -1,55 +1,60 @@
 ---
 name: Election Process
-about: Nominate candidates or run community elections
+about: Nominate a candidate for a community role
 labels: election
 ---
 
-## Election Process
+## Community Role Nomination
 
-Use this template when nominating candidates or running community elections.
+Use this template to nominate a candidate for a community role (e.g., Member, Approver, Maintainer).
 
 <!-- Placeholder: Provide any additional context or description about this election. -->
 
-### Requirements
-
-- [ ] My GitHub account has 2FA enabled. Check out https://github.com/settings/security
-- [ ] I've attended at least one biweekly community meeting.
-- [ ] I've contributed to or reviewed code.
-- [ ] I am actively involved in at least one Dragonfly project or one of its subprojects.
-- [ ] The Dragonfly [Code of Conduct](https://github.com/dragonflyoss/community/blob/master/CODE_OF_CONDUCT.md) has been read and accepted by me.
-- [ ] The Dragonfly [Community Ladder](https://github.com/dragonflyoss/community/blob/master/COMMUNITY_LADDER.md) has been read and accepted by me.
-- [ ] The Dragonfly [Community Membership Guidelines](https://github.com/dragonflyoss/community/blob/master/COMMUNITY_MEMBERSHIP.md) have been read and accepted by me.
-
 ### Election Title
-<!-- e.g.: Maintainer Election for v2.4 Release -->
+<!-- e.g.: Maintainer Nomination for @username -->
 
 ### Nominator GitHub ID
 <!-- Your GitHub username -->
 
+### Nominee GitHub ID
+<!-- The GitHub username of the person being nominated -->
+
 ### Nomination Period
-<!-- e.g.: 2025-07-01 to 2025-07-15 -->
+<!-- e.g.: 2025-07-01 to 2025-07-15 (must be open for at least 7 days) -->
 
 ### Voting Period
-<!-- e.g.: 2025-07-16 to 2025-07-28 -->
+<!-- e.g.: 2025-07-16 to 2025-07-28 (must be open for at least 7 days) -->
+
+### Requirements for the Nominee
+
+- [ ] The nominee's GitHub account has 2FA enabled. (Check at https://github.com/settings/security)
+- [ ] The nominee has attended at least one biweekly community meeting.
+- [ ] The nominee has a history of contributions (e.g., code, reviews, issue discussions).
+- [ ] The nominee is actively involved in at least one Dragonfly project or subproject.
+- [ ] The nominee has read and agrees to the Dragonfly [Code of Conduct](https://github.com/dragonflyoss/community/blob/master/CODE_OF_CONDUCT.md).
+- [ ] The nominee has read and understands the Dragonfly [Community Ladder](https://github.com/dragonflyoss/community/blob/master/COMMUNITY_LADDER.md).
+- [ ] The nominee has read and understands the Dragonfly [Community Membership Guidelines](https://github.com/dragonflyoss/community/blob/master/COMMUNITY_MEMBERSHIP.md).
+
+### Nominator's Checklist
+- [ ] I have discussed this nomination with the nominee, and they have agreed to be nominated.
+- [ ] This nomination has been brought up for discussion in a community meeting.
 
 ### Endorsements (optional)
 <!-- List any maintainers who endorse this nomination -->
 
-## Election Overview
+## Candidate Overview
 
 ### Current Role & Contributions
-<!-- Projects, roles, and contributions so far -->
+<!-- Describe the nominee's current role, projects they are involved in, and their contributions so far. -->
 
+### Motivation for Nomination
+<!-- Explain why this candidate is being nominated and what makes them a good fit for the role. -->
 
-### Why You’re Running
-<!-- Motivation and objectives -->
-
-### Future Plans
-<!-- Candidate's plans and goals for the community -->
+### Candidate's Future Plans
+<!-- Outline the candidate's plans and goals for the community if elected. -->
 
 ### Position
 <!-- Maintainer / Approver / Member -->
-
 
 ## Vote Results
 
