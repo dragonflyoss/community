@@ -13,8 +13,19 @@ Use this template to nominate a candidate for a community role (e.g., Member, Ap
 ### Election Title
 <!-- e.g.: Maintainer Nomination for @username -->
 
-### Nominator GitHub ID
-<!-- Your GitHub username -->
+### Nominator Information
+
+- **Nominator GitHub ID**: <!-- Required -->
+- **Nominator Name**: <!-- Required -->
+- **Nominator Email**: <!-- Required -->
+- **Company/Organization**: <!-- Required -->
+
+### Nominee Information
+
+- **Nominee GitHub ID**: <!-- Required -->
+- **Nominee Name**: <!-- Required -->
+- **Nominee Email**: <!-- Required -->
+- **Company/Organization**: <!-- Required -->
 
 ### Nominee GitHub ID
 <!-- The GitHub username of the person being nominated -->
