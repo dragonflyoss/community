@@ -29,8 +29,8 @@ For most issues (excluding those to add new Maintainers):
 
 If we have fewer than seven active Maintainers, an issue can be merged if:
 
-  - At least one active Maintainer comments "LGTM" (Looks Good To Me).
-  - No other Maintainers object to the change.
+- At least one active Maintainer comments "LGTM" (Looks Good To Me).
+- No other Maintainers object to the change.
 
 Additionally, when we have fewer than seven active Maintainers, we might use a "lazy consensus period" for significant issues. This means that after an issue gets initial approval, we'll hold it for a set amount of time (like 7 days) to give everyone a final chance to discuss it. If no one objects, it can be closed. If issues come up, we'll resolve the concerns and then proceed and move forward.
 
@@ -44,22 +44,22 @@ Our Members share the responsibility for the project's success. In general, they
 
 Members often work hard behind the scenes, and their efforts aren't always visible. While it's easy to get excited about new features, it's just as important—and often more challenging—to handle bug fixes, small improvements, stability optimizations, and all the other foundational work that keeps the project strong.
 
-### Adding New Members
+### Adding New Member/Approver/Maintainer
 
-Members start out as dedicated contributors who are committed to the long-term success of the project. If you're aspiring to become a Member, you should be actively involved in resolving issues, contributing code, and reviewing proposals and pull requests for at least two months.
+Member/Approver/Maintainer start out as dedicated contributors who are committed to the long-term success of the project. If you're aspiring to become a Member/Approver/Maintainer, you should be actively involved in resolving issues, contributing code, and reviewing proposals and pull requests for at least two months.
 
-Membership is built on trust, and that goes beyond just writing code. You earn the trust of the current Members by consistently acting in the best interest of the project.
+Membership is built on trust, and that goes beyond just writing code. You earn the trust of the current Member/Approver/Maintainer by consistently acting in the best interest of the project.
 
-New Members are nominated by an existing Member (through an issue) and need a supermajority vote from the current Members to be approved. Similarly, Members can be removed by a supermajority vote, or they can choose to step down by creating an issue to let any other Member know. For details on how members are selected and their terms, see the [Election Process](#election-process).
+New Member/Approver/Maintainer are nominated by an existing Member/Approver/Maintainer (through an issue) and need a supermajority vote from the current Maintainers to be approved. Similarly, Member/Approver/Maintainer can be removed by a supermajority vote, or they can choose to step down by creating an issue to let any other Member/Approver/Maintainer know. For details on how Member/Approver/Maintainer are selected and their terms, see the [Election Process](#election-process).
 
-### Removing Inactive Members
+### Removing Inactive Member/Approver/Maintainer
 
-An existing Member can be removed from the active list if they are no longer meeting the expectations of the role. If a Member meets one of the following criteria, any other Member can propose their removal through a pull request:
+An existing Member/Approver/Maintainer can be removed from the active list if they are no longer meeting the expectations of the role. If a Member/Approver/Maintainer meets one of the following criteria, any other Member/Approver/Maintainer can propose their removal through a pull request:
 
 - They haven't participated in community activities for more than three months.
 - They have violated the governance rules more than twice.
 
-Once the conditions are confirmed, the Member can be removed, unless they ask to stay and get at least 50% approval from the other Members. If someone is removed, we'll add them to an alumni section in this document to recognize their past contributions.
+Once the conditions are confirmed, the Member/Approver/Maintainer can be removed. If someone is removed, we'll add them to an alumni section in this document to recognize their past contributions.
 
 ### Voluntary Departure
 
@@ -81,7 +81,6 @@ The departure will be publicly announced and remain visible for at least 7 days.
 - The departing Member will be added to the alumni section of this document to honor their contributions
 
 After the departure date, the Member and their GitHub ID will be moved to the emeritus section in the [MAINTAINERS.md](MAINTAINERS.md#emeritus-maintainers) file to honor their contributions. This process ensures proper handover and recognition while providing sufficient notice to the community.
-
 
 ## Election Process
 
