@@ -13,7 +13,6 @@ This document lists the current maintainers of the Dragonfly community. The list
 |      [gaius-qi](https://github.com/gaius-qi)      |    Gaius Qi     |      gaius.qi@gmail.com      |            Ant Group            |
 |  [CormickKneey](https://github.com/CormickKneey)  |    Han Jiang    |    cormick1080@gmail.com     |            Kuaishou             |
 |        [jim3ma](https://github.com/jim3ma)        |     Jim Ma      |     majinjing3@gmail.com     |            Ant Group            |
-| [mfarooq-intel](https://github.com/mfarooq-intel) | Mohammed Farooq |     mfarooq.ta@gmail.com     |              Intel              |
 |      [bergwolf](https://github.com/bergwolf)      |    Peng Tao     |      bergwolf@hyper.sh       |            Ant Group            |
 |       [hyy0322](https://github.com/hyy0322)       |  Yiyang Huang   |       691795636@qq.com       |            ByteDance            |
 |       [yxxhero](https://github.com/yxxhero)       |     yxxhero     |      aiopsclub@163.com       |            Zhipu AI             |
@@ -24,7 +23,7 @@ This document lists the current maintainers of the Dragonfly community. The list
 
 ## Emeritus Maintainers
 
-Below is the list of emeritus (retired) maintainers. Thank them for their contribution to the project. The list is sorted alphabetically by name. 
+Below is the list of emeritus (retired) maintainers. Thank them for their contribution to the project. The list is sorted alphabetically by name.
 
 <!-- markdownlint-disable -->
 
@@ -38,5 +37,6 @@ Below is the list of emeritus (retired) maintainers. Thank them for their contri
 |      [garen-wen](https://github.com/garen-wen)      |   Wen, Garen   |     wenmxiang@gmail.com      |  Baidu Group  |
 |          [lowzj](https://github.com/lowzj)          |   Zhang, Jin   |     zj3142063@gmail.com      | Alibaba Group |
 | [zhouhaibing089](https://github.com/zhouhaibing089) | Zhou, Haibing  |   zhouhaibing089@gmail.com   |     eBay      |
+|       [mfarooq](https://github.com/mfarooq)         | Mohammed Farooq|     mfarooq.ta@gmail.com     |     Intel     |
 
 <!-- markdownlint-restore -->
