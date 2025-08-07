@@ -8,7 +8,7 @@ This document lists the current maintainers of the Dragonfly community. The list
 | :-----------------------------------------------: | :-------------: | :--------------------------: | :-----------------------------: |
 |       [akashhr](https://github.com/akashhr)       |    Akash HR     |    akashhr2021@gmail.com     |              Intel              |
 |    [allencloud](https://github.com/allencloud)    |    Allen Sun    |    shlallen1990@gmail.com    |          Alibaba Group          |
-|        [chlins](https://github.com/chlins)        |  Chlins Zhang   |    chlina.zhang@gmail.com    |            Ant Group            |
+|        [chlins](https://github.com/chlins)        |  Chlins Zhang   |    chlins.zhang@gmail.com    |            Ant Group            |
 |     [fcgxz2003](https://github.com/fcgxz2003)     |    fcgxz2003    |       834756128@qq.com       | Dalian University of Technology |
 |      [gaius-qi](https://github.com/gaius-qi)      |    Gaius Qi     |      gaius.qi@gmail.com      |            Ant Group            |
 |  [CormickKneey](https://github.com/CormickKneey)  |    Han Jiang    |    cormick1080@gmail.com     |            Kuaishou             |
@@ -18,6 +18,7 @@ This document lists the current maintainers of the Dragonfly community. The list
 |       [yxxhero](https://github.com/yxxhero)       |     yxxhero     |      aiopsclub@163.com       |            Zhipu AI             |
 |      [yyzai384](https://github.com/yyzai384)      |    Yuan Yang    |   qiguo.yy@alibaba-inc.com   |          Alibaba Group          |
 |   [garfield009](https://github.com/garfield009)   |   Zuozheng Hu   | zuozheng.hzz@alibaba-inc.com |          Alibaba Group          |
+|   [mingcheng](https://github.com/mingcheng)       |    Cheng Ming   |     mingcheng@apache.org     |             Apache              |
 
 <!-- markdownlint-restore -->
 
