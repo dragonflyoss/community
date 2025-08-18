@@ -136,7 +136,7 @@ A **Member** is a consistent contributor who is actively involved in the project
     * You can nominate yourself for higher roles as described in our project governance.
 
 * **How to Become a Member**:
-    1. Submit a PR to the [members.yaml](ladder/members.yaml) file.
+    1. Submit a PR to the [members.md](MEMBERS.md) file.
     2. Get a "LGTM" (Looks Good To Me) from at least two existing Members, and a final merge from a Maintainer.
 
 ### Approver
@@ -201,4 +201,3 @@ A **Maintainer** is a highly trusted member of the project with the authority to
     2. Be approved by a supermajority vote (e.g., 2/3 of active Maintainers), as defined in our project governance.
 
 Maintainers who contribute to the core code are automatically part of the project's Code Team, if one is defined.
-
