@@ -3,7 +3,7 @@
 ## Attendees
 
 - [Zhou Xu](https://github.com/fcgxz2003) (Dalian University of Technology/Dragonfly)
-- [Changfu Zhang](https://github.com/BraveY) (University of Science and Technology Beijing/Nydus)
+- [Changfu Zhang](https://github.com/Zephyrcf) (University of Science and Technology Beijing/Nydus)
 - [Zuliang Wang](https://github.com/CooooolFrog) (Alibaba Cloud)
 - [Yuan Yang](https://github.com/yyzai384) (Alibaba Cloud)
 - [Chaozhi Ma](https://github.com/ClementMaH) (Alibaba Cloud)
