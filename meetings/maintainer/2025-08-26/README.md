@@ -34,7 +34,8 @@ https://github.com/dragonflyoss/community/issues/69
 - [ ] Support Model Artifact by OCI Spec in VLLM, and Dragonfly needs to support P2P distribution of Model layers. @CormickKneey
 - [ ] Support Model Artifact by OCI Spec in Fluid, and Dragonfly needs to support P2P distribution of Model layers. @chlins @gaius-qi
 - [ ] The Call for Papers (CFP) for KCD Hangzhou + OpenInfra China Day 2025 is open, refer to https://sessionize.com/kcd-hangzhou-and-oicd-2025/. @mingcheng
-- [ ] After paper publication(IEEE ToN), we need @mingcheng to help with promotion.
+- [ ] Write an promotional article about a paper, including a brief overview of the paper's content. Publish the article to d7y.io. @fcgxz2003
+- [ ] After the promotional article for the paper is completed by @fcgxz2003, publish it on various promotion channels. @mingcheng
 - [x] Complete the final version of the graduation proposal and application document by this Friday. And complete PR review and merge next week. @gaius-qi
 - [x] Update development guidance @CooooolFrog
 
