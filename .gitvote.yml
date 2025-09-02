@@ -25,8 +25,8 @@
 #         - "*.txt"
 #       profile: default
 #
-automation:
-  enabled: false
+# automation:
+#   enabled: false
 
 # Configuration profiles (required)
 #
@@ -168,6 +168,6 @@ profiles:
     #   discussions:
     #     category: announcements
     #
-    announcements:
-      discussions:
-        category: announcements
+    # announcements:
+    #   discussions:
+    #     category: announcements
