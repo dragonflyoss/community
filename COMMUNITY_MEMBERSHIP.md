@@ -2,8 +2,8 @@
 
 - [How We Make Decisions](#how-we-make-decisions)
 - [Managing Membership](#managing-membership)
-  - [Adding New Members](#adding-new-members)
-  - [Removing Inactive Members](#removing-inactive-members)
+  - [Adding New Member/Approver/Maintainer](#adding-new-memberapprovermaintainer)
+  - [Removing Inactive Member/Approver/Maintainer](#removing-inactive-memberapprovermaintainer)
   - [Voluntary Departure](#voluntary-departure)
 - [Election Process](#election-process)
   - [Maximum Representation](#maximum-representation)
@@ -86,13 +86,33 @@ After the departure date, the Member and their GitHub ID will be moved to the em
 
 The candidates in the election must explain their past contributions to the project and community, as well as their future plans, while also presenting their campaign reasons and clear intentions.
 
-Dragonfly holds regular elections for Maintainer positions to ensure fair selection:
+Dragonfly holds below elections for the specific roles:
 
-- **Bi-Weekly Meeting Discussion**: Each nomination is discussed in at least one bi-weekly community meeting for feedback and questions.
-- **Nomination Period**: Existing Maintainers nominate candidates via issues, which remain open for at least 7 days.
-- **Voting Period**: Active Maintainers vote on candidates over a 7-day period, with one vote per open position.
-- **Counting and Announcement**: Votes are tallied, and top vote-getters become new Maintainers.
-- **Documentation**: After elections, the results are documented in meeting summaries or official website, and the election issues are closed with appropriate references.
+| Role       | Nomination Period | Voting Period   | Eligible Voters                   | Voting Requirements |
+| ---------- | ----------------- | --------------- | --------------------------------- | ------------------- |
+| Member     | 7 days minimum    | 7 days          | Current Maintainers and Approvers | Simple majority     |
+| Approver   | 7 days minimum    | 14 days minimum | Current Maintainers only          | Simple majority     |
+| Maintainer | 7 days minimum    | 14 days minimum | Current Maintainers only          | Supermajority       |
+
+
+- **Nomination Period**: Nominees are introduced during bi-weekly community meetings with an overview of their contributions. Following the meeting, nominees create an issue that remains open for at least 7 days to allow community discussion.
+
+- **Discussion Phase**: Each nomination is reviewed in at least one bi-weekly community meeting where members can provide feedback and ask questions about the candidate's qualifications.
+
+- **Voting Period**:
+  - Member elections: 7 days
+  - Approver or Maintainer elections: 14 days minimum
+
+- **Voting Eligibility**:
+  - For Member: Current Maintainers and Approvers may vote
+  - For Approver or Maintainer: Only current Maintainers may vote
+
+- **Voting Requirements**:
+  - For Member: Simple majority (>50%) of eligible voters required to pass
+  - For Approver: Simple majority (≥50%) of current Maintainers required to pass
+  - For Maintainer: Supermajority (≥65%) of current Maintainers required to pass
+
+- **Results and Implementation**: Votes are counted and the highest vote recipients are selected for the respective roles. Election outcomes are documented in meeting summaries, and new nominee will added to the GitHub Organization by the Maintainers Team.
 
 ### Maximum Representation
 
