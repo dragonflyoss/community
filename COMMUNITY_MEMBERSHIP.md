@@ -8,6 +8,7 @@
 - [Election Process](#election-process)
   - [Maximum Representation](#maximum-representation)
   - [Vacancies](#vacancies)
+  - [Demonstrating: Adding a New Member](#demonstrating-adding-a-new-member)
 
 As a proud member of the CNCF, the Dragonfly project follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md).
 
@@ -88,20 +89,20 @@ The candidates in the election must explain their past contributions to the proj
 
 Dragonfly holds below elections for the specific roles:
 
-| Role       | Nomination Period | Voting Period   | Eligible Voters                   | Voting Requirements |
-| ---------- | ----------------- | --------------- | --------------------------------- | ------------------- |
-| Member     | 7 days minimum    | 7 days          | Current Maintainers and Approvers | Simple majority     |
-| Approver   | 7 days minimum    | 14 days minimum | Current Maintainers only          | Simple majority     |
-| Maintainer | 7 days minimum    | 14 days minimum | Current Maintainers only          | Supermajority       |
+| Role       | Nomination Period | Voting Period | Eligible Voters                   | Voting Requirements |
+| ---------- | ----------------- | ------------- | --------------------------------- | ------------------- |
+| Member     | 7 days            | 7 days        | Current Maintainers and Approvers | Simple majority     |
+| Approver   | 7 days            | 14 days       | Current Maintainers only          | Simple majority     |
+| Maintainer | 7 days            | 14 days       | Current Maintainers only          | Supermajority       |
 
 
-- **Nomination Period**: Nominees are introduced during bi-weekly community meetings with an overview of their contributions. Following the meeting, nominees create an issue that remains open for at least 7 days to allow community discussion.
+- **Nomination Period**: Nominees are introduced during bi-weekly community meetings with an overview of their contributions. Following the meeting, nominees create an issue that remains open for 7 days to allow community discussion.
 
 - **Discussion Phase**: Each nomination is reviewed in at least one bi-weekly community meeting where members can provide feedback and ask questions about the candidate's qualifications.
 
 - **Voting Period**:
   - Member elections: 7 days
-  - Approver or Maintainer elections: 14 days minimum
+  - Approver or Maintainer elections: 14 days
 
 - **Voting Eligibility**:
   - For Member: Current Maintainers and Approvers may vote
@@ -123,3 +124,38 @@ To ensure balanced representation, no more than four active Maintainers may be f
 If an elected Maintainer leaves, the candidate with the next most votes from the previous election will be offered the seat. This continues until the seat is filled.
 
 If this fails, a special election will be held using the eligible voters from the most recent election. A Maintainer elected in a special election serves the remainder of the term for the person they're replacing.
+
+
+### Demonstrating: Adding a New Member
+
+**Background**: Jane Doe has been contributing to the Dragonfly project for 3 months, consistently submitting bug fixes, documentation improvements, and participating in community discussions.
+
+**Step 1: Nomination**
+- Existing Maintainer John Smith opens an issue titled "Nomination: Jane Doe for Member"
+- The issue includes:
+  - Jane's GitHub handle and contact information
+  - Summary of her contributions over the past 3 months
+  - Links to her pull requests and issue discussions
+  - Justification for why she should become a Member
+
+**Step 2: Community Discussion**
+- The nomination issue remains open for 7 days
+- Community members provide feedback and ask questions
+- Jane responds to questions about her commitment and future plans
+- The nomination is discussed during the next bi-weekly community meeting
+
+**Step 3: Voting Process**
+- After the discussion period, eligible voters (current Maintainers and Approvers) cast their votes
+- Voting takes place for 7 days using GitHub issue reactions (thumbs up for yes, thumbs down for no, and eyes for abstain). We are using [gitvote](https://github.com/cncf/gitvote) automated vote counting.
+- Simple majority (>50%) is required for approval
+
+**Step 4: Results and Onboarding**
+- Vote results are announced: 5 yes, 1 no, 1 abstain (71% approval - passes)
+- Jane is officially welcomed as a new Dragonfly Community Member
+- She is added to the GitHub organization with appropriate permissions
+- Her information is updated in the `MEMBERS.md` file by the Maintainers Team
+- A welcome message is posted in the next community meeting summary
+
+
+
+
