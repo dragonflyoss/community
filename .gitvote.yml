@@ -38,6 +38,8 @@ profiles:
   # Default configuration profile
   #
   # This profile will be used with votes created with the /vote command
+  #
+  # The default election role for Dragonfly project is member.
   default:
     # Voting duration (required)
     #
@@ -50,7 +52,7 @@ profiles:
     #   days    | day    | d
     #   weeks   | week   | w
     #
-    duration: 2w
+    duration: 7d
 
     # Pass threshold (required)
     #
@@ -91,8 +93,6 @@ profiles:
       teams:
         - dragonfly-approvers
         - dragonfly-maintainers
-        - nydus-maintainers
-        - nydus-reviewers
       users:
         - gaius-qi
         - mingcheng
@@ -125,7 +125,7 @@ profiles:
     #
     # periodic_status_check: "5 days"
     #
-    periodic_status_check: "5 days"
+    periodic_status_check: "3 days"
 
     # Close on passing
     #
@@ -171,3 +171,31 @@ profiles:
     # announcements:
     #   discussions:
     #     category: announcements
+
+  # /vote-member
+  member:
+    duration: 7d
+    pass_threshold: 50
+    allowed_voters:
+      teams:
+        - dragonfly-approvers
+        - dragonfly-maintainers
+    close_on_passing: true
+
+  # /vote-approver
+  approver:
+    duration: 14d
+    pass_threshold: 50
+    allowed_voters:
+      teams:
+        - dragonfly-maintainers
+    close_on_passing: true
+
+  # /vote-maintainer
+  maintainer:
+    duration: 14d
+    pass_threshold: 65
+    allowed_voters:
+      teams:
+        - dragonfly-maintainers
+    close_on_passing: true
