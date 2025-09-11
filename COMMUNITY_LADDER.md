@@ -144,7 +144,7 @@ The detailed process is placed in our project's [COMMUNITY_MEMBERSHIP.md](COMMUN
   2. Document your contribution history and explain why you're a good fit for this role.
   3. Approval should be given by at least 50% simple majority of existing Approvers and Maintainers.
 
-The current Member list is maintained in the [MEMBERS.md](roles/MEMBERS.md) file.
+The current Member list is maintained in the [MEMBERS.md](roles/Members.md) file.
 
 ### Approver
 
@@ -174,9 +174,9 @@ An **Approver** is a Member who takes ownership of a specific part of the projec
 
   1. Get nominated by an existing Approver or Maintainer.
   2. Must document your contribution history and explain why you're suitable for this role, while listing the specific areas you want to be responsible for.
-  3. Get approval should be given by at least 50% simple majority of existing Maintainers.
+  3. Get approval should be given by at least 50% simple majority of existing Maintainers only.
 
-The current Approver list is maintained in the [APPROVERS.md](roles/APPROVERS.md) file.
+The current Approver list is maintained in the [APPROVERS.md](roles/Approvers.md) file.
 
 ### Maintainer
 
@@ -214,6 +214,6 @@ A **Maintainer** is a highly trusted member of the project with the authority to
   1. Must have been an Approver for at least 3 months.
   2. Demonstrate a strong commitment to the project.
   3. Get nominated by an existing Maintainer.
-  4. Be approved by a supermajority vote (e.g., 2/3 of active Maintainers).
+  4. Be approved by a supermajority vote (at least 65% of active Maintainers).
 
-The current Maintainer list is maintained in the [MAINTAINERS.md](roles/MAINTAINERS.md) file.
+The current Maintainer list is maintained in the [MAINTAINERS.md](roles/Maintainers.md) file.
