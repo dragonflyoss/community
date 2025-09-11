@@ -23,7 +23,7 @@ We follow the [CNCF Code of Conduct](CODE_OF_CONDUCT.md) to ensure a safe and re
 
 ## Amending this Document
 
-Any major changes to this governance document will be discussed among the Maintainer team and need a two-thirds majority vote to be approved. For minor tweaks and clarifications, maintainers can make changes after reaching a general agreement.
+Any major changes to this governance document will be discussed among the Maintainer team and need a supermajority (at least 65%) vote to be approved. For minor tweaks and clarifications, maintainers can make changes after reaching a general agreement.
 
 ## Security Reporting
 
