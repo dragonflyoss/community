@@ -91,13 +91,13 @@ The candidates in the election must explain their past contributions to the proj
 
 To become a Member, follow these steps:
 
-1. Get nominated by an existing Approver or Maintainer. If you wanna nominate your self, please reach out to an existing Approver or Maintainer to help you with the nomination. The Approver or Maintainer list can be found in the [APPROVERS.md](roles/APPROVERS.md) and [MAINTAINERS.md](MAINTAINERS.md) files.
+1. Get nominated by an existing Approver or Maintainer. If you wanna nominate your self, please reach out to an existing Approver or Maintainer to help you with the nomination. The Approver or Maintainer list can be found in the [APPROVERS.md](roles/Approvers.md) and [MAINTAINERS.md](roles/Maintainers.md) files.
 2. If the nomination is successful(one of Approvers or Maintainers agrees to be your nominator), complete the [membership application](./assets/membership_application.md) with details about your contributions and why you'd like to become a Member.
 3. Nominator create a nomination issue for their nominee.
 4. Present the nominee at our bi-weekly community meeting with a quick summary of their contributions.
 5. If there are no objections from eligible voters, the Maintainer Team starts the voting process in the nomination issue.
 6. Current Approvers and Maintainers vote in the issue. A simple majority (50%+) is needed to pass. See our [voting process](./COMMUNITY_MEMBERSHIP.md#election-process) for details.
-7. If approved, a Maintainer creates a PR to update the [membership registry](roles/MEMBERS.md).
+7. If approved, a Maintainer creates a PR to update the [membership registry](roles/Members.md).
 8. The PR must meet these requirements before merging:
     - Link to the nomination and voting issue
     - Get at least 2 "LGTM" reviews from existing Approvers or Maintainers
@@ -136,7 +136,7 @@ Furthermore, to ensure a fair and transparent election process, Dragonfly holds 
 
 - **Results and Implementation**: Votes are counted and the highest vote recipients are selected for the respective roles. Election outcomes are documented in meeting summaries, and new nominee will added to the GitHub Organization by the Maintainers Team.
 
-- **Role List**: The list of current Members, Approvers, and Maintainers is maintained in the [MEMBERS.md](roles/MEMBERS.md), [APPROVERS.md](roles/APPROVERS.md), and [MAINTAINERS.md](MAINTAINERS.md) files respectively.
+- **Role List**: The list of current Members, Approvers, and Maintainers is maintained in the [Members.md](roles/Members.md), [Approvers.md](roles/Approvers.md), and [Maintainers.md](roles/Maintainers.md) files respectively.
 
 ### Demonstrating: Adding a New Member
 
