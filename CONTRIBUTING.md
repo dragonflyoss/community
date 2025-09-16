@@ -68,15 +68,15 @@ Before you submit a PR, please take a moment to review our PR guidelines.
 
 To submit a PR, you'll need a GitHub account. Once you have one, follow these steps to get your workspace ready:
 
-1.  **FORK** Dragonfly to your own repository.
+1. **FORK** Dragonfly to your own repository.
 
     To do this, just click the "Fork" button in the top-right corner of the [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly) main page. This will create a copy of the repository under your own account at `https://github.com/<your-username>/dragonfly`.
 
-2.  **CLONE** your forked repository to your local machine.
+2. **CLONE** your forked repository to your local machine.
 
     Use `git clone --recurse-submodules https://github.com/<your-username>/dragonfly.git` to clone the repository locally. Now you can create new branches and make your changes.
 
-3.  **Set the remote upstream** to `https://github.com/dragonflyoss/dragonfly.git`.
+3. **Set the remote upstream** to `https://github.com/dragonflyoss/dragonfly.git`.
 
     Run these two commands:
 
@@ -97,7 +97,7 @@ To submit a PR, you'll need a GitHub account. Once you have one, follow these st
 
     This setup makes it easy to keep your local branches in sync with the main project.
 
-4.  **Create a branch** to add a new feature or fix an issue.
+4. **Create a branch** to add a new feature or fix an issue.
 
     First, update your local working directory:
 
