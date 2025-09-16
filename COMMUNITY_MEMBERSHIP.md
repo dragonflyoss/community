@@ -1,17 +1,21 @@
 # Dragonfly Community Membership
 
 - [How We Make Decisions](#how-we-make-decisions)
+  - [Solving Conflicts](#solving-conflicts)
+  - [Handling Abstentions](#handling-abstentions)
 - [Managing Membership](#managing-membership)
-  - [Adding New Member/Approver/Maintainer](#adding-new-memberapprovermaintainer)
+  - [How to Become a Member](#how-to-become-a-member)
+  - [How to Become an Approver](#how-to-become-an-approver)
+  - [How to Become a Maintainer](#how-to-become-a-maintainer)
   - [Removing Inactive Member/Approver/Maintainer](#removing-inactive-memberapprovermaintainer)
   - [Voluntary Departure](#voluntary-departure)
 - [Election Process](#election-process)
-  - [Demonstrating: Adding a New Member](#demonstrating-adding-a-new-member)
-    - [Step 1: Nomination](#step-1-nomination)
-    - [Step 2: Community Discussion](#step-2-community-discussion)
-    - [Step 3: Community Meeting and Voting Initiation](#step-3-community-meeting-and-voting-initiation)
-    - [Step 4: Voting Process](#step-4-voting-process)
-    - [Step 5: Results and Onboarding](#step-5-results-and-onboarding)
+- [Demonstrating: Adding a New Member](#demonstrating-adding-a-new-member)
+  - [Step 1: Nomination](#step-1-nomination)
+  - [Step 2: Community Discussion](#step-2-community-discussion)
+  - [Step 3: Community Meeting and Voting Initiation](#step-3-community-meeting-and-voting-initiation)
+  - [Step 4: Voting Process](#step-4-voting-process)
+  - [Step 5: Results and Onboarding](#step-5-results-and-onboarding)
 
 As a proud member of the CNCF, the Dragonfly project follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md).
 
@@ -40,6 +44,18 @@ For the purpose of this document, an "active Maintainer" is defined as a Maintai
 
 Additionally, when we have fewer than seven active Maintainers, we might use a "lazy consensus period" for significant issues. This means that after an issue gets initial approval, we'll hold it for a set amount of time (like 7 days) to give everyone a final chance to discuss it. If no one objects, it can be closed. If issues come up, we'll resolve the concerns and then proceed and move forward.
 
+### Solving Conflicts
+
+In the rare event of a disagreement among Maintainers that can't be resolved through discussion, we will use a voting process to reach a decision. The voting process is as follows:
+
+1. Any Maintainer can call for a vote by creating a new issue in the relevant repository, outlining the conflict and proposed solutions.
+2. All active Maintainers will be notified and given a chance to vote.
+3. The outcome will be determined by a simple majority (more than 50%) of the votes cast.
+
+### Handling Abstentions
+
+If a Maintainer chooses to abstain from voting on a particular issue, their abstention will not count towards the total number of votes cast. The decision will be based solely on the votes of those who actively participate in the voting process.
+
 ## Managing Membership
 
 Our Members (and Maintainers/Approvers) share the responsibility for the project's success. In general, they:
@@ -50,13 +66,35 @@ Our Members (and Maintainers/Approvers) share the responsibility for the project
 
 Members often work hard behind the scenes, and their efforts aren't always visible. While it's easy to get excited about new features, it's just as important—and often more challenging—to handle bug fixes, small improvements, stability optimizations, and all the other foundational work that keeps the project strong.
 
-### Adding New Member/Approver/Maintainer
+### How to Become a Member
 
-Member/Approver/Maintainer start out as dedicated contributors who are committed to the long-term success of the project. If you're aspiring to become a Member/Approver/Maintainer, you should be actively involved in resolving issues, contributing code, and reviewing proposals and pull requests for at least three months.
+Members start out as dedicated contributors who are committed to the long-term success of the project. If you're aspiring to become a Member, you should be actively involved in resolving issues, contributing code, and reviewing proposals and pull requests for at least three months.
 
-Membership is built on trust, and that goes beyond just writing code. You earn the trust of the current Member/Approver/Maintainer by consistently acting in the best interest of the project.
+Membership is built on trust, and that goes beyond just writing code. You earn the trust of the current Members by consistently acting in the best interest of the project.
 
-New Members are nominated by an existing Member/Approver/Maintainer (through an issue) and need a simple majority vote from the current Maintainers and Approvers to be approved. New Approvers need a simple majority vote from current Maintainers, while new Maintainers need a supermajority vote (at least 65%) from current Maintainers. Similarly, Member/Approver/Maintainer can be removed by appropriate voting thresholds, or they can choose to step down by creating an issue to let any other Member/Approver/Maintainer know. For details on how Member/Approver/Maintainer are selected and their terms, see the [Election Process](#election-process).
+New Members are nominated by an existing Approver or Maintainer (through an issue) and need at simple majority vote from the current eligible voters to be approved.
+
+For details on how Members are selected and their terms, see the [Election Process](#election-process).
+
+### How to Become an Approver
+
+Based on the [election process](#election-process), add additional requirements:
+
+1. Get nominated by an existing Approver or Maintainer.
+2. Must document your contribution history and explain why you're suitable for this role, while listing the specific areas you want to be responsible for.
+3. Approval must be given by at simple majority（more than 50%）of current Maintainers only.
+
+For more details on how Approvers are selected and their terms, see the [Election Process](#election-process).
+
+### How to Become a Maintainer
+
+Based on the [election process](#election-process), add additional requirements:
+
+1. Must be an existing Approver for at least 3 months.
+2. Get nominated by an existing Maintainer.
+3. Be approved by a supermajority vote (at least 65% of current Maintainers).
+
+For more details on how Maintainers are selected and their terms, see the [Election Process](#election-process).
 
 ### Removing Inactive Member/Approver/Maintainer
 
@@ -97,7 +135,7 @@ The candidates in the election must explain their past contributions to the proj
 To become a Member, follow these steps:
 
 1. Contributors may create a nomination issue using the [nomination template](./.github/ISSUE_TEMPLATE/nominate.md) in the community repository.
-2. (Optional) If you are not comfortable creating the nomination issue yourself, you can reach out to an existing Approver or Maintainer to help you with the nomination. The Approver and Maintainer lists can be found in the [APPROVERS.md](roles/Approvers.md) and [MAINTAINERS.md](roles/Maintainers.md) files.
+2. (Optional) If you are not comfortable creating the nomination issue yourself, you can reach out to an existing Approver or Maintainer to help you with the nomination. The Approver and Maintainer lists can be found in the [Approvers.md](roles/Approvers.md) and [Maintainers.md](roles/Maintainers.md) files.
 3. While the nomination issue is open, the community can discuss the nomination in the issue comments.
 4. The nomination issue remains open for 7 days for community discussion and feedback.
 5. The nominee must attend our next bi-weekly community meeting with a quick self-introduction and provide a summary of their contributions.
@@ -144,34 +182,34 @@ Furthermore, to ensure a fair and transparent election process, Dragonfly holds 
 
 - **Role List**: The list of current Members, Approvers, and Maintainers is maintained in the [Members.md](roles/Members.md), [Approvers.md](roles/Approvers.md), and [Maintainers.md](roles/Maintainers.md) files respectively.
 
-### Demonstrating: Adding a New Member
+## Demonstrating: Adding a New Member
 
 **Background**: Jane Doe has been contributing to the Dragonfly project for 3 months, consistently submitting bug fixes, documentation improvements, and participating in community discussions.
 
-#### Step 1: Nomination
+### Step 1: Nomination
 
 - Jane creates a nomination issue herself using the [nomination template](./.github/ISSUE_TEMPLATE/nominate.md) in the community repository, or alternatively, existing Maintainer John Smith helps her create the nomination.
 
-#### Step 2: Community Discussion
+### Step 2: Community Discussion
 
 - The nomination issue remains open for 7 days for community discussion
 - Community members provide feedback and ask questions in the issue comments
 - Jane responds to questions about her commitment and future plans
 - During this period, eligible voters (current Maintainers and Approvers) can raise any concerns or objections.
 
-#### Step 3: Community Meeting and Voting Initiation
+### Step 3: Community Meeting and Voting Initiation
 
 - Jane attends the next bi-weekly community meeting for a quick self-introduction and provides a summary of her contributions.
 - If there are no objections from eligible voters during the meeting, a Maintainer starts the voting process in the nomination issue.
 
-#### Step 4: Voting Process
+### Step 4: Voting Process
 
 - We use [gitvote](https://github.com/cncf/gitvote) for automated vote counting
 - Eligible voters: Current Maintainers and Approvers for Member election
 - Voting takes place for 7 days using GitHub issue reactions (👍 for yes, 👎 for no, 👀 for abstain)
 - Simple majority (more than 50%) of eligible voters is required for approval
 
-#### Step 5: Results and Onboarding
+### Step 5: Results and Onboarding
 
 - Vote results are announced: 5 yes, 1 no, 1 abstain (71% approval - passes)
 - Jane is officially welcomed as a new Dragonfly Community Member

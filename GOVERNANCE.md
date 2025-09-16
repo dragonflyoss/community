@@ -21,6 +21,10 @@ We welcome contributions from everyone! If you're interested in contributing, ou
 
 We follow the [CNCF Code of Conduct](CODE_OF_CONDUCT.md) to ensure a safe and respectful environment for everyone. We expect all community members to adhere to these standards. If you witness any violations, please don't hesitate to reach out to the project maintainers or the CNCF staff.
 
+## Membership and Elections
+
+We have a structured membership system to recognize and empower active contributors. For details on how to become a Member, Approver, or Maintainer, please refer to our [Dragonfly Community Membership](COMMUNITY_MEMBERSHIP.md) and [Dragonfly Contributor Ladder](COMMUNITY_LADDER.md) documents.
+
 ## Amending this Document
 
 Any major changes to this governance document will be discussed among the Maintainer team and need a supermajority (at least 65%) vote to be approved. For minor tweaks and clarifications, maintainers can make changes after reaching a general agreement.
