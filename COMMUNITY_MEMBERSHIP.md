@@ -1,6 +1,8 @@
 # Dragonfly Community Membership
 
 - [How We Make Decisions](#how-we-make-decisions)
+  - [Solving Conflicts](#solving-conflicts)
+  - [Handling Abstentions](#handling-abstentions)
 - [Managing Membership](#managing-membership)
   - [How to Become a Member](#how-to-become-a-member)
   - [How to Become an Approver](#how-to-become-an-approver)
@@ -41,6 +43,18 @@ If we have fewer than seven active Maintainers, an issue can be merged if:
 For the purpose of this document, an "active Maintainer" is defined as a Maintainer who has participated in community activities (such as reviewing PRs, participating in meetings, or contributing to discussions) within the past 3 months.
 
 Additionally, when we have fewer than seven active Maintainers, we might use a "lazy consensus period" for significant issues. This means that after an issue gets initial approval, we'll hold it for a set amount of time (like 7 days) to give everyone a final chance to discuss it. If no one objects, it can be closed. If issues come up, we'll resolve the concerns and then proceed and move forward.
+
+### Solving Conflicts
+
+In the rare event of a disagreement among Maintainers that can't be resolved through discussion, we will use a voting process to reach a decision. The voting process is as follows:
+
+1. Any Maintainer can call for a vote by creating a new issue in the relevant repository, outlining the conflict and proposed solutions.
+2. All active Maintainers will be notified and given a chance to vote.
+3. The outcome will be determined by a simple majority (more than 50%) of the votes cast.
+
+### Handling Abstentions
+
+If a Maintainer chooses to abstain from voting on a particular issue, their abstention will not count towards the total number of votes cast. The decision will be based solely on the votes of those who actively participate in the voting process.
 
 ## Managing Membership
 
