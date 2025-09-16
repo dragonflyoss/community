@@ -74,7 +74,7 @@ To submit a PR, you'll need a GitHub account. Once you have one, follow these st
 
 2.  **CLONE** your forked repository to your local machine.
 
-    Use `git clone https://github.com/<your-username>/dragonfly.git` to clone the repository locally. Now you can create new branches and make your changes.
+    Use `git clone --recurse-submodules https://github.com/<your-username>/dragonfly.git` to clone the repository locally. Now you can create new branches and make your changes.
 
 3.  **Set the remote upstream** to `https://github.com/dragonflyoss/dragonfly.git`.
 
