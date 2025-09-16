@@ -9,6 +9,12 @@ Welcome to the Dragonfly project's governance guide! We believe in open and tran
 - **Neutrality**: As a community-driven project, our decisions are based on technical merit and community consensus, free from the influence of any single company or individual.
 - **Simplicity**: We keep our governance processes as straightforward as possible, avoiding unnecessary red tape.
 
+## Scope
+
+This governance document applies to the Dragonfly project and all its subprojects or libraries, including but not limited to [Nydus](https://github.com/dragonflyoss/nydus), nydus-snapshotter, api, docs, console, and client.
+
+These subprojects and libraries may have their own maintainers and contributors, but they all adhere to the overarching principles and practices established by the Dragonfly community.
+
 ## Roles and Responsibilities
 
 For a detailed look at the different roles in our community and what they involve, please see our [Dragonfly Contributor Ladder](COMMUNITY_LADDER.md).

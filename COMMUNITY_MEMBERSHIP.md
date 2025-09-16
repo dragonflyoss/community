@@ -15,7 +15,7 @@
 
 As a proud member of the CNCF, the Dragonfly project follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md).
 
-This document explains the responsibilities that come with different contributor roles in the Dragonfly community. Our project is organized into several sub-projects, including (but not limited to) nydus, nydus-snapshotter, api, docs, console, and client. The responsibilities for each role are tied to these specific sub-projects and their repositories.
+This document explains the responsibilities that come with different contributor roles in the Dragonfly community. Our project is organized into several sub-projects and libraries, including (but not limited to) [nydus](https://github.com/dragonflyoss/nydus), [api](https://github.com/dragonflyoss/api), [console](https://github.com/dragonflyoss/console), and [client](https://github.com/dragonflyoss/client). The responsibilities for each role are tied to these specific sub-projects and their repositories.
 
 For a full breakdown of the roles, responsibilities, and qualifications for our community members, please check out our [Contributor Ladder](COMMUNITY_LADDER.md).
 
