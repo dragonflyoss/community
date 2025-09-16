@@ -1,18 +1,10 @@
 ---
 name: Nomination Process
 about: Nominate a candidate for a community role
-<<<<<<< HEAD
 title: "Nomination: [Candidate's Name] for [Role]"
 labels: ["nomination", "community"]
 ---
 
-=======
-labels: nomination
----
-
-# Community Role Nomination
-
->>>>>>> 51abd67 (docs: standardize voting periods in COMMUNITY_MEMBERSHIP.md)
 Use this template to nominate a candidate for a community role (e.g., Member, Approver, Maintainer).
 
 <!-- Placeholder: Provide any additional context or description about this nomination. -->
@@ -86,8 +78,4 @@ Use this template to nominate a candidate for a community role (e.g., Member, Ap
 
 ---
 
-<<<<<<< HEAD
 **For more information, please refer to our Community Guidelines and Code of Conduct**: <https://github.com/dragonflyoss/community>
-=======
-**For more information, please refer to our Community Guidelines and Contributor Code of Conduct**: <https://github.com/dragonflyoss/community>
->>>>>>> 51abd67 (docs: standardize voting periods in COMMUNITY_MEMBERSHIP.md)

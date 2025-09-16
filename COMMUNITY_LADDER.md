@@ -29,8 +29,6 @@ We've put this document together with a few key goals in mind:
 
 This guide covers the roles and responsibilities for everyone who contributes to the Dragonfly open source project. Whether you're writing code, improving documentation, creating tests, or helping in other ways, this is for you.
 
-The roles of Organization Member, Approver, or Maintainer are officially defined in the [Dragonfly Governance](./GOVERNANCE.md) document.
-
 ## General Guidelines
 
 ### Everyone is Welcome
@@ -74,7 +72,7 @@ Here's a quick look at the roles:
 | Role            | Responsibilities                                                       | Qualifications                                                               | Privileges                                                               |
 | --------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | **Contributor** | Follow our Code of Conduct & Contribution Guide                        | Anyone who participates in the community                                     | Can be assigned issues and request reviews                               |
-| **Member**      | Contribute regularly and complete tasks you volunteer for              | A history of successful contributions over 3+ months                         | Trigger CI/CD, review PRs, and recommend others for Member status        |
+| **Member**      | Contribute regularly and complete tasks you volunteer for              | A history of contributions at least three months                             | Trigger CI/CD, review PRs, and recommend others for Member status        |
 | **Approver**    | Review PRs in your area of expertise and maintain quality              | A Member with a solid track record of high-quality reviews                   | Approve PRs in specific areas and recommend others for Approver          |
 | **Maintainer**  | Merge PRs, coordinate releases, and help shape the project's direction | Long-term contributions, leadership, and a deep understanding of the project | Merge code, represent the project publicly, and nominate new Maintainers |
 
@@ -136,14 +134,6 @@ A **Member** is a consistent contributor who is actively involved in the project
   - You can recommend other Contributors to become Members.
   - You can nominate yourself for higher roles as described in our project governance.
 
-- **How to Become a Member**:
-
-The detailed process is placed in our project's [COMMUNITY_MEMBERSHIP.md](COMMUNITY_MEMBERSHIP.md#election-process) document. In summary:
-
-  1. Get nominated by an existing Member, Approver, or Maintainer.
-  2. Document your contribution history and explain why you're a good fit for this role.
-  3. Approval should be given by at least 50% simple majority of existing Approvers and Maintainers.
-
 The current Member list is maintained in the [MEMBERS.md](roles/Members.md) file.
 
 ### Approver
@@ -168,15 +158,7 @@ An **Approver** is a Member who takes ownership of a specific part of the projec
   - You'll have GitHub permissions to approve PRs and manage labels in your specific areas.
   - You can recommend and review other Members for the Approver role.
 
-- **How to Become an Approver**:
-
-  Based on the [Member selection process above](COMMUNITY_MEMBERSHIP.md#election-process), add additional requirements:
-
-  1. Get nominated by an existing Approver or Maintainer.
-  2. Must document your contribution history and explain why you're suitable for this role, while listing the specific areas you want to be responsible for.
-  3. Get approval should be given by at least 50% simple majority of existing Maintainers only.
-
-The current Approver list is maintained in the [APPROVERS.md](roles/Approvers.md) file.
+The current Approver list is maintained in the [Approvers.md](roles/Approvers.md) file.
 
 ### Maintainer
 
@@ -207,13 +189,4 @@ A **Maintainer** is a highly trusted member of the project with the authority to
   - You can represent the project in public.
   - You can nominate new Maintainers.
 
-- **How to Become a Maintainer**:
-
-  Based on the [Member selection process above](COMMUNITY_MEMBERSHIP.md#election-process), add additional requirements:
-
-  1. Must have been an Approver for at least 3 months.
-  2. Demonstrate a strong commitment to the project.
-  3. Get nominated by an existing Maintainer.
-  4. Be approved by a supermajority vote (at least 65% of active Maintainers).
-
-The current Maintainer list is maintained in the [MAINTAINERS.md](roles/Maintainers.md) file.
+The current Maintainer list is maintained in the [Maintainers.md](roles/Maintainers.md) file.
