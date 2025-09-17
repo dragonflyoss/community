@@ -47,8 +47,8 @@ Join the conversation and help the community grow. Here are the ways to get invo
 
 ## Governance
 
-Our governance model is designed to be open, transparent, and lightweight, ensuring that the project is guided by the community for the community.
-For full details, please see [GOVERNANCE.md](./GOVERNANCE.md).
+Our governance model is designed to be open, transparent, and lightweight, ensuring that the project is
+guided by the community for the community. For full details, please see [GOVERNANCE.md](./GOVERNANCE.md).
 
 ## Contributing
 
