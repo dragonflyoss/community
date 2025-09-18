@@ -7,49 +7,49 @@ And this document is inspired from the [Cilium project's repository guidelines](
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [Scope](#scope)
-  - [```Core```](#core)
-  - [```Ecosystem```](#ecosystem)
-  - [```Historical```](#historical)
-- [Lifecycle](#lifecycle)
-  - [Addition](#addition)
-  - [Change of scope](#change-of-scope)
+- [Repositories Scope](#repositories-scope)
+  - [`Core` Repositories](#core-repositories)
+  - [`Ecosystem` Repositories](#ecosystem-repositories)
+  - [`Historical` Repositories](#historical-repositories)
+- [Repositories Lifecycle](#repositories-lifecycle)
+  - [Add a Repository](#add-a-repository)
+- [Change of Repository Scope](#change-of-repository-scope)
 
-## Scope
+## Repositories Scope
 
-Each repository in the Dragonfly GitHub organization is assigned one of three scopes: [```Core```](#core), [```Ecosystem```](#ecosystem), or [```Historical```](#historical). The scope helps explain the role and responsibility of each repository in the project.
+Each repository in the Dragonfly GitHub organization is assigned one of three scopes: [`Core`](#core-repositories), [`Ecosystem`](#ecosystem-repositories), or [`Historical`](#historical-repositories). The scope helps explain the role and responsibility of each repository in the project.
 
-### ```Core```
+### `Core` Repositories
 
 Core repositories are the most important part of the Dragonfly project. They provide the main and essential features. These repositories are the most active and are used most often by users.
 
-You can find all ```Core``` repositories in [REPOSITORIES.md](REPOSITORIES.md#core-scope).
+You can find all `Core` repositories in [REPOSITORIES.md](REPOSITORIES.md#core-scope).
 
-### ```Ecosystem```
+### `Ecosystem` Repositories
 
 Ecosystem repositories are the most numerous. This scope is broad on purpose. These repositories have different levels of maturity and activity. Users should carefully check before using any end-user-facing repositories in this scope.
 
-You can find all ```Ecosystem``` repositories in [REPOSITORIES.md](REPOSITORIES.md#ecosystem-scope).
+You can find all `Ecosystem` repositories in [REPOSITORIES.md](REPOSITORIES.md#ecosystem-scope).
 
-### ```Historical```
+### `Historical` Repositories
 
 Historical repositories are considered deprecated and are no longer maintained. They are usually archived as read-only. Users are not advised to use these repositories.
 
-Repositories that have not been active for a long time can be proposed for archiving. The process is the same as other [scope changes](#change-of-scope). You can find all ```Historical``` repositories in [REPOSITORIES.md](./REPOSITORIES.md#historical-scope).
+Repositories that have not been active for a long time can be proposed for archiving. The process is the same as other [scope changes](#change-of-repository-scope). You can find all `Historical` repositories in [REPOSITORIES.md](./REPOSITORIES.md#historical-scope).
 
-## Lifecycle
+## Repositories Lifecycle
 
-### Addition
+### Add a Repository
 
 New repositories can be proposed by Maintainers through creating an issue in the community repository. The proposal process must follow the decision-making rules in [COMMUNITY_MEMBERSHIP.md](./COMMUNITY_MEMBERSHIP.md#how-we-make-decisions). This includes creating new repositories, accepting donated repositories, or creating forks from existing repositories.
 
 Once approved through the community voting process, the new repository must be added to the appropriate list in [REPOSITORIES.md](./REPOSITORIES.md).
 
-### Change of scope
+## Change of Repository Scope
 
 If a repository's activity level or purpose changes significantly, a scope change can be proposed by any Maintainer through creating an issue in the community repository. The change must be approved following the decision-making process described in [COMMUNITY_MEMBERSHIP.md](./COMMUNITY_MEMBERSHIP.md#how-we-make-decisions).
 
-All scope changes should be documented in:
+All repository scope changes should be documented in:
 
 - The community meeting notes
 - The original proposal issue

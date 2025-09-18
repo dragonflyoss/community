@@ -4,9 +4,9 @@ This document lists all repositories, sorted by their scope, within [Dragonfly](
 
 You can read more about the scope and lifecycle of repositories in [REPOSITORY-GUIDELINES.md](https://github.com/dragonflyoss/community/blob/main/REPOSITORY-GUIDELINES.md).
 
-## ```Core``` Scope
+## `Core` Scope Repositories
 
-Learn more about the ```Core``` scope in [REPOSITORY-GUIDELINES.md](./REPOSITORY-GUIDELINES.md#core).
+Learn more about the `Core` scope repositories in [REPOSITORY-GUIDELINES.md](./REPOSITORY-GUIDELINES.md#core).
 
 <!-- markdownlint-disable -->
 | Name                                                       | Description                                                                                   |
@@ -19,9 +19,9 @@ Learn more about the ```Core``` scope in [REPOSITORY-GUIDELINES.md](./REPOSITORY
 | [d7y.io](https://github.com/dragonflyoss/d7y.io)           | The official site for Dragonfly, built with Docusaurus.                                       |
 <!-- markdownlint-restore -->
 
-## ```Ecosystem``` Scope
+## `Ecosystem` Scope Repositories
 
-Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](./REPOSITORY-GUIDELINES.md#ecosystem).
+Learn more about the `Ecosystem` scope repositories in [REPOSITORY-GUIDELINES.md](./REPOSITORY-GUIDELINES.md#ecosystem).
 
 <!-- markdownlint-disable -->
 | Name                                                                                     | Description                                                                               |
@@ -44,9 +44,9 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](./REPOS
 
 <!-- markdownlint-restore -->
 
-## ```Historical``` Scope
+## `Historical` Scope Repositories
 
-Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](./REPOSITORY-GUIDELINES.md#historical).
+Learn more about the `Historical` scope repositories in [REPOSITORY-GUIDELINES.md](./REPOSITORY-GUIDELINES.md#historical).
 
 <!-- markdownlint-disable -->
 | Name                                                                     | Description                                                                                    |
