@@ -10,6 +10,9 @@
   - [Removing Inactive Member/Approver/Maintainer](#removing-inactive-memberapprovermaintainer)
   - [Voluntary Departure](#voluntary-departure)
 - [Election Process](#election-process)
+  - [Election Additional Remarks](#election-additional-remarks)
+    - [Maximum Representation](#maximum-representation)
+    - [Vacancies](#vacancies)
 - [Demonstrating: Adding a New Member](#demonstrating-adding-a-new-member)
   - [Step 1: Nomination](#step-1-nomination)
   - [Step 2: Community Discussion](#step-2-community-discussion)
@@ -181,6 +184,18 @@ Furthermore, to ensure a fair and transparent election process, Dragonfly holds 
 - **Results and Implementation**: Votes are counted and the highest vote recipients are selected for the respective roles. Election outcomes are documented in meeting summaries, and new nominees will be added to the GitHub Organization by the Maintainers Team.
 
 - **Role List**: The list of current Members, Approvers, and Maintainers is maintained in the [Members.md](roles/Members.md), [Approvers.md](roles/Approvers.md), and [Maintainers.md](roles/Maintainers.md) files respectively.
+
+### Election Additional Remarks
+
+#### Maximum Representation
+
+To ensure balanced representation, no more than four active Maintainers may be from the same company. If more than four candidates from one company are elected, only the top four vote recipients will serve, with additional slots filled by the next highest vote recipients from other organizations.
+
+#### Vacancies
+
+If an elected Maintainer leaves, the candidate with the next most votes from the previous election will be offered the seat. This continues until the seat is filled.
+
+If this fails, a special election will be held using the eligible voters from the most recent election. A Maintainer elected in a special election serves the remainder of the term for the person they're replacing.
 
 ## Demonstrating: Adding a New Member
 
