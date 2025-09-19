@@ -161,14 +161,11 @@ CNCF-related requests that impact the project require community involvement, inc
 1. **Proposal**: Any Maintainer creates an issue with label `cncf-request` including description, rationale, and timeline
 2. **Discussion**: 7-day minimum community discussion period
 3. **Review**: Maintainers discuss in bi-weekly meeting
+4. **Other Considerations**: Any other relevant factors or context
 
 #### Decision Making and Approval
 
-We make the decision based on the impact of the request:
-
-- **Standard communications**: Simple majority (>50%) of active Maintainers
-- **Significant commitments**: Supermajority (≥65%) of active Maintainers
-- 7-day minimum voting period
+We make the decision based on our [defined roles in the document](#how-we-make-decisions).
 
 ## Governance and Project Goal Changes
 
@@ -183,6 +180,7 @@ This process applies to:
 - **Role Structure Changes**: Adding/modifying community roles or responsibilities
 - **Project Goal Changes**: Updates to mission, vision, or strategic direction
 - **Repository Structure Changes**: Significant reorganization of project repositories
+- **Other Major Changes**: Any other changes with substantial community impact
 
 ### Governance Change Process
 
@@ -199,14 +197,7 @@ This process applies to:
 
 #### Decision and Implementation
 
-The Proposal will be discussed in bi-weekly community meeting, and the community can provide feedback and suggestions.
-
-We make the decision based on the impact of the request:
-
-- **Major Changes**: Supermajority (≥65%) of active Maintainers, 14-day voting
-- **Minor Changes**: Simple majority (>50%) of active Maintainers, 7-day voting
-
-**Implementation**: Changes made via pull requests with consistent documentation updates
+We make the decision based on our [defined roles in the document](#how-we-make-decisions).
 
 ## Election Process
 
