@@ -1,6 +1,6 @@
-# Dragonfly v2.3.0 is released!
+# Dragonfly v2.3.0 is released
 
-Dragonfly v2.3.0 is released! 🎉🎉🎉 Thanks the [contributors](https://github.com/dragonflyoss/dragonfly/graphs/contributors) who made this release happend and welcome you to visit [d7y.io](https://d7y.io) website.
+Dragonfly v2.3.0 is released!🎉🎉🎉 Thanks the [contributors](https://github.com/dragonflyoss/dragonfly/graphs/contributors) who made this release happend and welcome you to visit [d7y.io](https://d7y.io) website.
 
 ![dragonfly](images/dragonfly-linear.png)
 
@@ -20,7 +20,7 @@ $ dfcache import /tmp/file.txt
 ```
 
 ```shell
-$ dfcache export 2229733261 -O /tmp/file.txt
+dfcache export 2229733261 -O /tmp/file.txt
 ```
 
 ![p2](images/p2.webp)
@@ -141,6 +141,7 @@ For detailed information on the specific security issues addressed and the corre
 ## Nydus
 
 ### New features and enhancements
+
 - nydusify copy: support chunked upload and retry mechanisms to handle large image blobs.
 - nydusify check: refactor to support OCI v1 and nydus format images as both source and target.
 - nydusd: support chunk-level CRC data validation for image data consistency.

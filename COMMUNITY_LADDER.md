@@ -91,10 +91,12 @@ As the project grows, these roles and responsibilities might change. The final s
 A **Contributor** is anyone who adds value to the project. This can be through code, but it doesn't have to be! This role is often where new or occasional contributors start.
 
 - **Responsibilities**:
+
   - Follow the project's [Code of Conduct](CODE_OF_CONDUCT.md).
   - Stick to the [Contribution Guide](CONTRIBUTING.md).
 
 - **Qualifications**:
+
   - Open to anyone who wants to be part of the community.
   - Contributions can include things like:
     - Joining in on community discussions.
@@ -116,10 +118,12 @@ This is the first step to becoming a Member.
 A **Member** is a consistent contributor who is actively involved in the project. They have more permissions in our repositories and are trusted to act in the community's best interest.
 
 - **Responsibilities**:
+
   - Make regular contributions to the project.
   - Finish any tasks or initiatives you volunteer for.
 
 - **Qualifications**:
+
   - A history of successful contributions, including at least one of these:
     - Submitting or reviewing PRs.
     - Fixing issues or bugs.
@@ -141,6 +145,7 @@ The current Member list is maintained in the [MEMBERS.md](roles/Members.md) file
 An **Approver** is a Member who takes ownership of a specific part of the project (like code, docs, or tests). They play a key role in keeping our quality high by reviewing and approving changes in their area.
 
 - **Responsibilities**:
+
   - Handle all the responsibilities of a Member.
   - Regularly review PRs in your area of expertise.
   - Make sure changes meet our coding standards, don't introduce bugs, and are good for the project.
@@ -148,6 +153,7 @@ An **Approver** is a Member who takes ownership of a specific part of the projec
   - Help triage issues.
 
 - **Qualifications**:
+
   - You must already be a Member.
   - Proven track record of high-quality reviews and contributions.
   - Deep understanding of your specific area.
@@ -165,6 +171,7 @@ The current Approver list is maintained in the [Approvers.md](roles/Approvers.md
 A **Maintainer** is a highly trusted member of the project with the authority to merge code, vote on project matters, and help guide the project's direction. This role is for those who have shown a deep commitment to our community.
 
 - **Responsibilities**:
+
   - Fulfill all the responsibilities of an Approver.
   - Merge PRs to the main branch.
   - Maintain the codebase's overall quality, stability, and performance.
@@ -176,6 +183,7 @@ A **Maintainer** is a highly trusted member of the project with the authority to
   - Approve promotions to various roles within the project.
 
 - **Qualifications**:
+
   - The specifics are detailed in our project's [governance document](./GOVERNANCE.md) under the commit access criteria.
   - A history of long-term, high-quality contributions and leadership.
   - In-depth understanding of the project’s architecture and design.
