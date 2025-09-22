@@ -9,6 +9,16 @@
   - [How to Become a Maintainer](#how-to-become-a-maintainer)
   - [Removing Inactive Member/Approver/Maintainer](#removing-inactive-memberapprovermaintainer)
   - [Voluntary Departure](#voluntary-departure)
+- [CNCF Requests and Communications](#cncf-requests-and-communications)
+  - [CNCF-Related Decisions](#cncf-related-decisions)
+  - [Process for CNCF Requests](#process-for-cncf-requests)
+    - [Initiating CNCF Communications](#initiating-cncf-communications)
+    - [Decision Making and Approval](#decision-making-and-approval)
+- [Governance and Project Goal Changes](#governance-and-project-goal-changes)
+  - [Types of Governance Changes](#types-of-governance-changes)
+  - [Governance Change Process](#governance-change-process)
+    - [Proposal and Discussion Phase](#proposal-and-discussion-phase)
+    - [Decision and Implementation](#decision-and-implementation)
 - [Election Process](#election-process)
   - [Election Additional Remarks](#election-additional-remarks)
     - [Maximum Representation](#maximum-representation)
@@ -130,6 +140,64 @@ The departure will be publicly announced and remain visible for at least 7 days.
 After the departure date, the Member(or Maintainer/Approver) and their GitHub ID will be moved to the emeritus section in the specific file to honor their contributions. And the Maintainer team will remove the departing Member(or Maintainer/Approver) from the Dragonfly GitHub Organization if necessary.
 
 Those processes ensure proper handover and recognition while providing sufficient notice to the community.
+
+## CNCF Requests and Communications
+
+As a CNCF project, Dragonfly maintains an active relationship with the Foundation.
+
+### CNCF-Related Decisions
+
+CNCF-related requests that impact the project require community involvement, including:
+
+- Project status changes (incubation, graduation)
+- Resource requests and TOC interactions
+- CNCF program participation
+- Official statements and responses
+
+### Process for CNCF Requests
+
+#### Initiating CNCF Communications
+
+1. **Proposal**: Any Maintainer creates an issue with label `cncf-request` including description, rationale, and timeline
+2. **Discussion**: 7-day minimum community discussion period
+3. **Review**: Maintainers discuss in bi-weekly meeting
+4. **Other Considerations**: Any other relevant factors or context
+
+#### Decision Making and Approval
+
+We make the decision based on our [defined roles in the document](#how-we-make-decisions).
+
+## Governance and Project Goal Changes
+
+Significant changes to governance structure or project direction require special consideration to ensure community alignment.
+
+### Types of Governance Changes
+
+This process applies to:
+
+- **Governance Document Updates**: Major revisions to governance, membership, or ladder documents
+- **Decision-Making Changes**: Modifications to voting thresholds or consensus mechanisms
+- **Role Structure Changes**: Adding/modifying community roles or responsibilities
+- **Project Goal Changes**: Updates to mission, vision, or strategic direction
+- **Repository Structure Changes**: Significant reorganization of project repositories
+- **Other Major Changes**: Any other changes with substantial community impact
+
+### Governance Change Process
+
+#### Proposal and Discussion Phase
+
+1. **Proposal**: Any Maintainer creates an issue with label `governance-change` including:
+   - Description of proposed changes
+   - Rationale and expected benefits
+   - Impact analysis and migration plan
+2. **Discussion**: Make community discussion in the issue to gather feedback
+3. **Voting**: Voting by our [defined roles in the document](#how-we-make-decisions)
+4. **Documentation**: Create a Pull Request to update governance documents to reflect changes, and mention the related issue
+5. **Announcement**: Publicly announce changes and notify in our bi-weekly community meeting
+
+#### Decision and Implementation
+
+We make the decision based on our [defined roles in the document](#how-we-make-decisions).
 
 ## Election Process
 
