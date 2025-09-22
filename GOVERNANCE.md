@@ -40,16 +40,3 @@ Any major changes to this governance document will be discussed among the Mainta
 ## Security Reporting
 
 Security is a top priority for us. If you find a security vulnerability, please check our [Dragonfly Security Reporting guide](SECURITY.md) for instructions on how to report it responsibly.
-
-## Contact
-
-Join the conversation and become a part of our community!
-
-- **Slack**: Chat with us on the [#dragonfly](https://cloud-native.slack.com/messages/dragonfly/) channel in the [CNCF Slack](https://slack.cncf.io/).
-- **GitHub Discussions**: Have questions or ideas? Join the [Dragonfly Discussion Forum](https://github.com/dragonflyoss/dragonfly/discussions).
-- **Developer Group**: <dragonfly-developers@googlegroups.com>
-- **Maintainer Group**: <dragonfly-maintainers@googlegroups.com>
-- **Twitter**: Follow us at [@dragonfly_oss](https://twitter.com/dragonfly_oss).
-- **DingTalk**: [22880028764](https://qr.dingtalk.com/action/joingroup?code=v1,k1,pkV9IbsSyDusFQdByPSK3HfCG61ZCLeb8b/lpQ3uUqI=&_dt_no_comment=1&origin=11)
-
-This document provides a clear framework for the healthy growth of the Dragonfly project. As our community and project evolve, we may update it from time to time.

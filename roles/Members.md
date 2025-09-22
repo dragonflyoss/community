@@ -6,8 +6,8 @@ This document lists all current members of the Dragonfly community, along with t
 
 <!-- markdownlint-disable -->
 
-| GitHub ID | Name  | Email | Company or Organization |
-| :-------: | :---: | :---: | :---------------------: |
+|               GitHub ID               |     Name      |        Email         |           Company or Organization            |
+| :-----------------------------------: | :-----------: | :------------------: | :------------------------------------------: |
 | [Zephyr](https://github.com/Zephyrcf) | Changfu Zhang | zinsist777@gmail.com | University of Science and Technology Beijing |
 
 <!-- markdownlint-restore -->
@@ -18,7 +18,7 @@ Below is the list of emeritus (retired) members. Thank them for their contributi
 
 <!-- markdownlint-disable -->
 
-| GitHub ID | Name  | Email | Company or Organization |
-| :-------: | :---: | :---: | :---------------------: |
+| GitHub ID | Name | Email | Company or Organization |
+| :-------: | :--: | :---: | :---------------------: |
 
 <!-- markdownlint-restore -->
