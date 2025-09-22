@@ -42,9 +42,9 @@ Dragonfly is an open-source project that thrives on transparency. Our repository
 
 In short, every decision is made by updating the project. Any change, big or small, that impacts Dragonfly follows these simple steps:
 
-- **Step 1**: Open an issue in the relevant repository to propose a change or raise a concern.
-- **Step 2**: Discuss the issue in the comments.
-- **Step 3**: Merge or close the issue based on community consensus.
+1. Open an issue in the relevant repository to propose a change or raise a concern.
+2. Discuss the issue in the comments.
+3. Merge or close the issue based on community consensus.
 
 For most issues (excluding those to add new Maintainers):
 
@@ -61,9 +61,9 @@ Additionally, when we have fewer than seven active Maintainers, we might use a "
 
 In the rare event of a disagreement among Maintainers that can't be resolved through discussion, we will use a voting process to reach a decision. The voting process is as follows:
 
-1. Any Maintainer can call for a vote by creating a new issue in the relevant repository, outlining the conflict and proposed solutions.
-2. All active Maintainers will be notified and given a chance to vote.
-3. The outcome will be determined by a simple majority (more than 50%) of the votes cast.
+- Any Maintainer can call for a vote by creating a new issue in the relevant repository, outlining the conflict and proposed solutions.
+- All active Maintainers will be notified and given a chance to vote.
+- The outcome will be determined by a simple majority (more than 50%) of the votes cast.
 
 ### Handling Abstentions
 
@@ -122,20 +122,20 @@ Once the conditions are confirmed, the Member/Approver/Maintainer can be removed
 
 If a Member (or Maintainer/Approver) wishes to voluntarily step down from their position, they may do so at any time by creating an issue in the community repository notifying the community of their departure. In this case:
 
-1. Create a departure notice by following these steps:
-   - Post an issue in the community repository by following the [departure template](./.github/ISSUE_TEMPLATE/departure.md)
-   - Notify at least 7 days before your last day
-   - Specify your exact departure date
-2. Provide transition details
-   - Share handover information
-   - Explain any ongoing responsibilities
+- Create a departure notice by following these steps:
+  - Post an issue in the community repository by following the [departure template](./.github/ISSUE_TEMPLATE/departure.md).
+  - Notify at least 7 days before your last day.
+  - Specify your exact departure date.
+- Provide transition details
+  - Share handover information.
+  - Explain any ongoing responsibilities.
 
 The departure will be publicly announced and remain visible for at least 7 days. During this period:
 
-- No formal voting required
-- The departing Member(or Maintainer/Approver) should include any relevant handover information in their notification
-- Other Members should acknowledge the departure with a thank you message
-- The departing Member(or Maintainer/Approver) will be added to the emeritus section of this document to honor their contributions
+- No formal voting required.
+- The departing Member(or Maintainer/Approver) should include any relevant handover information in their notification.
+- Other Members should acknowledge the departure with a thank you message.
+- The departing Member(or Maintainer/Approver) will be added to the emeritus section of this document to honor their contributions.
 
 After the departure date, the Member(or Maintainer/Approver) and their GitHub ID will be moved to the emeritus section in the specific file to honor their contributions. And the Maintainer team will remove the departing Member(or Maintainer/Approver) from the Dragonfly GitHub Organization if necessary.
 
@@ -149,19 +149,19 @@ As a CNCF project, Dragonfly maintains an active relationship with the Foundatio
 
 CNCF-related requests that impact the project require community involvement, including:
 
-- Project status changes (incubation, graduation)
-- Resource requests and TOC interactions
-- CNCF program participation
-- Official statements and responses
+- Project status changes (incubation, graduation).
+- Resource requests and TOC interactions.
+- CNCF program participation.
+- Official statements and responses.
 
 ### Process for CNCF Requests
 
 #### Initiating CNCF Communications
 
-1. **Proposal**: Any Maintainer creates an issue with label `cncf-request` including description, rationale, and timeline
-2. **Discussion**: 7-day minimum community discussion period
-3. **Review**: Maintainers discuss in bi-weekly meeting
-4. **Other Considerations**: Any other relevant factors or context
+- **Proposal**: Any Maintainer creates an issue with label `cncf-request` including description, rationale, and timeline.
+- **Discussion**: 7-day minimum community discussion period.
+- **Review**: Maintainers discuss in bi-weekly meeting.
+- **Other Considerations**: Any other relevant factors or context.
 
 #### Decision Making and Approval
 
@@ -175,25 +175,25 @@ Significant changes to governance structure or project direction require special
 
 This process applies to:
 
-- **Governance Document Updates**: Major revisions to governance, membership, or ladder documents
-- **Decision-Making Changes**: Modifications to voting thresholds or consensus mechanisms
-- **Role Structure Changes**: Adding/modifying community roles or responsibilities
-- **Project Goal Changes**: Updates to mission, vision, or strategic direction
-- **Repository Structure Changes**: Significant reorganization of project repositories
-- **Other Major Changes**: Any other changes with substantial community impact
+- **Governance Document Updates**: Major revisions to governance, membership, or ladder documents.
+- **Decision-Making Changes**: Modifications to voting thresholds or consensus mechanisms.
+- **Role Structure Changes**: Adding/modifying community roles or responsibilities.
+- **Project Goal Changes**: Updates to mission, vision, or strategic direction.
+- **Repository Structure Changes**: Significant reorganization of project repositories.
+- **Other Major Changes**: Any other changes with substantial community impact.
 
 ### Governance Change Process
 
 #### Proposal and Discussion Phase
 
-1. **Proposal**: Any Maintainer creates an issue with label `governance-change` including:
-   - Description of proposed changes
-   - Rationale and expected benefits
-   - Impact analysis and migration plan
-2. **Discussion**: Make community discussion in the issue to gather feedback
-3. **Voting**: Voting by our [defined roles in the document](#how-we-make-decisions)
-4. **Documentation**: Create a Pull Request to update governance documents to reflect changes, and mention the related issue
-5. **Announcement**: Publicly announce changes and notify in our bi-weekly community meeting
+- **Proposal**: Any Maintainer creates an issue with label `governance-change` including:
+  - Description of proposed changes.
+  - Rationale and expected benefits.
+  - Impact analysis and migration plan.
+- **Discussion**: Make community discussion in the issue to gather feedback.
+- **Voting**: Voting by our [defined roles in the document](#how-we-make-decisions).
+- **Documentation**: Create a Pull Request to update governance documents to reflect changes, and mention the related issue.
+- **Announcement**: Publicly announce changes and notify in our bi-weekly community meeting.
 
 #### Decision and Implementation
 
@@ -214,8 +214,8 @@ To become a Member, follow these steps:
 7. The member election is voted on by current Maintainers and Approvers in the issue, and a simple majority (more than 50%) is needed to pass the election.
 8. If approved, a Maintainer creates a PR to update the [membership registry](roles/Members.md) list.
 9. The PR must meet these requirements before merging:
-    - Link to the nomination and voting issue
-    - Get at least 2 "LGTM" reviews from existing Approvers or Maintainers
+   - Link to the nomination and voting issue
+   - Get at least 2 "LGTM" reviews from existing Approvers or Maintainers
 10. Once merged, the Maintainer team adds the new Member to the Dragonfly GitHub Organization.
 
 The process is similar for becoming an Approver or Maintainer, with additional requirements which are detailed in the [Contributor Ladder](COMMUNITY_LADDER.md).
@@ -237,14 +237,17 @@ Furthermore, to ensure a fair and transparent election process, Dragonfly holds 
 - **Discussion Phase**: The nomination issue remains open for community discussion and feedback during the nomination period.
 
 - **Voting Period**: After the discussion phase, the voting period begins. The vote must start by Maintainers. The vote must remain open for:
+
   - Member election: 7 days
   - Approver or Maintainer election: 14 days
 
 - **Voting Eligibility**:
+
   - For Member Vote: Current Maintainers and Approvers may vote
   - For Approver or Maintainer Vote: Only current Maintainers may vote
 
 - **Voting Requirements**:
+
   - For Member Vote: Simple majority (more than 50%) of eligible voters required to pass
   - For Approver Vote: Simple majority (more than 50%) of current Maintainers required to pass
   - For Maintainer Vote: Supermajority (at least 65%) of current Maintainers required to pass
@@ -275,9 +278,9 @@ If this fails, a special election will be held using the eligible voters from th
 
 ### Step 2: Community Discussion
 
-- The nomination issue remains open for 7 days for community discussion
-- Community members provide feedback and ask questions in the issue comments
-- Jane responds to questions about her commitment and future plans
+- The nomination issue remains open for 7 days for community discussion.
+- Community members provide feedback and ask questions in the issue comments.
+- Jane responds to questions about her commitment and future plans.
 - During this period, eligible voters (current Maintainers and Approvers) can raise any concerns or objections.
 
 ### Step 3: Community Meeting and Voting Initiation
@@ -287,15 +290,15 @@ If this fails, a special election will be held using the eligible voters from th
 
 ### Step 4: Voting Process
 
-- We use [gitvote](https://github.com/cncf/gitvote) for automated vote counting
-- Eligible voters: Current Maintainers and Approvers for Member election
-- Voting takes place for 7 days using GitHub issue reactions (👍 for yes, 👎 for no, 👀 for abstain)
-- Simple majority (more than 50%) of eligible voters is required for approval
+- We use [gitvote](https://github.com/cncf/gitvote) for automated vote counting.
+- Eligible voters: Current Maintainers and Approvers for Member election.
+- Voting takes place for 7 days using GitHub issue reactions (👍 for yes, 👎 for no, 👀 for abstain).
+- Simple majority (more than 50%) of eligible voters is required for approval.
 
 ### Step 5: Results and Onboarding
 
-- Vote results are announced: 5 yes, 1 no, 1 abstain (71% approval - passes)
-- Jane is officially welcomed as a new Dragonfly Community Member
-- A Maintainer creates a pull request to update the `roles/Members.md` file and for the others to review
-- Once the PR is merged, the Maintainer team adds Jane to the Dragonfly GitHub Organization with appropriate permissions
+- Vote results are announced: 5 yes, 1 no, 1 abstain (71% approval - passes).
+- Jane is officially welcomed as a new Dragonfly Community Member.
+- A Maintainer creates a pull request to update the `roles/Members.md` file and for the others to review.
+- Once the PR is merged, the Maintainer team adds Jane to the Dragonfly GitHub Organization with appropriate permissions.
 - A welcome message will post in the next community meeting summary.
