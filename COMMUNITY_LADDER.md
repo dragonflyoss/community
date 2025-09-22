@@ -27,7 +27,7 @@ We've put this document together with a few key goals in mind:
 
 ## Scope
 
-This guide covers the roles and responsibilities for everyone who contributes to the Dragonfly open source project. Whether you're writing code, improving documentation, creating tests, or helping in other ways, this is for you.
+This guide covers the roles and responsibilities for everyone who contributes to the Dragonfly open source project and its subprojects and libraries. Whether you're writing code, improving documentation, creating tests, or helping in other ways, this is for you.
 
 ## General Guidelines
 

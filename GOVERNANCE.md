@@ -9,6 +9,14 @@ Welcome to the Dragonfly project's governance guide! We believe in open and tran
 - **Neutrality**: As a community-driven project, our decisions are based on technical merit and community consensus, free from the influence of any single company or individual.
 - **Simplicity**: We keep our governance processes as straightforward as possible, avoiding unnecessary red tape.
 
+## Scope
+
+This governance document applies to the Dragonfly project and all its subprojects or libraries, including but not limited to [Nydus](https://github.com/dragonflyoss/nydus), nydus-snapshotter, api, docs, console, and client.
+
+These subprojects and libraries may have their own maintainers and contributors, but they all adhere to the overarching principles and practices established by the Dragonfly community.
+
+Note: Due to the smaller scale of these subprojects and libraries, some governance processes and roles may be simplified.
+
 ## Roles and Responsibilities
 
 For a detailed look at the different roles in our community and what they involve, please see our [Dragonfly Contributor Ladder](COMMUNITY_LADDER.md).
@@ -38,7 +46,7 @@ Security is a top priority for us. If you find a security vulnerability, please 
 Join the conversation and become a part of our community!
 
 - **Slack**: Chat with us on the [#dragonfly](https://cloud-native.slack.com/messages/dragonfly/) channel in the [CNCF Slack](https://slack.cncf.io/).
-- **GitHub Discussions**: Have questions or ideas? Join the [Dragonfly Discussion Forum][discussion].
+- **GitHub Discussions**: Have questions or ideas? Join the [Dragonfly Discussion Forum](https://github.com/dragonflyoss/dragonfly/discussions).
 - **Developer Group**: <dragonfly-developers@googlegroups.com>
 - **Maintainer Group**: <dragonfly-maintainers@googlegroups.com>
 - **Twitter**: Follow us at [@dragonfly_oss](https://twitter.com/dragonfly_oss).
