@@ -17,6 +17,8 @@ These subprojects and libraries may have their own maintainers and contributors,
 
 Note: Due to the smaller scale of these subprojects and libraries, some governance processes and roles may be simplified.
 
+For more about our subprojects governance, please refer to the [Subprojects Governance](SUBPROJECTS.md) document.
+
 ## Roles and Responsibilities
 
 For a detailed look at the different roles in our community and what they involve, please see our [Dragonfly Contributor Ladder](COMMUNITY_LADDER.md).
