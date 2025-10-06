@@ -2,7 +2,7 @@
 
 This document lists all repositories, sorted by their scope, within [Dragonfly](https://github.com/dragonflyoss).
 
-You can read more about the scope and lifecycle of repositories in [REPOSITORY-GUIDELINES.md](https://github.com/dragonflyoss/community/blob/main/REPOSITORY-GUIDELINES.md).
+You can read more about the scope and lifecycle of repositories in [REPOSITORY-GUIDELINES.md](https://github.com/dragonflyoss/community/blob/master/REPOSITORY-GUIDELINES.md).
 
 ## `Core` Repositories
 
