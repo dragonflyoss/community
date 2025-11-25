@@ -32,3 +32,6 @@ Temporary Items
 
 # Ignore .vscode folder
 .vscode
+
+# Ignore .idea folder
+.idea
