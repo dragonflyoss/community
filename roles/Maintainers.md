@@ -6,7 +6,6 @@ This document lists the current maintainers of the Dragonfly community. The list
 
 |                    GitHub ID                    |     Name     |            Email             |             Company             |
 | :---------------------------------------------: | :----------: | :--------------------------: | :-----------------------------: |
-|      [akashhr](https://github.com/akashhr)      |   Akash HR   |    akashhr2021@gmail.com     |              Intel              |
 |   [allencloud](https://github.com/allencloud)   |  Allen Sun   |    shlallen1990@gmail.com    |          Alibaba Group          |
 |       [chlins](https://github.com/chlins)       | Chlins Zhang |    chlins.zhang@gmail.com    |            Ant Group            |
 |    [fcgxz2003](https://github.com/fcgxz2003)    |  fcgxz2003   |       834756128@qq.com       | Dalian University of Technology |
@@ -41,5 +40,6 @@ Below is the list of emeritus (retired) maintainers. Thank them for their contri
 |          [lowzj](https://github.com/lowzj)          |   Zhang, Jin    |     zj3142063@gmail.com      | Alibaba Group |
 | [zhouhaibing089](https://github.com/zhouhaibing089) |  Zhou, Haibing  |   zhouhaibing089@gmail.com   |     eBay      |
 |        [mfarooq](https://github.com/mfarooq)        | Mohammed Farooq |     mfarooq.ta@gmail.com     |     Intel     |
+|        [akashhr](https://github.com/akashhr)        |    Akash HR     |    akashhr2021@gmail.com     |     Intel     |
 
 <!-- markdownlint-restore -->
