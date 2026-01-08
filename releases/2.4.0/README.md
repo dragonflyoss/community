@@ -6,38 +6,64 @@ Dragonfly v2.4.0 is released!🎉🎉🎉 Thanks the [contributors](https://gith
 
 ## Features
 
-### Support for OpenTelemetry Tracing
+### Scheduling
 
-Dragonfly supports for tracing based on OpenTelemetry, covering the Manager, Scheduler, and Peers. This enables end-to-end visibility into the download process, allowing users to query detailed information, such as overall download latency, using a specific task ID. The integration ensures efficient monitoring and performance analysis across the entire system.
+### Simple Multi‑Cluster Kubernetes Deployment with Scheduler Cluster ID
 
-Add tracing configuration as follows(in Manager, Scheduler and Peer):
+Dragonfly supports a simplified feature for deploying and managing multiple Kubernetes clusters by explicitly assigning a `schedulerClusterID` to each cluster.
+This approach allows users to directly control cluster affinity without relying on location‑based scheduling metadata such as IDC, hostname, or IP.
 
-![p11](images/p11.webp)
+Using this feature, each Peer, Seed Peer, and Scheduler determines its target scheduler cluster through a clearly defined scheduler cluster ID.
+This ensures precise separation between clusters and predictable cross‑cluster behavior.
 
-You can access the Jaeger UI to visualize the traces.
+![p1](images/p1.png)
 
-![p12](images/p12.webp)
+For more information, please refer to the [Create Dragonfly Cluster Simple](https://d7y.io/docs/next/getting-started/quick-start/multi-cluster-kubernetes/#create-dragonfly-cluster-simple).
 
-For more information, please refer to the [Tracing](https://d7y.io/docs/next/operations/best-practices/observability/tracing/).
+### Performance and Resource Optimization for Manager and Scheduler Components
 
-## Security Enhancements
+Enhanced service performance and resource utilization across Manager and Scheduler components while significantly reducing
+CPU and memory overhead, delivering improved system efficiency and better resource management.
 
-We extend our sincere gratitude to the [CNCF TAG Security](https://tag-security.cncf.io/) for their collaboration on a joint security audit. Their expertise and thorough review were invaluable in helping us identify areas for security improvement within Dragonfly.
-For detailed information on the specific security issues addressed and the corresponding fixes, please refer to the following issue: <https://github.com/dragonflyoss/dragonfly/issues/3811>
+### Enhanced Preheating
+
+- Support for IP-based peer selection in preheating jobs with priority-based selection logic where IP specification
+  takes highest priority, followed by count-based and percentage-based selection
+
+- Support for preheating multiple URLs in a single request.
+
+- Support for preheating file and image via Scheduler gRPC interface.
+
+![p2](images/p2.png)
+
+### Calculate task ID based on image blob SHA256 to avoid redundant downloads
+
+The Client now supports calculating task IDs directly from the SHA256 hash of image blobs instead of using the download URL.
+This enhancement prevents redundant downloads and data duplication when the same blob is accessed from
+different registry domains.
+
+### Cache HTTP 307 redirects for split downloads
+
+Added support for caching HTTP 307 (Temporary Redirect) responses to optimize Dragonfly's multi-piece download performance.
+When a download URL is split into multiple pieces, the redirect target is now cached,
+eliminating redundant redirect requests and reducing latency.
+
+### Go Client Deprecated and Replaced by Rust Client
+
+The Go client has been deprecated and replaced by the [Rust Client](https://github.com/dragonflyoss/client). All future development and maintenance will focus
+exclusively on the Rust client, which offers improved performance, stability, and reliability.
+
+For more information, please refer to the [dragoflyoss/client](https://github.com/dragonflyoss/client).
 
 ## Nydus
 
 ### New features and enhancements
 
-- nydusify copy: support chunked upload and retry mechanisms to handle large image blobs.
-- nydusify check: refactor to support OCI v1 and nydus format images as both source and target.
-- nydusd: support chunk-level CRC data validation for image data consistency.
-
 ## Significant bug fixes
 
-- Fixed memory leaks and file descriptor leaks caused by `sysinfo` library.
-- Cleans up the Unix domain socket (UDS) to prevent dfdaemon startup crashes.
-- Prevent client from repeatedly downloading the same piece from multiple parents.
+- Modified the database field type from `text` to `longtext` to support storing the information of preheating job.
+- Fixed panic on repeated seed peer service stops during Scheduler shutdown.
+- Fixed broker authentication failure when specifying the Redis password without setting a username.
 
 ## Others
 
@@ -54,4 +80,4 @@ You can see [CHANGELOG](https://github.com/dragonflyoss/dragonfly/blob/main/CHAN
 
 ## Dragonfly Github
 
-![p13](images/qrcode.webp)
+![qrcode](images/qrcode.webp)
