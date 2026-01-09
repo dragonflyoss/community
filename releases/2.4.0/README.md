@@ -19,7 +19,7 @@ For more information, please refer to the [Scheduling](https://d7y.io/docs/next/
 
 Dragonfly provide the new Vortex transfer protocol based on TLV to improve the download performance in internal network.
 Use the TLV (Tag-Length-Value) format as a lightweight protocol to replace GRPC for data transfer between peers.
-TCP-based Vortex reduces large file download time by 50% and QUIC-based Vortex by 40% compared to gRPC, both effectively reducing peak memory usage.
+TCP-based Vortex reduces large file download time by `50%` and QUIC-based Vortex by `40%` compared to gRPC, both effectively reducing peak memory usage.
 
 For more information, please refer to the [TCP Protocol Support for P2P File Transfer](https://github.com/dragonflyoss/design/blob/main/systems-analysis/tcp-protocol/tcp-protocol.md) and [QUIC Protocol Support for P2P File Transfer](https://github.com/dragonflyoss/design/blob/main/systems-analysis/quic-protocol/quic-protocol.md).
 
