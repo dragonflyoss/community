@@ -4,9 +4,13 @@ Dragonfly v2.4.0 is released!🎉🎉🎉 Thanks the [contributors](https://gith
 
 ![dragonfly](images/dragonfly-linear.png)
 
-## Features
+## New features and enhancements
 
 ### Scheduling
+
+### Votex TCP QUIC
+
+### Rust Request SDK
 
 ### Simple Multi‑Cluster Kubernetes Deployment with Scheduler Cluster ID
 
@@ -44,7 +48,7 @@ different registry domains.
 
 ### Cache HTTP 307 redirects for split downloads
 
-Added support for caching HTTP 307 (Temporary Redirect) responses to optimize Dragonfly's multi-piece download performance.
+Support for caching HTTP 307 (Temporary Redirect) responses to optimize Dragonfly's multi-piece download performance.
 When a download URL is split into multiple pieces, the redirect target is now cached,
 eliminating redundant redirect requests and reducing latency.
 
@@ -55,15 +59,40 @@ exclusively on the Rust client, which offers improved performance, stability, an
 
 For more information, please refer to the [dragoflyoss/client](https://github.com/dragonflyoss/client).
 
-## Nydus
+### Additional Enhancements
 
-### New features and enhancements
+- Enable 64K page size support for ARM64 in the Dragonfly Rust client.
+- Fix missing git commit metadata in dfget version output.
+- Support for `config_path` of `io.containerd.cri.v1.images` plugin for containerd V3 configuration.
+- Replaces glibc DNS resolver with hickory-dns in reqwest to implement DNS caching and prevent excessive DNS lookups during piece downloads.
+- Support for the --include-files flag to selectively download files from a directory.
+- Add the `--no-progress flag` to disable the download progress bar output.
+- Support for custom request headers in backend operations, enabling flexible header configuration for HTTP requests.
+- Refactored log output to reduce redundant logging and improve overall logging efficiency.
 
 ## Significant bug fixes
 
 - Modified the database field type from `text` to `longtext` to support storing the information of preheating job.
 - Fixed panic on repeated seed peer service stops during Scheduler shutdown.
 - Fixed broker authentication failure when specifying the Redis password without setting a username.
+
+## Nydus
+
+### New features and enhancements
+
+- Nydusd: Add CRC32 validation support for both RAFS V5 and V6 formats, enhancing data integrity verification.
+- Nydusd: Support resending FUSE requests during nydusd restoration, improving daemon recovery reliability.
+- Nydusd: Enhance VFS state saving mechanism for daemon hot upgrade and failover.
+- Nydusify: Introduce Nydus-to-OCI reverse conversion capability, enabling seamless migration back to OCI format.
+- Nydusify: Implement zero-disk transfer for image copy, significantly reducing local disk usage during copy operations.
+- Snapshotter: Builtin blob.meta in bootstrap for blob fetch reliability for RAFS v6 image.
+
+### Significant bug fixes
+
+- Nydusd: Fix auth token fetching for `access_token` field in registry authentication.
+- Nydusd: Add recursive inode/dentry invalidation for umount API.
+- Nydus Image: Fix multiple issues in optimize subcommand and add backend configuration support.
+- Snapshotter: Implement lazy parent recovery for proxy mode to handle missing parent snapshots.
 
 ## Others
 
