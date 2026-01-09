@@ -6,7 +6,14 @@ Dragonfly v2.4.0 is released!🎉🎉🎉 Thanks the [contributors](https://gith
 
 ## New features and enhancements
 
-### Scheduling
+### load-aware scheduling algorithm
+
+A two-stage scheduling algorithm combining central scheduling with node-level secondary scheduling to
+optimize P2P download performance based on real-time load awareness.
+
+![p1](images/p1.svg)
+
+For more information, please refer to the [Scheduling](https://d7y.io/docs/next/operations/deployment/applications/scheduler/#scheduling).
 
 ### Vortex Protocol Support for P2P File Transfer
 
@@ -26,7 +33,7 @@ This approach allows users to directly control cluster affinity without relying 
 Using this feature, each Peer, Seed Peer, and Scheduler determines its target scheduler cluster through a clearly defined scheduler cluster ID.
 This ensures precise separation between clusters and predictable cross‑cluster behavior.
 
-![p1](images/p1.png)
+![p2](images/p2.png)
 
 For more information, please refer to the [Create Dragonfly Cluster Simple](https://d7y.io/docs/next/getting-started/quick-start/multi-cluster-kubernetes/#create-dragonfly-cluster-simple).
 
@@ -44,7 +51,7 @@ CPU and memory overhead, delivering improved system efficiency and better resour
 
 - Support for preheating file and image via Scheduler gRPC interface.
 
-![p2](images/p2.png)
+![p3](images/p3.png)
 
 ### Calculate task ID based on image blob SHA256 to avoid redundant downloads
 
