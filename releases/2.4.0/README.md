@@ -23,7 +23,13 @@ TCP-based Vortex reduces large file download time by `50%` and QUIC-based Vortex
 
 For more information, please refer to the [TCP Protocol Support for P2P File Transfer](https://github.com/dragonflyoss/design/blob/main/systems-analysis/tcp-protocol/tcp-protocol.md) and [QUIC Protocol Support for P2P File Transfer](https://github.com/dragonflyoss/design/blob/main/systems-analysis/quic-protocol/quic-protocol.md).
 
-### Rust Request SDK
+### Request SDK
+
+A SDK for routing User requests to Seed Peers using consistent hashing, replacing the previous Kubernetes Service load balancing approach.
+
+![p2](images/p2.svg)
+
+For more details, please refer to [Request SDK](https://d7y.io/docs/next/advanced-guides/request-sdk/).
 
 ### Simple Multi‑Cluster Kubernetes Deployment with Scheduler Cluster ID
 
@@ -33,7 +39,7 @@ This approach allows users to directly control cluster affinity without relying 
 Using this feature, each Peer, Seed Peer, and Scheduler determines its target scheduler cluster through a clearly defined scheduler cluster ID.
 This ensures precise separation between clusters and predictable cross‑cluster behavior.
 
-![p2](images/p2.png)
+![p3](images/p3.png)
 
 For more information, please refer to the [Create Dragonfly Cluster Simple](https://d7y.io/docs/next/getting-started/quick-start/multi-cluster-kubernetes/#create-dragonfly-cluster-simple).
 
@@ -51,7 +57,7 @@ CPU and memory overhead, delivering improved system efficiency and better resour
 
 - Support for preheating file and image via Scheduler gRPC interface.
 
-![p3](images/p3.png)
+![p4](images/p4.png)
 
 ### Calculate task ID based on image blob SHA256 to avoid redundant downloads
 

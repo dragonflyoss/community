@@ -21,7 +21,13 @@ Dragonfly 提供了基于 TLV 的新型 Vortex 传输协议，以提升 P2P 下�
 
 更多信息，请参阅 [TCP Protocol Support for P2P File Transfer](https://github.com/dragonflyoss/design/blob/main/systems-analysis/tcp-protocol/tcp-protocol.md) 和 [QUIC Protocol Support for P2P File Transfer](https://github.com/dragonflyoss/design/blob/main/systems-analysis/quic-protocol/quic-protocol.md)。
 
-### Rust Request SDK
+### Request SDK
+
+新增 SDK 用于将用户请求路由到 Seed Peer，使用一致性哈希算法，取代之前的 Kubernetes Service 负载均衡方式。
+
+![p2](images/p2.svg)
+
+更多信息，请参阅 [Request SDK](https://d7y.io/docs/next/advanced-guides/request-sdk/)。
 
 ### 指定集群 ID 实现多集群 Kubernetes 简化部署
 
@@ -31,7 +37,7 @@ Dragonfly 支持一种简化功能，用于部署和管理多个 Kubernetes 集�
 使用此功能，每个 Peer、Seed Peer 和 Scheduler 都通过明确定义的 Scheduler Cluster ID 来确定其目标调度器集群。
 这确保了集群之间的精确隔离以及可预测的跨集群行为。
 
-![p2](images/p2.png)
+![p3](images/p3.png)
 
 更多信息，请参阅 [Create Dragonfly Cluster Simple](https://d7y.io/docs/next/getting-started/quick-start/multi-cluster-kubernetes/#create-dragonfly-cluster-simple)。
 
@@ -47,7 +53,7 @@ Dragonfly 支持一种简化功能，用于部署和管理多个 Kubernetes 集�
 
 - 支持通过 Scheduler gRPC 接口预热文件和镜像。
 
-![p3](images/p3.png)
+![p4](images/p4.png)
 
 ### 基于镜像 Blob SHA256 计算 ID 以避免重复下载
 
