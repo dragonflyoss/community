@@ -1,4 +1,4 @@
-# Dragonfly v2.4.0 发布了！
+# Dragonfly v2.4.0 发布了
 
 Dragonfly v2.4.0 发布了！🎉🎉🎉 感谢为此版本做出贡献的[贡献者们](https://github.com/dragonflyoss/dragonfly/graphs/contributors)，欢迎访问 [d7y.io](https://d7y.io) 网站。
 
@@ -25,10 +25,10 @@ Dragonfly 提供了基于 TLV 的新型 Vortex 传输协议，以提升 P2P 下�
 
 ### 指定集群 ID 实现多集群 Kubernetes 简化部署
 
-Dragonfly 支持一种简化功能，用于部署和管理多个 Kubernetes 集群，方法是为每个集群显式分配一个 `schedulerClusterID`（调度器集群 ID）。
+Dragonfly 支持一种简化功能，用于部署和管理多个 Kubernetes 集群，方法是为每个集群显式分配一个 `schedulerClusterID`。
 这种方式允许用户直接控制集群亲和性，而无需依赖基于位置的调度元数据，例如 IDC、主机名或 IP 地址。
 
-使用此功能，每个 Peer（对等节点）、Seed Peer（种子节点）和 Scheduler（调度器）都通过明确定义的 Scheduler Cluster ID 来确定其目标调度器集群。
+使用此功能，每个 Peer、Seed Peer 和 Scheduler 都通过明确定义的 Scheduler Cluster ID 来确定其目标调度器集群。
 这确保了集群之间的精确隔离以及可预测的跨集群行为。
 
 ![p2](images/p2.png)
@@ -72,7 +72,7 @@ Go 客户端已被弃用，并由 [Rust 客户端](https://github.com/dragonflyo
 - 支持 containerd V3 配置中 `io.containerd.cri.v1.images` 插件的 `config_path` 配置。
 - 在 `reqwest` 中使用 `hickory-dns` 替换 `glibc DNS` 解析器，以实现 DNS 缓存并防止分片下载过程中过多的 DNS 查询。
 - 支持 `--include-files` 配置参数，可选择性地从目录中下载文件。
-- 添加 `--no-progress ` 配置参数，可禁用下载进度条输出。
+- 添加 `--no-progress` 配置参数，可禁用下载进度条输出。
 - 支持 `backend` 操作中的自定义请求头，为 HTTP 请求提供灵活的请求头配置。
 - 重构日志输出，减少冗余日志记录并提高日志可读性。
 
