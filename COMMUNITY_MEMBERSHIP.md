@@ -113,7 +113,10 @@ For more details on how Maintainers are selected and their terms, see the [Elect
 
 An existing Member/Approver/Maintainer can be removed from the active list if they are no longer meeting the expectations of the role. If a Member/Approver/Maintainer meets one of the following criteria, any other Member/Approver/Maintainer can propose their removal through a pull request:
 
-- They haven't participated in community activities (such as reviewing PRs, participating in meetings, contributing to discussions, or submitting code) for more than three months.
+- They haven't participated in community activities (such as reviewing PRs, participating in meetings, contributing to discussions, or submitting code) for a period exceeding the following limits:
+  - Maintainer: more than 3 months.
+  - Approver: more than 6 months.
+  - Member: more than 12 months.
 - They have violated the governance rules more than twice, with documented evidence of violations.
 
 Once the conditions are confirmed, the Member/Approver/Maintainer can be removed following the same voting thresholds as their election. The affected individual has the right to appeal the decision within 14 days by creating an issue in the community repository, which will trigger a review process by the current Maintainers. If someone is removed, we'll add them to an emeritus section in this document to recognize their past contributions.
