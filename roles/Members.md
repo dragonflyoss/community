@@ -16,6 +16,7 @@ This document lists all current members of the Dragonfly community, along with t
 |   [jjzhang332](https://github.com/jjzhang332)   |  Lujia Zhang  |  2682950039@qq.com   |                   Ant Group                   |
 |        [fu220](https://github.com/fu220)        |   Jinyu Fu    |  2863318196@qq.com   |           Xi'an Jiaotong University           |
 |     [EvanCley](https://github.com/EvanCley)     |   Yifan Cao   | caoyifan1a2b@163.com |                 Alibaba Cloud                 |
+|     [Fricounet](https://github.com/Fricounet)     |   Baptiste Girard-Carrabin   | baptiste.girardcarrabin@datadoghq.com |                 DataDog                 |
 
 
 <!-- markdownlint-restore -->
