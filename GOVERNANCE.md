@@ -13,10 +13,6 @@ Welcome to the Dragonfly project's governance guide! We believe in open and tran
 
 This governance document applies to the Dragonfly project and all its subprojects or libraries, including but not limited to [Nydus](https://github.com/dragonflyoss/nydus), nydus-snapshotter, api, docs, console, and client.
 
-These subprojects and libraries may have their own maintainers and contributors, but they all adhere to the overarching principles and practices established by the Dragonfly community.
-
-Note: Due to the smaller scale of these subprojects and libraries, some governance processes and roles may be simplified.
-
 For more about our subprojects governance, please refer to the [Subprojects Governance](SUBPROJECTS.md) document.
 
 ## Roles and Responsibilities
