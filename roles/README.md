@@ -20,10 +20,4 @@ You can find the list of all security team members in the [Security-Team.md](Sec
 
 ## Subprojects
 
-The community has several subprojects, each with its own maintainers and contributors. [According the governance model](../GOVERNANCE.md#scope), subprojects adhere to the same governance principles as the main project but may simplify some governance processes and roles due to their smaller scale.
-
-### Nydus
-
-#### Maintainers {#nydus-maintainers}
-
-You can find the list of all maintainers in the [Nydus-Maintainers.md](https://github.com/dragonflyoss/nydus/blob/master/MAINTAINERS.md).
+The community has several subprojects. Once contributors of subprojects pass the proper promotion processes (e.g., becoming a Member, Approver, or Maintainer), their names are uniformly updated and managed in the corresponding roles lists in this directory, rather than being dispersed throughout individual subproject repositories.
