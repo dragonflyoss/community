@@ -16,10 +16,14 @@ This file lists the current approvers of the Dragonfly community. The list is so
 |  [ClementMaH](https://github.com/ClementMaH)  |  Chaozhi Ma   |       546625739@qq.com       |                    Aliyun                     |
 |    [BruceAko](https://github.com/BruceAko)    | Chongzhi Deng |     chongzhi@hust.edu.cn     | Huazhong University of Science and Technology |
 | [CooooolFrog](https://github.com/CooooolFrog) | Zuliang Wang  |     coolfrog@apache.org      |                    Aliyun                     |
+|     [Zephyr](https://github.com/Zephyrcf)     | Changfu Zhang |     zinsist777@gmail.com     | University of Science and Technology Beijing  |
 
 ## Emeritus Approvers
 
 Below is the list of emeritus (retired) approvers. Thank them for their contribution to the project. The list is sorted alphabetically by name.
 
-| GitHub ID | Name | Email | Company or Organization |
-| :-------: | :--: | :---: | :---------------------: |
+|                   GitHub ID                   |    Name     |              Email              |     Company or Organization     |
+| :-------------------------------------------: | :---------: | :-----------------------------: | :-----------------------------: |
+| [adamqqqplay](https://github.com/adamqqqplay) | QinQi Zhai  |         adamqqq@163.com         |          Alibaba Group          |
+|  [power-more](https://github.com/power-more)  | Shang Zhao  | zhaoshangsjtu@linux.alibaba.com |          Alibaba Group          |
+| [Desiki-high](https://github.com/Desiki-high) | Yadong Ding |     ding_yadong@foxmail.com     | Dalian University of Technology |
