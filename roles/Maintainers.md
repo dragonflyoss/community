@@ -12,7 +12,7 @@ This document lists the current maintainers of the Dragonfly community. The list
 | [CormickKneey](https://github.com/CormickKneey) |  Han Jiang   |  cormick1080@gmail.com   |            Kuaishou             |
 |       [jim3ma](https://github.com/jim3ma)       |    Jim Ma    |   majinjing3@gmail.com   |            Ant Group            |
 |    [mingcheng](https://github.com/mingcheng)    |  mingcheng   |   mingcheng@apache.org   |        Apache Foundation        |
-|     [bergwolf](https://github.com/bergwolf)     |   Peng Tao   |    bergwolf@hyper.sh     |            Ant Group            |
+|     [bergwolf](https://github.com/bergwolf)     |   Peng Tao   |    bergwolf@gmail.com    |            Ant Group            |
 |      [yxxhero](https://github.com/yxxhero)      |   yxxhero    |    aiopsclub@163.com     |            Zhipu AI             |
 |      [hyy0322](https://github.com/hyy0322)      | Yiyang Huang |     691795636@qq.com     |            ByteDance            |
 |     [yyzai384](https://github.com/yyzai384)     |  Yuan Yang   | qiguo.yy@alibaba-inc.com |          Alibaba Group          |
