@@ -4,23 +4,18 @@ This document lists the current maintainers of the Dragonfly community. The list
 
 <!-- markdownlint-disable -->
 
-|                    GitHub ID                    |           Name           |                 Email                 |             Company             |
-| :---------------------------------------------: | :----------------------: | :-----------------------------------: | :-----------------------------: |
-|       [chlins](https://github.com/chlins)       |       Chlins Zhang       |        chlins.zhang@gmail.com         |            Ant Group            |
-|    [fcgxz2003](https://github.com/fcgxz2003)    |        fcgxz2003         |           834756128@qq.com            | Dalian University of Technology |
-|     [gaius-qi](https://github.com/gaius-qi)     |         Gaius Qi         |          gaius.qi@gmail.com           |            Ant Group            |
-| [CormickKneey](https://github.com/CormickKneey) |        Han Jiang         |         cormick1080@gmail.com         |            Kuaishou             |
-|       [jim3ma](https://github.com/jim3ma)       |          Jim Ma          |         majinjing3@gmail.com          |            Ant Group            |
-|    [mingcheng](https://github.com/mingcheng)    |        mingcheng         |         mingcheng@apache.org          |        Apache Foundation        |
-|     [bergwolf](https://github.com/bergwolf)     |         Peng Tao         |           bergwolf@hyper.sh           |            Ant Group            |
-|      [yxxhero](https://github.com/yxxhero)      |         yxxhero          |           aiopsclub@163.com           |            Zhipu AI             |
-|      [hyy0322](https://github.com/hyy0322)      |       Yiyang Huang       |           691795636@qq.com            |            ByteDance            |
-|     [yyzai384](https://github.com/yyzai384)     |        Yuan Yang         |       qiguo.yy@alibaba-inc.com        |          Alibaba Group          |
-|       [imeoer](https://github.com/imeoer)       |         Song Yan         |       imeoer@linux.alibaba.com        |            Ant Group            |
-|     [jiangliu](https://github.com/jiangliu)     |        Jiang Liu         |        gerry@linux.alibaba.com        |          Alibaba Group          |
-|       [BraveY](https://github.com/BraveY)       |       Kaiyong Yang       |     yangkaiyong.yky@antgroup.com      |            Ant Group            |
-|   [NehemiahMi](https://github.com/NehemiahMi)   |      PengCheng Liu       |       josephcharity@hotmail.com       |            Ant Group            |
-|    [Fricounet](https://github.com/Fricounet)    | Baptiste Girard-Carrabin | baptiste.girardcarrabin@datadoghq.com |             DataDog             |
+|                    GitHub ID                    |     Name     |          Email           |             Company             |
+| :---------------------------------------------: | :----------: | :----------------------: | :-----------------------------: |
+|       [chlins](https://github.com/chlins)       | Chlins Zhang |  chlins.zhang@gmail.com  |            Ant Group            |
+|    [fcgxz2003](https://github.com/fcgxz2003)    |  fcgxz2003   |     834756128@qq.com     | Dalian University of Technology |
+|     [gaius-qi](https://github.com/gaius-qi)     |   Gaius Qi   |    gaius.qi@gmail.com    |            Ant Group            |
+| [CormickKneey](https://github.com/CormickKneey) |  Han Jiang   |  cormick1080@gmail.com   |            Kuaishou             |
+|       [jim3ma](https://github.com/jim3ma)       |    Jim Ma    |   majinjing3@gmail.com   |            Ant Group            |
+|    [mingcheng](https://github.com/mingcheng)    |  mingcheng   |   mingcheng@apache.org   |        Apache Foundation        |
+|     [bergwolf](https://github.com/bergwolf)     |   Peng Tao   |    bergwolf@gmail.com    |            Ant Group            |
+|      [yxxhero](https://github.com/yxxhero)      |   yxxhero    |    aiopsclub@163.com     |            Zhipu AI             |
+|      [hyy0322](https://github.com/hyy0322)      | Yiyang Huang |     691795636@qq.com     |            ByteDance            |
+|     [yyzai384](https://github.com/yyzai384)     |  Yuan Yang   | qiguo.yy@alibaba-inc.com |          Alibaba Group          |
 
 <!-- markdownlint-restore -->
 
