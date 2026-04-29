@@ -15,7 +15,6 @@ This document lists all current members of the Dragonfly community, along with t
 |  [CooooolFrog](https://github.com/CooooolFrog)  |  ZuLiangWang  |  coolfrog@apache.org   |                 Alibaba Cloud                 |
 |   [jjzhang332](https://github.com/jjzhang332)   |  Lujia Zhang  |   2682950039@qq.com    |                   Ant Group                   |
 |        [fu220](https://github.com/fu220)        |   Jinyu Fu    |   2863318196@qq.com    |           Xi'an Jiaotong University           |
-|     [EvanCley](https://github.com/EvanCley)     |   Yifan Cao   |  caoyifan1a2b@163.com  |                 Alibaba Cloud                 |
 |        [Pavan](https://github.com/pmady)        | Pavan Madduri | pavan4devops@gmail.com |               W.W.Grainger.Inc                |
 
 <!-- markdownlint-restore -->

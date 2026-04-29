@@ -17,6 +17,7 @@ This file lists the current approvers of the Dragonfly community. The list is so
 |    [BruceAko](https://github.com/BruceAko)    | Chongzhi Deng |     chongzhi@hust.edu.cn     | Huazhong University of Science and Technology |
 | [CooooolFrog](https://github.com/CooooolFrog) | Zuliang Wang  |     coolfrog@apache.org      |                    Aliyun                     |
 |     [Zephyr](https://github.com/Zephyrcf)     | Changfu Zhang |     zinsist777@gmail.com     | University of Science and Technology Beijing  |
+|    [EvanCley](https://github.com/EvanCley)    |   Yifan Cao   |     caoyifan1a2b@163.com     |                 Alibaba Cloud                 |
 
 ## Emeritus Approvers
 
