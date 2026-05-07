@@ -6,7 +6,7 @@ This document lists the current maintainers of the Dragonfly community. The list
 
 |                    GitHub ID                    |           Name           |                 Email                 |             Company             |
 | :---------------------------------------------: | :----------------------: | :-----------------------------------: | :-----------------------------: |
-|       [chlins](https://github.com/chlins)       |       Chlins Zhang       |        chlins.zhang@gmail.com         |            Ant Group            |
+|       [chlins](https://github.com/chlins)       |       Chlins Zhang       |        chlins.zhang@gmail.com         |            Broadcom             |
 |    [fcgxz2003](https://github.com/fcgxz2003)    |        fcgxz2003         |           834756128@qq.com            | Dalian University of Technology |
 |     [gaius-qi](https://github.com/gaius-qi)     |         Gaius Qi         |          gaius.qi@gmail.com           |            Ant Group            |
 | [CormickKneey](https://github.com/CormickKneey) |        Han Jiang         |         cormick1080@gmail.com         |            Kuaishou             |
