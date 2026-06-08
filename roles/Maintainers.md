@@ -21,6 +21,7 @@ This document lists the current maintainers of the Dragonfly community. The list
 |       [BraveY](https://github.com/BraveY)       |       Kaiyong Yang       |     yangkaiyong.yky@antgroup.com      |            Ant Group            |
 |   [NehemiahMi](https://github.com/NehemiahMi)   |      PengCheng Liu       |       josephcharity@hotmail.com       |            Ant Group            |
 |    [Fricounet](https://github.com/Fricounet)    | Baptiste Girard-Carrabin | baptiste.girardcarrabin@datadoghq.com |             DataDog             |
+|  [CooooolFrog](https://github.com/CooooolFrog)  |       Zuliang Wang       |          coolfrog@apache.org          |             Aliyun              |
 
 <!-- markdownlint-restore -->
 
