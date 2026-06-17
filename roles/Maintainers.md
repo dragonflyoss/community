@@ -51,7 +51,7 @@ Below is the list of emeritus (retired) maintainers. Thank them for their contri
 |      [hsiangkao](https://github.com/hsiangkao)      |    Xiang Gao    | hsiangkao@linux.alibaba.com  | Alibaba Group |
 |         [liubin](https://github.com/liubin)         |     Bin Liu     |    lb203159@antgroup.com     |   Ant Group   |
 |       [jiangliu](https://github.com/jiangliu)       |    Jiang Liu    |   gerry@linux.alibaba.com    | Alibaba Group |
-|     [NehemiahMi](https://github.com/NehemiahMi)     |  PengCheng Liu  |  josephcharity@hotmail.com   |   Ant Group   |
 |         [jim3ma](https://github.com/jim3ma)         |     Jim Ma      |     majinjing3@gmail.com     |   Ant Group   |
+|     [NehemiahMi](https://github.com/NehemiahMi)     |  PengCheng Liu  |  josephcharity@hotmail.com   |   Ant Group   |
 
 <!-- markdownlint-restore -->
