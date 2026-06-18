@@ -60,6 +60,7 @@ Before you submit a PR, please take a moment to review our PR guidelines.
 - [Workspace Preparation](#workspace-preparation)
 - [Branching Strategy](#branching-strategy)
 - [Commit Rules](#commit-rules)
+- [Use of AI Tools](#use-of-ai-tools)
 - [PR Description](#pr-description)
 - [Development Environment](#development-environment)
 - [Go Dependency Management](#go-dependency-management)
@@ -161,6 +162,14 @@ The content of a commit should include all the changes necessary for a complete 
 - Ensure each commit is complete and can be reviewed independently.
 
 No matter the commit message or content, we place a strong emphasis on thorough code review.
+
+### Use of AI Tools
+
+Dragonfly welcomes responsible use of AI tools when they help contributors work more effectively. If you use an AI tool while preparing a contribution, please make sure its purpose and scope are clear. For example, AI tools may help draft documentation, suggest code changes, summarize logs, or improve wording, but they should not replace your own understanding of the change.
+
+When submitting an AI-assisted PR, please mention it in the PR description. Include the tool you used and a short explanation of what it helped with. This helps reviewers understand the context of the work and keeps the review process transparent.
+
+Before submitting, carefully review and edit any AI-generated content. Your PR must still meet Dragonfly's quality standards, including correctness, tests where appropriate, clear documentation, and compatibility with the rest of the project. Contributors remain responsible for the accuracy and quality of everything they submit.
 
 ### PR Description
 
