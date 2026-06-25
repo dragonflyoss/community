@@ -81,12 +81,6 @@ Dragonfly also strips sensitive headers such as `Authorization` and `Cookie` whe
 - Fixed PostgreSQL `SERIAL` sequence handling after seeding default Scheduler Cluster and Seed Peer Cluster records, avoiding primary key conflicts when creating new clusters.
 - Fixed relative HTTP 307 redirect handling by skipping cache for relative `Location` values and resolving them against the base URL before following redirects.
 
-## Nydus
-
-### New features and enhancements
-
-### Significant bug fixes
-
 ## Others
 
 You can see [CHANGELOG](https://github.com/dragonflyoss/dragonfly/blob/main/CHANGELOG.md) for more details.

@@ -81,12 +81,6 @@ Dragonfly 在跨域重定向时也会移除 `Authorization`、`Cookie` 等敏感
 - 修复 PostgreSQL 在初始化默认 Scheduler Cluster 和 Seed Peer Cluster 后 `SERIAL` 序列未推进的问题，避免创建新集群时发生主键冲突。
 - 修复相对路径 HTTP 307 重定向处理逻辑：相对路径 `Location` 不再写入缓存，并会在跟随重定向前基于原始 URL 正确解析。
 
-## Nydus
-
-### 新增特性
-
-### 重要修复
-
 ## 其他
 
 您可以在 [CHANGELOG](https://github.com/dragonflyoss/dragonfly/blob/main/CHANGELOG.md) 中查看更多详细信息。
