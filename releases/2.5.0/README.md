@@ -81,6 +81,30 @@ Dragonfly also strips sensitive headers such as `Authorization` and `Cookie` whe
 - Fixed PostgreSQL `SERIAL` sequence handling after seeding default Scheduler Cluster and Seed Peer Cluster records, avoiding primary key conflicts when creating new clusters.
 - Fixed relative HTTP 307 redirect handling by skipping cache for relative `Location` values and resolving them against the base URL before following redirects.
 
+## Nydus
+
+### New features and enhancements
+
+- Support building prefetch-optimized layer blobs for Ondemand data.
+- Support converting Nydus images to OCI format and converting to/from local archives.
+- Support zero-disk transfer in Nydusify Copy.
+- Introduce uffd-based support for the virtio-pmem DAX backend to enable high-performance on-demand image loading in Kata scenarios.
+- Support switching the Storage layer from Proxy mode to Dragonfly SDK mode to improve P2P cache hit performance.
+- Support committing with short container IDs and synchronizing the filesystem before commit.
+- Support resending FUSE requests when recovering Nydusd, fixing hot-upgrade tests.
+
+### Significant bug fixes
+
+- Fix Blobfs compatibility with fuse-backend-rs 0.12.0.
+- Fix failover-policy parameter parsing.
+- Fix a panic in Builder when a symbolic link overwrites a directory.
+- Fix multiple issues in chunkdict deduplication logic, DBSCAN clustering, and chunk sorting.
+- Fix Nydus image detection logic.
+- Fix remount invalidation for nested mount points in fusedev.
+- Fix abnormal values when Nydusctl backend metric counters are reset.
+- Fix Nydusify failing to find blobs when image names are modified.
+- Fix plain HTTP conversion in Nydusify.
+
 ## Others
 
 You can see [CHANGELOG](https://github.com/dragonflyoss/dragonfly/blob/main/CHANGELOG.md) for more details.

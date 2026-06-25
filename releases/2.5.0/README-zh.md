@@ -81,6 +81,30 @@ Dragonfly 在跨域重定向时也会移除 `Authorization`、`Cookie` 等敏感
 - 修复 PostgreSQL 在初始化默认 Scheduler Cluster 和 Seed Peer Cluster 后 `SERIAL` 序列未推进的问题，避免创建新集群时发生主键冲突。
 - 修复相对路径 HTTP 307 重定向处理逻辑：相对路径 `Location` 不再写入缓存，并会在跟随重定向前基于原始 URL 正确解析。
 
+## Nydus
+
+### 新增特性
+
+- 支持为 Ondemand 数据构建 Prefetch 优化的层 Blob。
+- 支持 Nydus 镜像转换为 OCI 格式，支持本地归档互转。
+- Nydusify Copy 支持 zero-disk transfer。
+- 为 virtio-pmem DAX 后端引入基于 uffd 的支持，以支持 Kata 场景高性能镜像按需加载。
+- Storage 层支持由 Proxy 切换到 Dragonfly SDK 模式，以提高 P2P 缓存命中性能。
+- 支持短容器 ID 提交，提交前同步文件系统。
+- 支持恢复 Nydusd 时重发 FUSE 请求，修复热升级测试。
+
+### 重要修复
+
+- 修复 Blobfs 对 fuse-backend-rs 0.12.0 的兼容性。
+- 修复 failover-policy 参数解析。
+- 修复 Builder 中符号链接覆盖目录时的 panic。
+- 修复 chunkdict 去重逻辑、DBSCAN 聚类、chunk 排序等多个问题。
+- 修复 Nydus 镜像检测逻辑。
+- 修复 fusedev 嵌套挂载点的 remount invalidation。
+- 修复 Nydusctl 后端指标计数器重置时的数值异常。
+- Nydusify 修复镜像名修改时 blob 找不到的问题。
+- Nydusify 修复 plain HTTP 转换问题。
+
 ## 其他
 
 您可以在 [CHANGELOG](https://github.com/dragonflyoss/dragonfly/blob/main/CHANGELOG.md) 中查看更多详细信息。
