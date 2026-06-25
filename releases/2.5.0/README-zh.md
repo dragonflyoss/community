@@ -29,7 +29,7 @@ Dragonfly 支持在 Manager 控制台中配置 Blocklist，用于禁用指定下
 该功能可作为应急手段，降低突发异常请求对服务造成的影响。
 当下载被 Blocklist 拦截时，gRPC 下载会返回 `PermissionDenied` 错误码，HTTP Proxy 下载会返回 `FORBIDDEN` 状态。
 
-![p1](images/p2.png)
+![p2](images/p2.png)
 
 更多信息，请参阅 [Blocklist](https://d7y.io/docs/next/advanced-guides/blocklist/)。
 

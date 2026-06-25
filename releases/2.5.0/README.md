@@ -29,7 +29,7 @@ Dragonfly supports configuring a blocklist in the Manager console to disable spe
 This can be used as an emergency measure to mitigate the impact of sudden abnormal requests on the service.
 When a blocked download is intercepted, gRPC downloads return a `PermissionDenied` error code, and HTTP proxy downloads return a `FORBIDDEN` status.
 
-![p1](images/p2.png)
+![p2](images/p2.png)
 
 For more information, please refer to [Blocklist](https://d7y.io/docs/next/advanced-guides/blocklist/).
 
