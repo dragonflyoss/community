@@ -27,6 +27,16 @@ We welcome contributions from everyone! If you're interested in contributing, ou
 
 We follow the [CNCF Code of Conduct](CODE_OF_CONDUCT.md) to ensure a safe and respectful environment for everyone. We expect all community members to adhere to these standards. If you witness any violations, please don't hesitate to reach out to the project maintainers or the CNCF staff.
 
+## Use of AI Tools
+
+We do not oppose the use of AI tools in community work. Used responsibly, they can help contributors explore ideas, improve documentation, and speed up routine tasks. However, AI tools should support human judgment, not replace it. Community members are expected to use AI tools with a clear purpose and scope, and to make sure their work still reflects careful review and accountability.
+
+When AI tools are used to create or modify contributions, contributors must disclose that use in the related issue, pull request, or other community discussion. The disclosure should name the tool and briefly explain how it was used, such as drafting text, suggesting code, summarizing logs, or reviewing language.
+
+All AI-assisted contributions must meet the same quality standards as any other contribution. Contributors are responsible for reviewing, testing, and editing AI-generated content before submitting it. The community should not accept content that relies only on AI output without human verification, especially when accuracy, security, compatibility, or user impact is involved.
+
+Maintainers may periodically review how AI tools are being used in the community to make sure these principles are followed. If a contribution or community interaction does not meet these expectations, maintainers may take appropriate action, including but not limited to asking for clarification, requesting changes, issuing a warning, removing related content, or limiting the use of AI tools in that context.
+
 ## Membership and Elections
 
 We have a structured membership system to recognize and empower active contributors. For details on how to become a Member, Approver, or Maintainer, please refer to our [Dragonfly Community Membership](COMMUNITY_MEMBERSHIP.md) and [Dragonfly Contributor Ladder](COMMUNITY_LADDER.md) documents.
