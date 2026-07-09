@@ -9,13 +9,13 @@ This document lists all current members of the Dragonfly community, along with t
 |                    GitHub ID                    |     Name      |         Email          |            Company or Organization            |
 | :---------------------------------------------: | :-----------: | :--------------------: | :-------------------------------------------: |
 |      [Zephyr](https://github.com/Zephyrcf)      | Changfu Zhang |  zinsist777@gmail.com  | University of Science and Technology Beijing  |
-| [LunaWhispers](https://github.com/LunaWhispers) |   Muyu Yang   |  yangmuyucs@gmail.com  |              Zhejiang University              |
-|        [ftljk](https://github.com/ftljk)        |  Tianlan Fan  |  qdbjoftljk@gmail.com  |        Harbin Institute of Technology         |
 |     [BruceAko](https://github.com/BruceAko)     | Chongzhi Deng |  chongzhi@hust.edu.cn  | Huazhong University of Science and Technology |
-|  [CooooolFrog](https://github.com/CooooolFrog)  |  ZuLiangWang  |  coolfrog@apache.org   |                 Alibaba Cloud                 |
-|   [jjzhang332](https://github.com/jjzhang332)   |  Lujia Zhang  |   2682950039@qq.com    |                   Ant Group                   |
 |        [fu220](https://github.com/fu220)        |   Jinyu Fu    |   2863318196@qq.com    |           Xi'an Jiaotong University           |
+|   [jjzhang332](https://github.com/jjzhang332)   |  Lujia Zhang  |   2682950039@qq.com    |                   Ant Group                   |
+| [LunaWhispers](https://github.com/LunaWhispers) |   Muyu Yang   |  yangmuyucs@gmail.com  |              Zhejiang University              |
 |        [Pavan](https://github.com/pmady)        | Pavan Madduri | pavan4devops@gmail.com |               W.W.Grainger.Inc                |
+|        [ftljk](https://github.com/ftljk)        |  Tianlan Fan  |  qdbjoftljk@gmail.com  |        Harbin Institute of Technology         |
+|  [CooooolFrog](https://github.com/CooooolFrog)  |  ZuLiangWang  |  coolfrog@apache.org   |                 Alibaba Cloud                 |
 
 <!-- markdownlint-restore -->
 
@@ -25,7 +25,7 @@ Below is the list of emeritus (retired) members. Thank them for their contributi
 
 <!-- markdownlint-disable -->
 
-| GitHub ID | Name  | Email | Company or Organization |
-| :-------: | :---: | :---: | :---------------------: |
+| GitHub ID | Name | Email | Company or Organization |
+| :-------: | :--: | :---: | :---------------------: |
 
 <!-- markdownlint-restore -->
