@@ -227,6 +227,11 @@ go mod tidy
 
 You'll need to commit the changes to `go.mod` and `go.sum` before submitting your pull request.
 
+## AI Usage Policy
+
+This project does not accept fully AI-generated contributions. AI tools may be used assistively only.
+You must understand, verify, and take full responsibility for every change you submit.
+
 ## Getting Involved
 
 There are many ways to get involved and help the Dragonfly community. Whether you're a developer, a user, or just
