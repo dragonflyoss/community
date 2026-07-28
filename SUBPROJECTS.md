@@ -6,6 +6,8 @@ Dragonfly subprojects extend the core functionality of the ecosystem and follow 
 
 Subprojects adhere to the same community standards as the main project but may have simplified governance processes due to their smaller scale, such as combined roles or streamlined decision-making.
 
+Once contributors to subprojects are promoted through the community ladder (see [COMMUNITY_MEMBERSHIP.md](COMMUNITY_MEMBERSHIP.md) and [COMMUNITY_LADDER.md](COMMUNITY_LADDER.md)), their names are uniformly updated in the central [roles](roles/) directory.
+
 For detailed governance information, see [GOVERNANCE.md](GOVERNANCE.md) and [COMMUNITY_MEMBERSHIP.md](COMMUNITY_MEMBERSHIP.md).
 
 ## Status

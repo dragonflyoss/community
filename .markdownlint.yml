@@ -1,5 +1,6 @@
 MD010: false
 MD013:
   line_length: 1024
+MD024: false
 MD046:
   style: "fenced"
