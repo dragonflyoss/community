@@ -125,7 +125,7 @@ profiles:
     #
     # periodic_status_check: "5 days"
     #
-    periodic_status_check: "3 days"
+    periodic_status_check: "1 day"
 
     # Close on passing
     #
@@ -181,6 +181,7 @@ profiles:
         - dragonfly-approvers
         - dragonfly-maintainers
     close_on_passing: true
+    periodic_status_check: "1 day"
 
   # /vote-approver
   approver:
@@ -190,6 +191,7 @@ profiles:
       teams:
         - dragonfly-maintainers
     close_on_passing: true
+    periodic_status_check: "1 day"
 
   # /vote-maintainer
   maintainer:
@@ -199,3 +201,4 @@ profiles:
       teams:
         - dragonfly-maintainers
     close_on_passing: true
+    periodic_status_check: "1 day"
