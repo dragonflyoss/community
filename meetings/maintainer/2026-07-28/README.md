@@ -12,15 +12,20 @@
 
 ## Topics
 
-- [ ] Pre-nominate @Zephyrcf as a maintainer for the nydus project.
-- [ ] Pre-nominate @joy-allen as a approver for the nydus project.
 - [ ] Nydus v3 Evolution Roadmap and Features.
+  - Postponed to be discussed in the next meeting.
 
 ## Done
 
+- [x] Pre-nominate @Zephyrcf as a maintainer for the nydus project.
+  - The voting link is [here](https://github.com/dragonflyoss/community/issues/186).
+- [x] Pre-nominate @joy-allen as an approver for the nydus project.
+  - Keep observing the contributions before the nomination.
 - [x] Check why @Fricounet lost maintainer privileges and restore them.
 
 ## Actions
+
+- [ ] Review the issues of each project, refer to [Project Issues](#project-issues).
 
 ## Project Issues
 
