@@ -27,4 +27,4 @@
 ## Next Meeting
 
 - Date: 2026-08-25
-- Host: @CooooolFrog
+- Host: @Gaius
