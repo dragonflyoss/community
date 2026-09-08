@@ -7,6 +7,7 @@ This document lists the current maintainers of the Dragonfly community. The list
 |                    GitHub ID                    |           Name           |                 Email                 |             Company             |
 | :---------------------------------------------: | :----------------------: | :-----------------------------------: | :-----------------------------: |
 |    [Fricounet](https://github.com/Fricounet)    | Baptiste Girard-Carrabin | baptiste.girardcarrabin@datadoghq.com |             DataDog             |
+|  [Zephyrcf](https://github.com/Zephyrcf)  |       Changfu Zhang       |          zinsist777@gmail.com          |          University of Science and Technology Beijing          |
 |       [chlins](https://github.com/chlins)       |       Chlins Zhang       |        chlins.zhang@gmail.com         |            Broadcom             |
 |    [mingcheng](https://github.com/mingcheng)    |        Fengjun Lv        |         mingcheng@apache.org          |        Apache Foundation        |
 |     [gaius-qi](https://github.com/gaius-qi)     |         Gaius Qi         |          gaius.qi@gmail.com           |            ByteDance            |
