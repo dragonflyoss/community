@@ -2,6 +2,8 @@
 
 This document lists the current maintainers of the Dragonfly community. The list is sorted alphabetically by name. For details on the maintainer role and responsibilities, see [COMMUNITY_MEMBERSHIP.md](../COMMUNITY_MEMBERSHIP.md#maintainer) and [COMMUNITY_LADDER.md](../COMMUNITY_LADDER.md#maintainer). For governance processes, see [GOVERNANCE.md](../GOVERNANCE.md).
 
+> **Note:** The canonical CNCF project metadata and maintainer roster are maintained in the [dragonflyoss/.project](https://github.com/dragonflyoss/.project) repository (specifically in [`maintainers.yaml`](https://github.com/dragonflyoss/.project/blob/main/maintainers.yaml) and [`CODEOWNERS`](https://github.com/dragonflyoss/.project/blob/main/CODEOWNERS)) for CNCF automation, drift detection, and mailing-list synchronization. The roster list in this repository will be removed and officially migrated to [dragonflyoss/.project](https://github.com/dragonflyoss/.project) before January 1, 2027. Until then, any updates to the active maintainers list below must be kept in sync with [dragonflyoss/.project](https://github.com/dragonflyoss/.project), and maintainers should ensure their GitHub handle is linked to their LFID on [openprofile.dev](https://openprofile.dev/).
+
 <!-- markdownlint-disable -->
 
 |                    GitHub ID                    |           Name           |                 Email                 |             Company             |

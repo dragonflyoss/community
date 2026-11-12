@@ -34,6 +34,7 @@ Learn more about the `Ecosystem` scope repositories in [REPOSITORY-GUIDELINES.md
 | [community](https://github.com/dragonflyoss/community)                                   | The Dragonfly community repository, providing resources and information for contributors. |
 | [design](https://github.com/dragonflyoss/design)                                         | Dragonfly Design Documents.                                                               |
 | [.github](https://github.com/dragonflyoss/.github)                                       | The default community organization-level files for Dragonfly.                             |
+| [.project](https://github.com/dragonflyoss/.project)                                     | Canonical project metadata and maintainer roster for CNCF automation.                     |
 | [monitoring](https://github.com/dragonflyoss/monitoring)                                 | Monitoring support for dragonfly.                                                         |
 | [perf-tests](https://github.com/dragonflyoss/perf-tests)                                 | Performance tests and benchmarks.                                                         |
 | [helmfile](https://github.com/dragonflyoss/helmfile)                                     | Dragonfly Helmfile.                                                                       |

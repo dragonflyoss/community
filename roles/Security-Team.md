@@ -4,7 +4,7 @@ The Dragonfly Security Team is responsible for coordinating the response to secu
 
 ## Composition
 
-The Security Team consists of all current active Maintainers as defined in [Maintainers.md](Maintainers.md). All Maintainers are automatically members of the Security Team by virtue of their role.
+The Security Team consists of all current active Maintainers as defined in [Maintainers.md](Maintainers.md) and synced with [`maintainers.yaml` in dragonflyoss/.project](https://github.com/dragonflyoss/.project/blob/main/maintainers.yaml). All Maintainers are automatically members of the Security Team by virtue of their role.
 
 ## Responsibilities
 

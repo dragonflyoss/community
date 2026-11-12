@@ -2,6 +2,8 @@
 
 This file lists the current approvers of the Dragonfly community. The list is sorted alphabetically by name. For details on the approver role and responsibilities, see [COMMUNITY_MEMBERSHIP.md](../COMMUNITY_MEMBERSHIP.md#approver) and [COMMUNITY_LADDER.md](../COMMUNITY_LADDER.md#approver). For governance processes, see [GOVERNANCE.md](../GOVERNANCE.md).
 
+> **Note:** The personnel roster lists in this repository will be removed and officially migrated to [dragonflyoss/.project](https://github.com/dragonflyoss/.project) before January 1, 2027.
+
 <!-- markdownlint-disable -->
 
 ## Current Approvers

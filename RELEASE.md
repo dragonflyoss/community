@@ -93,7 +93,7 @@ The maintenance phase lasts for 6 months, and after that, the release branch wil
 
 ## Release Note
 
-[Dragonfly Maintainers](https://github.com/dragonflyoss/dragonfly/blob/main/MAINTAINERS.md) from different companies take turns to prepare key information such as [release notes](https://github.com/dragonflyoss/dragonfly/releases/tag/v2.2.0).
+[Dragonfly Maintainers](roles/Maintainers.md) from different companies take turns to prepare key information such as [release notes](https://github.com/dragonflyoss/dragonfly/releases/tag/v2.2.0).
 
 ## Release Team
 

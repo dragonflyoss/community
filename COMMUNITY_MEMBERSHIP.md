@@ -119,7 +119,7 @@ An existing Member/Approver/Maintainer can be removed from the active list if th
   - Member: more than 12 months.
 - They have violated the governance rules more than twice, with documented evidence of violations.
 
-Once the conditions are confirmed, the Member/Approver/Maintainer can be removed following the same voting thresholds as their election. The affected individual has the right to appeal the decision within 14 days by creating an issue in the community repository, which will trigger a review process by the current Maintainers. If someone is removed, we'll add them to an emeritus section in this document to recognize their past contributions.
+Once the conditions are confirmed, the Member/Approver/Maintainer can be removed following the same voting thresholds as their election. The affected individual has the right to appeal the decision within 14 days by creating an issue in the community repository, which will trigger a review process by the current Maintainers. If someone is removed, we'll add them to an emeritus section in this document to recognize their past contributions. For a Maintainer removal, their GitHub ID must also be removed from [`maintainers.yaml`](https://github.com/dragonflyoss/.project/blob/main/maintainers.yaml) and [`CODEOWNERS`](https://github.com/dragonflyoss/.project/blob/main/CODEOWNERS) in the [dragonflyoss/.project](https://github.com/dragonflyoss/.project) repository.
 
 ### Voluntary Departure
 
@@ -140,7 +140,7 @@ The departure will be publicly announced and remain visible for at least 7 days.
 - Other Members should acknowledge the departure with a thank you message.
 - The departing Member(or Maintainer/Approver) will be added to the emeritus section of this document to honor their contributions.
 
-After the departure date, the Member(or Maintainer/Approver) and their GitHub ID will be moved to the emeritus section in the specific file to honor their contributions. And the Maintainer team will remove the departing Member(or Maintainer/Approver) from the Dragonfly GitHub Organization if necessary.
+After the departure date, the Member(or Maintainer/Approver) and their GitHub ID will be moved to the emeritus section in the specific file to honor their contributions. If the departing member is a Maintainer, their GitHub ID must also be removed from [`maintainers.yaml`](https://github.com/dragonflyoss/.project/blob/main/maintainers.yaml) and [`CODEOWNERS`](https://github.com/dragonflyoss/.project/blob/main/CODEOWNERS) in the [dragonflyoss/.project](https://github.com/dragonflyoss/.project) repository. And the Maintainer team will remove the departing Member(or Maintainer/Approver) from the Dragonfly GitHub Organization if necessary.
 
 Those processes ensure proper handover and recognition while providing sufficient notice to the community.
 
@@ -209,7 +209,7 @@ The candidates in the election must explain their past contributions to the proj
 To become a Member, follow these steps:
 
 1. Contributors may create a nomination issue using the [nomination template](./.github/ISSUE_TEMPLATE/nominate.md) in the community repository.
-2. (Optional) If you are not comfortable creating the nomination issue yourself, you can reach out to an existing Approver or Maintainer to help you with the nomination. The Approver and Maintainer lists can be found in the [Approvers.md](roles/Approvers.md) and [Maintainers.md](roles/Maintainers.md) files.
+2. (Optional) If you are not comfortable creating the nomination issue yourself, you can reach out to an existing Approver or Maintainer to help you with the nomination. The Approver and Maintainer lists can be found in the [Approvers.md](roles/Approvers.md) and [Maintainers.md](roles/Maintainers.md) (synced with [`maintainers.yaml` in dragonflyoss/.project](https://github.com/dragonflyoss/.project/blob/main/maintainers.yaml)) files.
 3. While the nomination issue is open, the community can discuss the nomination in the issue comments.
 4. The nomination issue remains open for 7 days for community discussion and feedback.
 5. The nominee must attend our next bi-weekly community meeting with a quick self-introduction and provide a summary of their contributions.
@@ -221,7 +221,7 @@ To become a Member, follow these steps:
    - Get at least 2 "LGTM" reviews from existing Approvers or Maintainers
 10. Once merged, the Maintainer team adds the new Member to the Dragonfly GitHub Organization.
 
-The process is similar for becoming an Approver or Maintainer, with additional requirements which are detailed in the [Contributor Ladder](COMMUNITY_LADDER.md).
+The process is similar for becoming an Approver or Maintainer, with additional requirements which are detailed in the [Contributor Ladder](COMMUNITY_LADDER.md). For new Maintainers, once approved, a PR must also be opened against [dragonflyoss/.project](https://github.com/dragonflyoss/.project) to add their GitHub ID to [`maintainers.yaml`](https://github.com/dragonflyoss/.project/blob/main/maintainers.yaml) and [`CODEOWNERS`](https://github.com/dragonflyoss/.project/blob/main/CODEOWNERS), and the new Maintainer should link their GitHub handle to their LFID on [openprofile.dev](https://openprofile.dev/).
 
 Furthermore, to ensure a fair and transparent election process, Dragonfly holds below elections for the specific roles:
 
@@ -257,7 +257,7 @@ Furthermore, to ensure a fair and transparent election process, Dragonfly holds 
 
 - **Results and Implementation**: Votes are counted and the highest vote recipients are selected for the respective roles. Election outcomes are documented in meeting summaries, and new nominees will be added to the GitHub Organization by the Maintainers Team.
 
-- **Role List**: The list of current Members, Approvers, and Maintainers is maintained in the [Members.md](roles/Members.md), [Approvers.md](roles/Approvers.md), and [Maintainers.md](roles/Maintainers.md) files respectively.
+- **Role List**: The list of current Members, Approvers, and Maintainers is maintained in the [Members.md](roles/Members.md), [Approvers.md](roles/Approvers.md), and [Maintainers.md](roles/Maintainers.md) files respectively. The canonical Maintainer roster for CNCF metadata and automation is maintained in [dragonflyoss/.project](https://github.com/dragonflyoss/.project/blob/main/maintainers.yaml) and must be kept in sync with [Maintainers.md](roles/Maintainers.md). Note that the personnel roster lists in this repository will be removed and officially migrated to [dragonflyoss/.project](https://github.com/dragonflyoss/.project) before January 1, 2027.
 
 ### Election Additional Remarks
 

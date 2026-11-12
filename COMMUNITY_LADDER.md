@@ -197,4 +197,4 @@ A **Maintainer** is a highly trusted member of the project with the authority to
   - You can represent the project in public.
   - You can nominate new Maintainers.
 
-The current Maintainer list is maintained in the [Maintainers.md](roles/Maintainers.md) file.
+The current Maintainer list is maintained in the [Maintainers.md](roles/Maintainers.md) file and synced with [`maintainers.yaml` in dragonflyoss/.project](https://github.com/dragonflyoss/.project/blob/main/maintainers.yaml). Note that the personnel roster lists in this repository will be removed and officially migrated to [dragonflyoss/.project](https://github.com/dragonflyoss/.project) before January 1, 2027.

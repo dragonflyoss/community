@@ -2,6 +2,8 @@
 
 This document lists all current members of the Dragonfly community, along with their roles and contributions. Membership is open to anyone who actively contributes to the project and adheres to our [Code of Conduct](CODE_OF_CONDUCT.md).
 
+> **Note:** The personnel roster lists in this repository will be removed and officially migrated to [dragonflyoss/.project](https://github.com/dragonflyoss/.project) before January 1, 2027.
+
 ## Current Members
 
 <!-- markdownlint-disable -->
